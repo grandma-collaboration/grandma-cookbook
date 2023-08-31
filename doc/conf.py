@@ -49,7 +49,7 @@ sys.path.insert(0, os.path.abspath(".."))
 #     #    'sphinx_gallery.gen_gallery'
 # ]
 
-extensions = ["myst_parser","sphinx_copybutton"]
+extensions = ["myst_parser"]
 myst_enable_extensions = [
     "amsmath",
     "colon_fence",
@@ -98,8 +98,8 @@ master_doc = "index"
 
 # General information about the project.
 project = "grandma-cookbook"
-copyright = "2023, The SkyPortal Team"
-author = "The SkyPortal Team"
+copyright = "2023, The GRANDMA Team"
+author = "The GRANDMA Team"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

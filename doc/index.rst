@@ -1,7 +1,7 @@
 The Global Rapid Advanced Network Devoted to the Multi-messenger Addicts (GRANDMA) cookbook
 =====================================================
 
-.. image:: images/grandma.png
+.. image:: media/grandma.png
 
 User Guide
 ----------
