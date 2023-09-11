@@ -1,0 +1,612 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Notifying Telescopes {#notifying-telescopes .unnumbered} &#8212; grandma-cookbook vUndefined documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/grandma-cookbook-docs.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'telescope-notification';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo_grandma.jpg" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/logo_grandma.jpg" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="sign-up.html">Signing Up for GRANDMA accounts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="shift-enrollment.html">Enrolling to Shifts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="shift-communication.html">Communication between FAs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="shift-checklist.html">Check List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="alerts.html">Checking Alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="received.html">An GW alert has been received!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="observation-plan.html">Retrieve observation plans (Only for telescope teams)</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/nuclear-multimessenger-astronomy/grandma-cookbook" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/nuclear-multimessenger-astronomy/grandma-cookbook/edit/main/doc/telescope-notification.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/nuclear-multimessenger-astronomy/grandma-cookbook/issues/new?title=Issue%20on%20page%20%2Ftelescope-notification.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/telescope-notification.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Notifying Telescopes {#notifying-telescopes .unnumbered}</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Notifying Telescopes {#notifying-telescopes .unnumbered}</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#logbook-template-logbook-template-unnumbered">LogBook Template {#logbook-template .unnumbered}</a></li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section id="notifying-telescopes-notifying-telescopes-unnumbered">
+<h1>Notifying Telescopes {#notifying-telescopes .unnumbered}<a class="headerlink" href="#notifying-telescopes-notifying-telescopes-unnumbered" title="Permalink to this heading">#</a></h1>
+<p>The list of telescopes contact is available in this link :
+<a class="reference external" href="https://forge.in2p3.fr/attachments/211244">[https://forge.in2p3.fr/attachments/211244]{.underline}</a></p>
+<p>In case of GW alerts, the telescope teams need to provide some feedback
+whether or not they receive the plan well, if they plan to observe etc.
+If you do not hear from them, please make sure to have some new
+information 2h before their night.</p>
+<p>You can see the list of telescopes in dark or sunlight in the main
+dashboard of skyportal.</p>
+<p><img alt="" src="_images/image13.png" />{width=“6.5in” height=“4.625in”}</p>
+<p>As mentioned previously, it is always ideal to have a small sky area for
+the GW alert - so, if possible, it’s good to wait for the 50% sky area
+to activate observations for [BNS and BHNS GW alerts.]{.underline}</p>
+<p>The sky localization of the GW alerts given by the LVK collaborations
+looks like a banana shape (usually big) and for this reason, we do not
+have only one localization of the source but several.</p>
+<p>Telescope teams will them need to receive more than one localization to
+perform observations to cover the entire sky map.</p>
+<p>Depending on the FOV of the telescopes, the entire coverage of the sky
+map might be very timing consuming and so, instead of giving regions
+within the sky maps to observe, we select galaxies to observe within
+it - galaxies targeting</p>
+<p>You can check out Sarah’s explanation here:
+<a class="reference external" href="https://www.youtube.com/watch?v=msaYv1E_Cv8">https://www.youtube.com/watch?v=msaYv1E_Cv8</a></p>
+<p>One example of the logbook template you can use to keep track of
+communication between your team.</p>
+</section>
+<section id="logbook-template-logbook-template-unnumbered">
+<h1>LogBook Template {#logbook-template .unnumbered}<a class="headerlink" href="#logbook-template-logbook-template-unnumbered" title="Permalink to this heading">#</a></h1>
+<p>——————————</p>
+<p><strong>Template:</strong></p>
+<p><strong>DD-MM-YYYY</strong></p>
+<p><strong>“Your Name/Weekly Coordinator’s Name” on duty “your shift slot” UTC</strong></p>
+<p><strong>“Events of Shift Here”</strong></p>
+<p><strong>(or if an alert has been detected:)</strong></p>
+<p><strong>“ New alert: “name of alert”</strong></p>
+<p><strong>Parameters: “list of parameters”; Observation Plan?;Go-GRANDMA?;</strong></p>
+<p><strong>“Instrument: (observation plan or not, performed ? why ?</strong></p>
+<p><strong>For the ones who are not in night time: NIGHT: “when night time
+occurs”)”</strong></p>
+<p><strong>Instruments:</strong></p>
+<p><strong>VLT-FORS2: <a class="reference external" href="mailto:sarah&#46;antier&#37;&#52;&#48;oca&#46;eu">sarah<span>&#46;</span>antier<span>&#64;</span>oca<span>&#46;</span>eu</a>, Antonio De Ugarte
+&lt;deugarte&#64;oca.eu&gt;</strong></p>
+<p><strong>If you think you do not have any answer yet from professional and the
+source seems</strong></p>
+<p><strong>interesting, trigger KNC by contacting:</strong></p>
+<p><strong>KNC [by email to Sarah Antier (<a class="reference external" href="mailto:sarah&#46;antier&#37;&#52;&#48;oca&#46;eu">sarah<span>&#46;</span>antier<span>&#64;</span>oca<span>&#46;</span>eu</a>) and TURPIN
+Damien</strong></p>
+<p><strong>(<a class="reference external" href="mailto:damien&#46;turpin&#37;&#52;&#48;cea&#46;fr">damien<span>&#46;</span>turpin<span>&#64;</span>cea<span>&#46;</span>fr</a>)</strong></p>
+<p><strong>*********************************************************************************************************</strong></p>
+<p><strong>***************</strong></p>
+<p><strong>Template:</strong></p>
+<p><strong>DD-MM-YYYY</strong></p>
+<p><strong>“Your Name/Weekly Coordinator’s Name” on duty “your shift slot” UTC</strong></p>
+<p><strong>“Events of Shift Here”</strong></p>
+<p><strong>(or if an alert has been detected:)</strong></p>
+<p><strong>“ New alert: “name of alert”</strong></p>
+<p><strong>Parameters: “list of parameters”; Observation Plan?;Go-GRANDMA?;</strong></p>
+<p><strong>“Instrument: (observation plan or not, performed ? why ?</strong></p>
+<p><strong>For the ones who are not in night time: NIGHT: “when night time
+occurs”)”</strong></p>
+<p><strong>DAY 0 report (observation plan or not, performed ? why ?)</strong></p>
+<p><strong>TCH:</strong></p>
+<p><strong>TCA:</strong></p>
+<p><strong>TRE:</strong></p>
+<p><strong>FZU-Auger:</strong></p>
+<p><strong>FZU-CTA-N:</strong></p>
+<p><strong>MOSS:</strong></p>
+<p><strong>OWL:</strong></p>
+<p><strong>TRT-SRO:</strong></p>
+<p><strong>Zadko:</strong></p>
+<p><strong>TRT-SBO:</strong></p>
+<p><strong>TRT-GAO:</strong></p>
+<p><strong>TNT (China)</strong></p>
+<p><strong>NOWT:</strong></p>
+<p><strong>ALi-50:</strong></p>
+<p><strong>SNOVA:</strong></p>
+<p><strong>UBAI-T60N/S:</strong></p>
+<p><strong>Makes-60:</strong></p>
+<p><strong>ShAO-T60:</strong></p>
+<p><strong>Abastumani-T70:</strong></p>
+<p><strong>Lisnyky-AZT8:</strong></p>
+<p><strong>KAO:</strong></p>
+<p><strong>OST-CDK:</strong></p>
+<p><strong>VIRT:</strong></p>
+<p><strong>SOAR-photo:</strong></p>
+<p><strong>ASTEP:</strong></p>
+<p><strong>OPD-1.6/0.6/0.4:</strong></p>
+<p><strong>(Special demands (see above))</strong></p>
+<p><strong>Makes-T60 :</strong></p>
+<p><strong>SOAR :</strong></p>
+<p><strong>CFHT/MEGACAM :</strong></p>
+<p><strong>CFHT/WIRCAM :</strong></p>
+<p><strong>KNC :</strong></p>
+<p><strong>GMG:</strong></p>
+<p><strong>GTC:</strong></p>
+<p><strong>Xinglong-2.16m [only if the source is brighter than 17.5 mag and only
+for spectroscopy]</strong></p>
+<p><strong>VLT/FORS2:</strong></p>
+<p><strong>SALT:</strong></p>
+<p><strong>OAJ:</strong></p>
+<p><strong>DDOTI:</strong></p>
+<p><strong>TNT (Thailand)</strong></p>
+<p><strong>ShaAO-2m:</strong></p>
+<p><strong>T1Picdumidi:</strong></p>
+<p><strong>Zadko:</strong></p>
+<p><strong>C2PU:</strong></p>
+<p>——————————</p>
+<p>Remember to Inform the next FA of the time in UTC which of the next
+telescopes need to be contacted as night-time occurs for them.</p>
+<p>——————————</p>
+<p>[Example for when there are no new observations AND changes had to be
+made for another alert from a previous shift. This information can be
+monitored and found in #observations. Expect more extensive details
+should there be an actual alert:]{.underline}</p>
+<p>25-5-2023</p>
+<p>Cristina Andrade/Vini Rupchandani on duty 22h-04h UTC</p>
+<p>No new observations. Tagged alert GW230525 with “BBH” and “Not I-care”.
+Removed “GO-GRANDMA”.</p>
+<p>Other: Organized images.</p>
+<p>——————————</p>
+<p>[Example for when there was an alert during your shift (Flag also the
+data analysis):]{.underline}</p>
+<p>25-5-2023</p>
+<p>Cristina Andrade/Vini Rupchandani on duty 22h-04h UTC</p>
+<p>New alert: GW candidate S230525a</p>
+<p>Parameters: NSBH, -90% area: 1001.0 deg2 / 50% area: 266.0</p>
+<p>-Distance: 276.0 +/- 79.0 Mpc, GRANDMA Score: 2, GO-GRANDMA.</p>
+<p>Instruments:</p>
+<p>TCH:</p>
+<p>TCA:</p>
+<p>TRE:</p>
+<p>FZU-Auger:</p>
+<p>FZU-CTA-N:</p>
+<p>OAJ:</p>
+<p>CFHT-MEGACAM:</p>
+<p>DDOTI:</p>
+<p>MOSS:</p>
+<p>OWL:</p>
+<p>TRT-SRO:</p>
+<p>Zadko:</p>
+<p>TRT-SBO:</p>
+<p>CFHT-WIRCAM:</p>
+<p>TRT-GAO:</p>
+<p>TNT:</p>
+<p>ALi-50:</p>
+<p>SNOVA:</p>
+<p>UBAI-T60N: No Observation Plan.</p>
+<p>Makes-60:</p>
+<p>ShAO-T60: Received Observation Plan. Unable to Observe due to
+probability is 0.0005.</p>
+<p>Abastumani-T70: Received Observation Plan</p>
+<p>Lisnyky-AZT8:</p>
+<p>KAO:</p>
+<p>OST-CDK:</p>
+<p>C2PU:</p>
+<p>IRIS:</p>
+<p>CAHA:</p>
+<p>VIRT:</p>
+<p>SOAR-photo:</p>
+<p>ASTEP:</p>
+<p>OPD-1.6:</p>
+</section>
+
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Notifying Telescopes {#notifying-telescopes .unnumbered}</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#logbook-template-logbook-template-unnumbered">LogBook Template {#logbook-template .unnumbered}</a></li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The GRANDMA Team
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023, The GRANDMA Team.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
