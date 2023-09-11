@@ -14,6 +14,7 @@ User Guide
    shift-communication
    shift-checklist
    alerts
+   received
    observation-plan
 
 .. Indices and tables
