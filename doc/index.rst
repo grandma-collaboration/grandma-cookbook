@@ -9,6 +9,7 @@ User Guide
 .. toctree::
    :maxdepth: 3
 
+   checklist
    sign-up
    shift-enrollment
    shift-communication
