@@ -13,4 +13,4 @@
 3. **Activate notifications**:
    - Go to your profile and turn on the circulars button to receive notifications on the circulars.
 
-![GCN Notification Setup](media/NASA_NOTI_SS.png)
+![GCN Notification Setup](media/GCN_NOTI_SS.png)
