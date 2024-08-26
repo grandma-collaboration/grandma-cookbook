@@ -82,7 +82,7 @@ source_suffix = {
 }
 
 html_theme_options = {
-    "path_to_docs": "doc",
+    "path_to_docs": "doc2",
     "repository_url": "https://github.com/nuclear-multimessenger-astronomy/grandma-cookbook",
     "repository_branch": "main",
     "use_edit_page_button": True,
