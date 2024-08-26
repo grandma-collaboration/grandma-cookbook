@@ -1,8 +1,8 @@
-## 5. Summary: A GW Alert Has Been Received!
+# 5. Summary: A GW Alert Has Been Received!
 
 ![Alert Example](media/alert_example.png)
 
-### Via Email or Slack (#gwalerts):
+### Via Email or Slack (check #gwalerts):
 
 1. **Check Event Type**:
    - Click on the external link provided to check the event type.
