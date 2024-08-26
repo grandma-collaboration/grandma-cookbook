@@ -948,3 +948,428 @@ So I decided, based on this information, to just not ICARE. I decided to type no
 I also had a look on the other transient on ALeRCE, and it appeared that it was classified as a bogus in ALeRCE. And so it confirmed my classification of not ICARE for those two alerts. So I think it will be all for that video.
 
 I'd like to thank you for listening, and I wish you were a good shift and a good O4 run.
+
+
+## 7.12 Managing the Annotation and Adding Sources (Follow-up Advocate Training)
+
+**(0:00 - 0:18)**
+Hello everyone, I'll be talking about how to add sources to SkyPortal. More specifically, I'll talk about four different things and go through the process step by step. I'll talk about how to add the source to SkyPortal, how to add classifications such as tags on SkyPortal, like I care, not I care, go grandma, stop grandma, depending on the event.
+
+**(0:19 - 0:33)**
+Talk about how to add social comments and what type of social comments should be added. And then lastly, I'll talk about how to add photometry to ZTF candidates from different resources such as TNS. So I'll be sharing my screen and going through the process.
+
+**(0:33 - 1:23)**
+For example, for this gravitational wave event, S230627, there was a GCN circular released by ZTF that shows four different sources. To show how to add these sources on SkyPortal, I'll be using this specific source. Now, this GCN already shows a lot of different information about the source, including the right ascension, declination, etc.
+
+However, this can also be added from something like TNS, which also included the same information about that same exact source. So to add this source, I'll be going to the main homepage of SkyPortal or I care, scrolling down and going to add a source, share the detail with grandma, and then copy the object ID, which is given by ZDF. The right ascension and the declination are given here in the same GCN.
+
+**(1:23 - 1:40)**
+So I'll copy this, paste it here, same thing for the declination, copy it, and paste, and then submit. And I'll find my source up here. I can click.
+
+**(1:41 - 1:50)**
+As this is an example, the source already has some work done to it. For example, some classification added or some social comments added. But now I'll show how to do these step by step.
+
+**(1:51 - 2:04)**
+After you've successfully added the source to SkyPortal and accessed it through sources, you can now open all the information about that source. Step two is classifying the source. Classification includes go grandma, stop grandma, I care, not I care, etc.
+
+**(2:04 - 2:46)**
+And this is extremely important as it shows everyone in grandma what exactly is happening with that source, as well as shows what telescopes teams should be doing with that source, whether you should observe or stop observation. To add a classification, all you need to do is scroll down to classifications. This is already classified as stop grandma and I care.
+
+However, I'll show how to add a new classification. You go under add classifications, choose the group as grandma, and then choose the taxonomy as grandma campaign source observation 1.0. The classification can be go grandma, for example, and then a probability is one to show that it is go grandma. And then you submit.
+
+**(2:49 - 3:05)**
+Classification is saved and now you can see your name and that you've added that go grandma. Another type of classification is to again choose grandma as the group to share with, taxonomy as 1.2. And now you can classify it as I care or not I care. It's the same process.
+
+**(3:06 - 3:49)**
+You click on I care, put a probability of one and then submit. Similarly, if you are on the homepage of SkyPortal and you want to add or remove a tag to any of the events, for example, this latest event, you can simply click on the plus button. And then write down the tag.
+
+So for example, I care. And then you will just need to reload SkyPortal and then you will see it here. I care to remove the tag.
+
+You simply hover over it. You don't click, just stand over it with your cursor, hover over it with the cursor, go down to this bin and click on it. Delete tag, confirm.
+
+**(3:51 - 4:06)**
+Again, reload the page. And now it's gone. It's the same thing for all the other tags.
+
+I can just hover over them and delete any of the tags. Now going back to the source page, showing is how to add social comments. Social comments again are very important.
+
+**(4:06 - 10:22)**
+They show exact details of what has been happening with this event, whether different telescopes have observed, whether the GCNs have been updated for that event, whether photometry has been added, etc. So to add a social comment, all you need to do is scroll down to comments. You go to add a comment.
+
+You can see here all the other comments that people have added. You go to add a comment. For example, if you have just added photometry from TNS to this event and you want to report that in SkyPortal, then all you're going to write is photometry added from TNS or just to give an example, g-ZTF filter.
+
+And then you go to TNS. This is where you would have added that photometry for the g-ZTF filter from. And then you copy that URL and then you paste that and then add the comment.
+
+Now my comment will be added. Now these comments are extremely important and they're used to report everything that has been happening with that source. So to go through some of the comments here, for example, as this is a very good example of where the comments are important.
+
+So you can see a report from the GCN circular about the photometric redshift. More information about the source. This is information about which teams have been able to observe or not observe.
+
+So it says KAO team will not be able to observe the candidates. Another important piece of information that it was too faint for FFRAM and will not observe the candidate. And then lastly, someone saying that the candidate is no longer considered as a credible transient candidate as ZTF claimed a flat evolution.
+
+So someone who has just opened that source can go through the comments, see exactly what happened, see which telescopes were able to observe, which ones were not able to observe and why. For example, it was too faint or they couldn't observe it because of the weather. And then lastly, a very important update here that it is no longer considered as a credible transient candidate.
+
+So that if someone is still interested in that source, they can see that as GRANDMA, it has been regarded as not interesting or not credible anymore. As you go through sources on ICARE, you will see all the different gravitational wave source candidates and events. You can access any of them.
+
+And then you can see all the classifications that have been happening with them, as well as all the comments from different telescope teams and their updates and why they have observed or not observed, as well as all the updates from different GCN circulars that have been released about this exact source. One more thing you can do on SkyPortal is to notify telescope teams to observe. All you need to do is click on the source and scroll down to follow up.
+
+Then you can choose from the list of telescopes in collaboration with grandma, which telescope you think should observe. For example, here I'm choosing TAROT TCA. And then you can click on the desired observation, you can specify the exposure time, exposure counts, all the other details, and then you specify the start date and the end date of the observation.
+
+What this does is that it notifies that specific telescope team to observe this specific source at that specific date and time. And once you scroll further down after submitting, you can also see all the other requests to all the other telescopes that people have done. Moreover, if you go to the dashboard on ICARE or the homepage and scroll down, you'll find a map with all the telescopes.
+
+There's yellow and blue telescopes. The yellow ones are the ones in daytime currently, and the ones in blue are the ones in nighttime. This allows you to know which telescopes you can notify and which ones are within a good time to be able to observe that source.
+
+It is best to notify telescope teams two hours before their nighttime to observe. The last thing I want to show is how to add photometry to these source candidates. So, taking another source, which is this one from the CMGCN circular, it has already been added onto Skyportal.
+
+I'll scroll down to photometry, upload additional photometry, and I'll go to using the form. Now, to add the photometry, I'll be using the information from TNS about the specific source candidate. It shows here the photometry for the G and the R filters.
+
+So, for the instrument for ZTF, it is put as CFH12KZTFGZTFIGZFR filters. You share the data with grandma. For the observation date, it is better to put it in MJD form.
+
+So, either convert the normal date into MJD form, or if it's already provided in MJD form, then that is fine. I know here that I'll be doing this first one. So, GZTF, this first observation date.
+
+So, I personally know that this observational date is going to be in this format in MJD. The magnitude, you can just copy the magnitude or flux given. The magnitude error, usually it could be given.
+
+If it is not given, just as a placeholder, we will put 0.1. Limiting magnitude, again, could be given, could be not. If it is not given, again, as just a placeholder number, I will put 21.5. Magnitude system is AB, AB units. This is the filter in ZTFG.
+
+If all the other information is also provided, you can also add that, and then you submit the photometry. I'll now also add the R filter photometry. If you reload the page of the source, that photometry will now load, and it is now added ZTF-g.
+
+Again, I will upload additional photometry using the form. The instrument is the same. Share the data with grandma.
+
+**(10:23 - 11:15)**
+This is the observation date in MJD. My magnitude is found right here from the TNS server. The number is put because, unlike the rest of the information, the form will not be submitted without having a number in there.
+
+Magnitude system is AB, and my filter is an R filter. I will now submit. If I go back to the page and reload the page, I will find both of the photometry uploaded.
+
+That's it. I talked about how to add the source to SkyPortal, how to add tags and classification to that source, how to add social comments, as well as what type of social comments to expect on SkyPortal, and lastly, how to add photometry from different resources such as TNS. Thank you very much.
+
+
+## 7.13 Sources candidates of GW - advices
+
+**(00:00 Introduction)**
+Hello everyone, I hope that you're doing fine. So today we are in April of 2024 and in this video I would like to make some update about the source candidates of GW and to give you more tips about it and to play with Skyportal for that. So right now I am on weekly coordinator with my team that name Flocon and so we have learned a lot discussing one to each other and in my team there are three people that are beginners so it's good to see what still need to be learned by the people.
+
+So first I'd like to remember you that we are in O4B and there are different sources to track on. 
+
+**(00:55 Sources for GRANDMA follow-up)**
+So I have made a little panel for you. So first there is a gravitational wave alert and so you trigger GRANDMA if the source localization is below 200 degrees square or and this is the or of the sources is quite near so less than 200 megaparsec and so this is immediate so has the effect you don't ask question you just make go GROMAR you write an email and then you try to observe as much as you can with the galaxy targeting and so on and so forth.
+
+The second type of source that we decided with Flocon is maybe there is a GRB sweep during our shift we will try to follow up we need also to have the detection of an optical so this is our criteria that we choose and why? Because we would like to get prepared for the some era when GRANDMA is a volunteering facility let's say so if we have time we can follow up the some alert. 
+
+The third source is of course the kilonova when we try to expect that maybe there are some transients that look like kilonova and for that it is great to follow up so usually this message comes from the core team or maybe a GCN you see like maybe fast kilonova candidates so then you activate go GRANDMA. One, two, three and four and so the first one is that we call einstein probe x-ray sources so this is this wide field x-ray that just have been launched by the Chinese and some part of the European and and so for this kind of sources because we don't know how much will be the right what we expect in terms of optical counterparts the thing is that you need to reach Nicolas when you see something like this or the core team that will mandate you to create some follow up for the einstein probe and so to reach Nicolas you can use slack (@nleroy) and Leroy is his name so this is there so Leroy and then you ask him if this einstein probe candidate is reliable or not so you need to have the validation from Nicolas and the last one is of course our neutrino sources so you activate go GRANDMA only if you have a validation from TAP that already gives some kind of candidate in observation so you know which one you need to follow up or not.
+It's not all the time yes so that's why you need to to contact so you meet either weekly coordinator either FAs.
+
+**(03:48 Intro, S240422ed)**
+ So now in this video I would like to tackle more with the event that we have so we have I mean this week S240422ED which was the first time that we have such a great candidate of GW quite well localized below 200 megaparsec but also 200 degrees square but also well localized 200 sorry distance quite close less than 200 megaparsec and so as I said so the team previously to me they performed some GW targeting and tiling so tiling with FRAM and galaxy targeting with different telescopes and so as I said me I am in the team Flocon okay and previously there was Cristina team and maybe this this gravitational wave then is an NSBH so just you you as a shifter you need to understand that sometime you start your shift with an event that have been already handled by the previous team and it's very important to make this kind of transition and so sometimes all the material is there and has been already prepared by the other team so it's not only just waiting for an alert it's also like continuously monitoring something that is done and so in this video we will look at this case sorry so we will look at this case which is a subs candidate because there have been some upgrade in terms of procedure and new tool and so I would like to show to you how my team handled that okay so imagine that you're in
+
+**(05:35 GCNs)**
+this situation right now there are some subs candidates that happen and then I will show you in my computer I mean all the things of of this event so that you can have a better understanding and some kind of upgrade of your skill for that all right okay so let's go okay so the thing that I have recorded this video before but my sound was not working so I am playing the video that was recorded before so just at the beginning I am looking I'm showing you that there have been a lot of GCN related to this gravitational wave events and you have so you have this which is LIGO Virgo but you have also a galaxy targeting a report so that you can observe with the galaxy you have x-ray information x-ray trigger report from the x-ray observatory and then but most of the of the circular are dominated by the optical facilities and so as a follow-up advocate is very it's very tough in fact you to to organize all of that so now
+
+**(06:57 GCN S24022ed)**
+ I'm going to Skyportal also because what I would like to show you is like as an FA you need to to in fact comment all the circular in interaction like I mean Yodgor and Priya they have done so it's not necessary to copy paste everything this is not a good report this is okay but not a good report it's better to do like like Marion just a very summary of what happened if it is useful or not and there will be some candidates that we will register in Skyportal some candidates that will register in Skyportal and trigger some telescope in GRANDMA other registered Skyportal triggers a full network and others that we don't do anything and we just comment in in here so what I like to show you is also to go to properties because here down if you go down you can update and have in fact only the selection of the circular per a GCN event which is something that I really like to do.
+
+**(08:20 Counterpart candidate, intro)**
+okay so back in on the circular table let's find something that they detect someone that report a detection that we will need to upload in Skyportal so I am finding a nice one like the Einstein probe candidate of GWAP240426 so we will look what is important so it's an X-ray candidate it's not optical so the idea is to detect the optical counterpart this is the coordinate that we will report in Skyportal we also give comments to the date we would like to understand if it is not too old compared to the gravitational wave event and so now coming back to Skyportal I will show you how to in fact create a source.
+
+**(09:11 Add counterpart)**
+ so what is very important is this is this GRANDMA tag because otherwise people do not have access to your source and then you put your coordinate in it so you come back to the circular and you give your RA/DEC yeah this name for example and then the RA/DEC that we just we just discussed about it so you see for example that this in fact event have been already registered by some member of my team and now you can see the report so imagine that you're the first one that upgrade this upload this Skyportal event
+
+ so you have created the sources and then you need to to copy paste the circular oops I'm having too many pages like everyone and say that it is a new candidate let's say what about it it's an X-ray right and maybe the delay time so it's not four years old maybe it's four days old right 
+
+um to give a bit some information because everything that is stored in Slack will be removed so it is important to to have the things and because it is a Einstein probe also we can ask Nicolas if he thinks that this is useful or not if it is a real trigger from the Einstein probe point of view and then if it is associated to to gravitational wave for for this one it is very important to validate by Nicolas about this thing the thing that it is real or not so the next step is when you have created this sources if this source is observable by GRANDMA and which telescopes 
+
+and so I just saw that you need to click on observability and you will get this kind of pdf when you see clearly which telescopes so this is one you can observe and so you can see in this list that all the telescopes are in from the south 
+
+so it's a good news for us because we can the idea that we will do is to look at atlas and to look back on archival data so now coming back to Skyportal yeah so what we're gonna do 
+
+**(11:43 Force photometry ATLAS)**
+right now is that we're gonna perform force photometry with atlas the idea is that if atlas have found an optical counterpart before the x-ray time if it is true it means that it was not I mean a new transient 
+
+so I show you force photometry then you select atlas you give start and stop so usually what is good is to give six days before so be careful because by default it is one month before so it is a lot of data okay so I'm zooming so that you can show and so I will put like just seven days before I think yes and then you click submit and if you click submit you will have requests so oops you can also do it for ztf is the sources from the north 
+
+but so here yeah I mess up so I will go down and just check so this is the atlas request and what you have filling in is this request so they have been done by me by also Michael and you can see that there is a one year search and a six a six day search so that's why the time is 250 in days because in fact we try to look back on all possible data points last year from today since the last year 
+
+okay so now I will remove to show you because normally there is nothing I'll show you that atlas atlas oh which means the orange filter of atlas has some detection 100 days before so maybe there are some kind of sources that have some activity around also these sources is is very close to a galaxy so maybe there are some activity in the galaxy so this is something that you need to discuss with your weekly coordinator it needs to discuss with his team so the triangle or the upper limit and rounded or the detection around the circle or the detection okay so now let me recap what we
+
+**(14:15 Advices 1)**
+have just seen in my computer so it was an Einstein probe 240426 associated to gravitational wave alert and so it is some kind of interesting not exceptional it's not clear if it is associated to the gravitational wave so it's not worth to put a GO GRANDMA we need to investigate further or we need to trigger some of the telescopes so the process is first I have noted register into sniper tool and please notify group GRANDMA number one
+
+ number two run ATLAS photometry so search for any detection before from now to the last the last six days or for a year what have done the search for your help to determine if there was some detection are they valid or not this is a question that we can investigate 
+
+then number three check the observability map to check which telescopes of GRANDMA can observe and they are like me and my team we have seen that maybe because we received this this new transient in the morning so to focus on people in the south and for the morning in so to trigger KNC because they have access to australia telescopes to trigger LEMAC because it's a la reunion and then we can have data on this source within the next six hours and for example FRAM it's a bit it's would be a good telescope but it's like 12 hours from now so maybe we will trigger only after so this is something that you need to discuss with your team is not only either activate go GRANDMA or just activate or not activate is about the different is about like being smart and discuss with your weekly coordinator 
+
+and if you don't know by by name by memory your telescopes you need to interact with the weekly coordinator with the core team so this is where we are so it's a bit small but we have register into skyportal okay the sources then run atlas photometry if there is or i put atlas class or the tf if it is in the north but it's like this oops yeah okay north then check the observability map of GRANDMA for me for this source is like this i have to do it like this oh my god okay
+
+ i have activated on KNC and LEMAC and now then trigger some telescopes i said uh and no need to because it's not only everyone no need to say something in observation or you can say just like you have triggered some of the telescopes and then the last step so one two three four five the last step is that your weekly coordinator uh so you that watch the video weekly coordinator you need to get prepared to create the OwnCloud repository if it is can say to contact Damien or Jean-Gregoire or Pierre-Alexandre or me to activate KNC and to have the data and so this is what i wrote down weekly coordinator so this is a task for the weekly coordinator so now the next step is to record while you
+
+**(18:03 Reporting GCNs)**
+have triggering GRANDMA you're waiting for observation you're doing the analysis you need also to report in skyportal what the other have done and this is something that is extremely useful and so in gravitational way there are multiple reporting from different sources at the same time and this is why it is confusing but need a lot of rigor and i believe that you can do it so 
+
+okay so now let's see that we focus on this event yeah and we will look at the different report made by other teams in GRANDMA okay so if i'm writing down like this you have all the report from people and we can look at this so they report some kind of upper limit 
+
+so it's not a detection it's an upper limit so you come back to your skyportal page okay and you need to report that they have been uh i mean some i mean on online right when when the gcn appear you need to report that you have uh i mean i've seen this circular and you open it you see the time you see that it's an upper limit and so now let's upload the photometry and you need to do that for all 
+
+**(19:41 Upload photometry)**
+ the sources it's very important use the form select the instrument so if it is gcn just select generic generic generic
+ if it is a GRANDMA one you need to select the things just select GRANDMA please you can keep it on there and then we have a problem because here it is mentioned with this name and so it is confusing for you so uh yeah if you do that it won't be good so i prefer that you use yeah that you're converting into mjd so that there is no issue in terms of format so i use the extant app from the nether i just convert it you have the conversion into mjd and this is mjd and this is what you're gonna put here so that is always work then don't put anything in magnitude maintain error because there is nothing
+
+ and then oops 18.7 it is in sloan so it is ab origin so  i think what is good is to put the name of the telescopes i put gcn but i think it's better to put the name of the telescopes and the filter yeah yeah i yes and then click on submit photometry
+
+ so now i am on my source i go to the photometric symbol and you will see that it has been upgraded so here i just reordered in time the table and because it was a previous observation we have it look it is me and there is magnitude limit so it is all fine and so you're really coming in turn trying to say that it's validate or not okay because i forgot so you click on valid yes good and so you see that in my report i have as a weekly coordinator pointer so it's a weekly coordinator i need to double check there is something that i did not say yes because you can see here that there have been some detection whereas it was not it was not true so be careful because sometimes you as fa you make mistake and so the mistake stay.
+
+**(22:24 Advices 2)**
+ okay so it is me again so what we have seen the state that we have covered here together okay the step that we have covered together is uh reporting photometry uh from sources and upper limits is uh validation from the weekly coordinator uh and so to use you need to use the web form and also you need to comment at every time that you upload something in sky portal in term of photometry this is very important these things because it's not necessarily done and then we have keep track we lost track on things okay so reporting photometry that are not in GRANDMA validation things made by the weekly coordinator and web form okay so now it's time.
+
+**(23:15 Stdpipeweb (a bit))**
+to look now at our data because remember that for this loop we have also data from GRANDMA because we have succeeded to trigger the adequate telescope for that and we will take as an example the data that we have obtained from lemac because remember we ask lemac to to follow up so let's do that now 
+
+and i will show you uh how to analyze that there is a long documentation made by the DAG i am happy if you can read it and uh and upgrade i won't do that in the in the in this video just very quick to show what mistake have been done but really you need to look at this documentation all right
+
+ okay so i am now navigating in you see the alerts the image the stack and so lemac has performed as uploading some data regarding ep this is this is named here so now i will run this analysis for ep so i go to uh i go to gw so of course if you don't have access to this website you can ask me  i will ask you again or you can ask directly so you go to image stack and then lemac the thing that i wanted that we observe
+
+so you wait like this sometimes it takes long because there are many people at the website at the same time and process is tired so because it is you see this is the sources and so we need to we need to i mean focus on the localization of the source that's why i am picking up this information here so i take it here so sometimes you forget to to do it right so you need to do it because we want to find the source here i like to make a custom mask why because sometimes in the border of the image there is some black pixel so up tag 
+
+sorry you hear skype a slack because there are some people from my team that asking me things 
+
+okay inspecting sometimes it takes ever but yeah this is this is the goal and uh so what you need to remember is this game that is set up to one because in fact in the header of the face file we don't have the information and the saturation level sometimes your image will not work and you need to modify these two things gain and saturation level so we are in e 
+
+so then you see the the filter was not recognized it's in the south so we can take skymapper maybe we will try panstar or gaia gaia always work but it's mostly for johnson uh cousin filters 
+
+so i just select i and let's see what is done so it takes some time so i will make pause and see you there when it is done
+
+ yeah i forgot to tell you that you you can look at this uh limiting mag for example sometimes there is no few sources you can modify these things which uh will help you or modify the reference catalog it will change a thing okay so we have the result what you see already is that this is instrumental model it should be like less than one normally so you see that after 18 is kind of bad 
+
+here is excel so we don't have but we still have some point here that was not great you know and the most problematic it is color time of 0.5 which means that the star photometry of the star that we know they are not matched in fact the catalogs reference which is not good so maybe um the telescopes did not observe in i maybe um the filter is not well settled or maybe it's just because of some environmental effects or there's something
+ weird so what i suggest you is to uh change the catalogs i'm also checking this but i mean you can ask like so much it's 0.4 so it's nice and you can see the upper limits 
+
+so if you see some dispersion here it means that the image was not in good quality maybe the stacking was not done greatly um and so here is i mean at the location that you indicated you can see that in the template there are the galaxy so if we detect a sources i mean maybe it's in the hollow of the galaxy so which means that not necessarily will be detected some people
+
+click one subscription because they like to click click click click but i told you not to do that because it's really for export and so then what i would like to see is what you are happy with your result then you're gonna upload it into sky portal 
+
+and i have run another simulation use error mag for example and you see that the color 10.13 is much better so that's why you don't need to click click click on a std pipe but you need to train with the DAG and you need to add some with the DAG otherwise it will be a mess
+
+ so now i am selecting the task for which i am happy and i'm going to send it to sky portal i'm selecting lemac if it is an instrument that is not in this list you need to put generic and then the photometric will be uploaded so here we don't have um the things because my own register knows the source that is exactly at the same location but it's it's okay right if it works definitely and go to the to the page okay so let 
+
+**(29:43 Advices 3)**
+me recap what we've seen for the data analysis on std pipe web so i have put for you that if it's not worked maybe you need to check again the saturation the mask the filter the reference and the catalog limiting magnitude. These are the key parameters. 
+
+ if all this does not work this is by my kids but if all doesn't me just ask DAG 
+
+**(30:10 Writing circulars)**
+just ask Sergey just ask PA there there to help you and very happy so you are not alone but just try to to do something right
+
+ so we will go to the next challenge which is the writing the the circular because I would like to give more instruction about that because I think there needs to be some mentoring and for so for um our event right we have uh made some circular for uh Galaxy targeting for tiling and for source candidate so you have the three example in hand I will just show it now 
+
+okay so stay tuned I know it is long but I hope it will give you a lot of more information okay so let's go to the different Circulars so we will first go with uh the Einstein one so the source candidate first please make sure as a weekly an you put the good title so it start with the things not only this or I don't know what then you need to put Grandma one uh you need to put Optical upper limit or detection you need to put the source candidate then you will yeah upperlimits limits I said detection of uppser limits and then you will add all the all the shifters the core team uh The Observers and people that help for example for the data analysis like Jean-Gregoire
+
+ and then you will give uh some kind of information um about Atlas about the photometry so you grab it from skyportal be careful that sometime you need to put in AB system or in a Vega system you need to put the calibration then change like in skyportal it is AB system here in Johnson and then the time from skyportal the delay compared to t0 that you must Define sometime in days sometime in hours the result of the data analysis if you find a sources and so on and then the section to GRANDMA
+
+ so now I go to the second type of the circular which is signing circular things of a gravitational wave again the list of shifter the core team the Observer and the number of time that people have done but very important uh yeah with the with the magnitude also the the probability to be recovered and very important the data analysis right don't send something if the data analysis is not done like if we didn't detect anything we said we did not detect any transient at this magnitude 
+
+and the last one is uh is about the Galaxy targeting stuff so it is similarly the same things and with um with also uh things but you I mean there also detection if we detect on the number of galaxies for each uh observation um I mean an example of each Galaxy so you can Jean-Gregoire ask to help you a result of the analysis also reference very important we have done that if the source was observe or I mean we have the same the others also if we have observed some kind of I mean in this circular were also source candidate thank you and this is it
+
+**(33:59 Conclusions)**
+ okay so thank you to have you sent to me so I just have a final conclusion um so to have a success of your team you really need um and and in fact you as an FA so with your team you need to communication to communicate this is uh very important because you need to communicate between your team is not only saying yeah uh on duty off Duty is really to help one to each other this is a chance to upgrade your skills
+
+ uh to perform greater training and the weekly conator give you a training for example me spend three hours before uh I mean to start to explain and when this event happen there was something that was not well understood and each of you um I mean fa or weekly coordinator need to be engaged and responsible you are the one in fact that um that are responsible of the full Network you know and we we rely on it so it's very important to do that okay and uh yeah don't forget to drink of course with your grandmother so nice to be healthy for your shifter okay so see you because we are only Saturday and we still need to I mean manage this candidate okay au revoir bye-bye have a nice time
+
+
+## 7.14 Responding to Gravitational Wave Alerts: Follow-Up Advocate
+
+**(Introduction)**
+
+Hello, for those who do not know me. I am Cristina Andrade, a GRANDMA core team member. 
+In this video, I’ll cover how to read and respond to the various types of Gravitational-Wave alerts. 
+I’ll break down the process into manageable sections and provide detailed instructions for each step. 
+Feel free to send your questions to the zoom chat or the #training channel. An experienced team member can respond in the interim or I will respond at the break between sections. 
+
+**(Section 1: Getting Started)**
+
+Please make sure you are signed up for Owncloud, SkyPortal and FORGE. You can find the information on connecting in the manual under Section 1 “Signing Up for GRANDMA’s Utilities”
+
+I am going to briefly go over the correct settings you should see in order to be receiving alerts from SkyPortal. 
+
+We will use SkyPortal in our observational campaigns. This platform serves as our interface for conducting the campaign, including receiving alerts, contacting teams, updating data, etc.
+
+Upon connecting, you'll encounter a page similar to the one shown below (if not, click on Dashboard in the left sidebar). Your initials should appear in the top right corner.
+
+To correctly set up your profile in SkyPortal, you need to adjust your profile settings to activate the notifications you wish to receive.
+
+ As Follow-Up Advocates (FAs), you'll need to access your profile to modify your notification preferences.
+
+For Follow-Up Advocates:
+
+When making any setting changes, press update after each line.
+
+Make sure you have turned on the "Sources" button and select GW CANDIDATE and GW COUNTERPART from the list of options.
+
+Click Update!
+
+Below "sources," find the "GCN Events" option. Ensure to activate this option and then click "create new profile."
+
+Your GCN Events profile should include: LVC_PRELIMINARY, LVC_INITIAL, LVC_UPDATE, LVC_RETRACTION under "GCN Notice Types" and GW under "GCN Tags," as shown below:
+
+Make sure to press update. 
+
+In all cases, make sure to configure options to receive alerts via email and Slack by clicking on the "bell" symbol.
+
+Make sure to select on shift as this will guarantee notifications while you have signed up as a shifter. 
+
+For information on how to turn these settings on in Skyportal, you can go to the manual under Section 1.5, “Connecting to ICARE Skyportal” or find this video in the GRANDMA youtube channel. 
+
+For Slack notification instructions, check under Section 1.2 or just google “how to turn on notifications for specific slack channels”.
+
+I will pause here for questions. The next section will discuss how to understand the different GW alert types. 
+
+**(Section 2: Understanding GW Alert Types)**
+
+While you are on shift, you are going to be checking the status of the #gwalerts channel on slack often.
+I recommend once every ~15 minutes to ensure prompt response. 
+As soon as a new GW trigger is received, the #gwalerts channel will have a new entry. At the time of an alert, you will receive an email AS SHOWN ON THE LEFT or see a message in the #gwalerts channel as shown on the right. Read the entry. 
+You are going to see one of four different types of alerts: early, preliminary, initial, and update.
+The first you’ll receive for a new detection is a PRELIMINARY alert. 
+In GRANDMA, we initially respond to the PRELIMINARY alert. This is the first type of alert you will receive when an event is detected by LVK (LIGO - VIRGO - KAGRA).  
+PRELIMINARY alerts have a SKYMAP associated with it. This is what GRANDMA uses to point our telescopes.
+You can find this skymap and other relevant information pertaining to the alert by clicking on the link found in the #gwalerts channel. This will take you to the gracedb.ligo.org page for this detection. 
+Here you can see what the time of the alert was. If you scroll down to “Log Messages”, you can find the PRELIMINARY sky map. This sky map was released alongside the first preliminary alert. 
+The gravitational-wave experts at LVK also receive the PRELIMINARY alert and they are woken up to understand whether or not it comes from an astrophysical event or it is just noise. 
+I’ll talk more about noise later. 
+The PRELIMINARY alert arrives when LVK interferometers have made a detection and the systems on LVK are processing the information. 
+The INITIAL alert is the next type of alert to arrive after the PRELIMINARY. 
+Initial:
+INITIAL alerts can arrive within an hour of the preliminary to several hours later. Sometimes, an INITIAL alert  is not sent to the community or is never received by GRANDMA. 
+As well, in the event that the alert is not astrophysical (a false alert), you will receive a retraction.
+The next type of alert to arrive after the INITIAL is the UPDATE. 
+Update:
+After several hours to one day, we receive an UPDATE alert for the same event. 
+The INITIAL and UPDATE alert are important to monitor because it will constrict the skymap of the GW source. 
+Only some events will have a PRELIMINARY, INITIAL AND UPDATE alerts. Not all of the
+events will. 
+As a shifter, you need to read all of the alerts that arrive during your shift, whether you have received the PRELIMINARY alerts during your shift time or not. This is why it is important to make accurate reports between shift times."
+SIDE NOTE:  "Rarely, before the PRELIMINARY, an EARLY warning alert will be delivered. We do not follow up in GRANDMA with these EARLY alerts because there is no skymap associated with it. These are not things you need to respond to. Wait for the PRELIMINARY alert. ”
+Sarah describes the different alert types in more detail in her video “GW alert: different types”. The transcript for this video can be found in Section 7.8 of the manual. 
+Now, we know what the various types of alerts we can receive during our shift time will look like. 
+
+I will pause here for questions. The next section will go over what to do when we receive a new preliminary alert. 
+
+**(Section 3: We received a new PRELIMINARY alert!)**
+
+When you receive a new PRELIMINARY alert, Check the properties of the alert in the @gwalerts channel. Then, write a report in the #observations channel; specifying the type and quality of the alert. 
+This will allow the wider collaboration to be notified of an event and prepare. 
+This report will include the following: 
+What is the name of the alert? 
+Is it a BBH,BHNS, BNS? 
+What is its Distance? 
+What is the area?
+Do we Follow - Up? 
+And if we do follow-up, or “GO-GRANDMA”, we need to tag the whole channel. “@channel” 
+
+When reading a preliminary alert, we need to understand its quality in order to correctly respond to the “Follow-Up?” question. 
+
+ GRANDMA focuses on alerts originating from BNS and BHNS, located relatively nearby—below 200 Mpc—and within an area below 200 deg^2, with a GRANDMA score of 2 or 3. These are the properties you will primarily look at to determine follow-up. 
+
+SIDE NOTE: There are two other properties to keep in mind when determining follow-up for detections that may not score high but have other good properties.
+Check Trigger Time and Time since T0 in the #gwalerts message. If "Time since T0” is above one day, it means that we don't care about it. 
+
+The second, Coherence between detectors vs noise, we need to see the value. When it is below negative three, it means that there is a high chance that the event is not astrophysical and is a mistake or just noise. 
+
+These are the secondary properties you will weigh when the distance, area and GRANDMA score are not in perfect conditions. 
+
+ If all the primary requirements are met, you can request follow-up observation by submitting the report and including “GO-GRANDMA” in the message you send to #observations. 
+
+This means you are notifying telescopes to begin observing.
+
+If the alert does not meet these criteria, you respond with NO FOLLOW UP.
+
+When this tag happens, no email needs to be sent and no mention in skyportal.
+
+These are example reports for alerts of different types and significance: 
+Example 1 is a good alert:
+New GW alert: S230525a, NSBH, Distance: 276.0 +/- 79.0 Mpc, GRANDMA Score: 2, GO-GRANDMA. @channel
+Example 2 is an alert that is not of interest to GRANDMA: 
+New GW Alert: S231231ag, BBH, distance 1114 +/- 357 Mpc, no follow up.
+Example 3 occurs after you receive an initial alert or an update that clarifies it is no longer worth following up on. For example, it is no longer a BNS or NSBH. 
+No new observations. Tagged alert GW230525 with “BBH” and “Not I-care”. Removed “GO-GRANDMA”. 
+
+You include this information in your end of shift report. I will discuss end of shift reports in more detail at a later time but they are similar to what you send in observations. 
+
+Make note that sometimes new PRELIMINARY alerts can come in between UPDATE or INITIAL alerts for another detection. It is possible that you will be managing several different alerts at the same time.
+
+Sarah describes this in more detail in her video, “Preliminary alert slack message”. This video should have already been viewed by the FAs, as she discusses important nuances that help FAs determine follow-up. 
+
+The transcripts for that video are in Section 8.3. A summary of that information is also found in the manual under Section 3.
+
+I will pause here for questions. The next section will go over what to do after you post in the #observations channel. 
+
+**(Section 4: “GO GRANDMA”)**
+
+If it is a good quality alert and you have sent out requests for follow-up observations, these are your next steps. 
+
+ Add the name of the event, for example, “S231231ag” in Skyportal, by accessing the menu bar and going to ‘Sources’. This is not automatically done. 
+
+ Make sure it is tagged “I-care” and “GO  GRANDMA”  by selecting  the "+" symbol on the Skyportal interface. This informs anyone viewing Skyportal that we are currently observing this detection. 
+
+To note, after a follow-up worthy PRELIMINARY alert is sent out, GRANDMA will automatically generate an observation plan. 
+Telescope teams will be able to retrieve these plans from owncloud or Skyportal.
+ 
+As telescope teams respond to you in #observations, enter who is and is not observing and why, in the comments section of SkyPortal; include the telescope name, who responded to you, and if they cannot observe…include why. 
+
+SIDE NOTE:  The telescope teams must conduct observations within 24 hours of receiving the plan. If they do not, no further observations are required.
+
+So, make sure to accurately update Skyportal from information in #observations and when posting to the comment section on skyportal.
+
+Update the event accordingly as you receive more alerts about the object: 
+
+ If the source does not meet follow up specifications, you can remove the tag “GO GRANDMA” and add the tag "Not I-care". You can remove tags by hovering over them and selecting the trash symbol. 
+
+To sum it up, IF it is follow up worthy, you tag “I-care” and “GO GRANDMA”. 
+
+If it does not, remove GO GRANDMA and add “Not I-care”. 
+
+Furthermore and the last step, if you have initiated observations, upon confirmation from the core team that we are stopping all observations, remove the “GO GRANDMA" tag and add "STOP GRANDMA" with the +. Make a short announcement in #observations and include it in your end of shift report.  
+
+I will pause here for questions. The next section will go over what to do after you’ve requested observations and the subject of GW counterpart candidates. 
+
+Section 5: Responding to New GW Counterpart Candidates from GCN Circulars
+
+So far, we have reviewed the different types of alerts, what makes a detection worth following up on, how to request observations, and learned where to document which telescopes have confirmed their ability to observe. 
+
+Now, we will discuss what the protocol is in the case that we get to observe a GW counterpart candidate.
+
+Due to this process of observation following a PRELIMINARY alert that we previously discussed, potential candidates for the optical counterpart can be identified. These are what we refer to as GW source candidates. 
+
+We have a 72-hour window which needs to begin in the first 24 hours following the PRELIMINARY alert. Then, we can search for GW source candidates within the subsequent 72 hours for both types of observation plans (including Galaxy targeting and tiling).
+
+As telescope teams are observing and uploading images of the GW source candidates, FA’s will be doing the following. These will be expanded on in another video and in the manual soon:
+
+ linking significant GW alerts with Skyportal and adding corresponding sources by checking GCN circulars that you should be receiving in your email, TNS and Fink for additional data. 
+
+You’ll be adding photometry data from GCN circulars as they are uploaded to owncloud.
+
+For sources not belonging to significant GW alerts, notify admins to add corresponding GCN events in #icare-skyportal channel.
+
+You’ll be assessing observability in SkyPortal and contacting relevant telescope teams. 
+Annotating reports in SkyPortal for 3 days.
+
+Ensuring Science READY images and photometry values are updated.
+
+For more information on GW Source Candidates and different types of observation plans, please refer to Sarah’s video, “GW source candidates - Transients (follow-up advocate)”. As well, the transcript for this video can be found in Section 7.7. 
+
+Next Section is End of Shift Reports and what they look like. 
+
+**(Section 6: End of Shift Report)**
+The end of shift reports are pretty straight forward and do not need to follow an exact format. Examples of a template with a list of telescopes do exist in the manual under Section 4.1, in case you ever need a reminder. 
+However, end of shift reports do need to include the following, if applicable: name of new alert that occurred during your shift, updates for any previous alerts that were followed up on, telescope teams you contacted, the most recent GCN circulars that occurred during your shift, and any activities in skyportal (such as did you update any tables, comments, candidates, or GCNs on skyportal).
+NOTE: If any of these are not applicable to what occurred during your shift time. For example, if there were no new alerts, state “No new alerts.” 
+Like I stated before, they should look like what you send in #observations for an alert. 
+These are example reports for alerts of different types and significance: 
+Example 1 is a good alert:
+New GW alert: S230525a, NSBH, GRANDMA Score: 2, GO-GRANDMA, waiting for responses from telescope teams. The following telescopes have responded: XX, YY, ZZ. Created skyportal source for it. Comments have been updated. 
+Example 2 
+1 New GW Alert: S231231ag, BBH, distance 1114 +/- 357 Mpc, no follow up.
+Example 3 
+No new alerts, Last GCN #####, updated skyportal comments for S230525a. Checked photometry for {insert telescope here}.
+
+**(Conclusion)**
+
+As we conclude this video, remember to follow these steps diligently for effective follow-up actions. 
+As well, during your shift, make sure to read all alerts in the #gwalerts channel as it is possible for parameters to change and a detection to become worthy or unworthy of follow up. 
+If you have any questions or encounter difficulties, don't hesitate to reach out for assistance. 
+Thank you for your attention, and let's continue our efforts to contribute meaningfully to our observations in O4b. 
