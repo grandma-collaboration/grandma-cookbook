@@ -24,7 +24,7 @@ What does it mean to notify the telescope teams? The telescope teams may have al
    - Confirm that telescope teams have received the alert and are observing.
    - Communicate with telescope teams via the GRANDMA Slack channel #observations.
    - Consider the observability conditions (e.g., weather, source visibility) when coordinating observations. Come back and check in with telescopes who may have reported bad conditions before.
-   - Report to SkyPortal and the next FA on shift regarding telescope readiness and observations.
+   - Report in SkyPortal comments and to the next FA on shift regarding telescope readiness and observations.
 
 2. **Contact Rules**:
    - Contact telescope teams at least two hours before their local night time for those telescopes that were experiencing daytime at time of alert.
