@@ -1,4 +1,4 @@
-## 3. Checking Alerts
+# 3. Checking Alerts
 
 In this campaign, we will follow GW alerts. As Sarah mentioned in her video, there will be different classifications of GW alerts: preliminary, early, initial, and updated.
 
