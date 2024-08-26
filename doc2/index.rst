@@ -9,15 +9,20 @@ User Guide
 .. toctree::
    :maxdepth: 3
 
-   checklist
-   sign-up
-   shift-enrollment
-   shift-communication
-   shift-checklist
-   alerts
-   received
-   observation-plan
-   telescope-notification
+   Utilities
+   Utilities_1_2
+   Utilities_1_3
+   Utilities_1_4
+   Utilities_1_5
+   Utilities_1_6
+   Shift_Enrolling_2
+   Checking_Alerts_3
+   Notifying_Telescope_4
+   Summary_Alert_5
+   Get_Observation_Plan_6   
+   FA_Checklist
+   Writing_GCN_9
+   FA_Responsibility_10
 
 .. Indices and tables
 .. ==================
