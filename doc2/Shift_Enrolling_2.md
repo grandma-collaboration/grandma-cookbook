@@ -1,4 +1,4 @@
-## 2. Enrolling in Shifts
+# 2. Enrolling in Shifts
 
 **Note:** The starting of each weekly slot will be after the GRANDMA telecon, on Thursdays at CET. The week will have four shift slots per day, with one slot taken by the weekly coordinator. The slot of the weekly coordinator will be used for doubling up with someone new for training/support. The daily shift rota will be at 00:00 CET, 06:00 CET, 12:00 CET, and 23:59 CET.
 
@@ -17,7 +17,7 @@ For both weekly coordinators and FAs, you can find videos below to help you subs
 - **FAs:**
   - Instructions on how to subscribe to shifts: [Video](https://www.youtube.com/watch?v=0QNlvaGl7XY)
 
-### 2.1 Communication Between FAs
+## 2.1 Communication Between FAs
 
 Communication between FAs and the weekly coordinator is crucial. We encourage frequent communication not only with the WC but also with other FAs. The weekly coordinator (WC) will create a Slack channel for your group. If one of you cannot attend your shift for a few hours or a day, you can ask for re-arrangement in that channel from other teammates. If you need help with shift work or scheduling, seek assistance within your team first before contacting a core member. If you notice that the previous shifter did not complete all tasks, it is YOUR responsibility to fill the gap and ensure tasks are not left incomplete. It is also courteous to inform the FA of any uncompleted tasks. Accidents happen!
 
