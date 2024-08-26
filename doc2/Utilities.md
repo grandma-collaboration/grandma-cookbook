@@ -1,7 +1,7 @@
 # 1. Signing Up for GRANDMA’s Utilities
 
 The following are the platforms we need to connect to:
-- [Slack](https://join.slack.com/t/grandmagroupe/shared_invite/zt-14wn7vx6f-JzSBq0bJLPWDKOzntNlElQ))
+- [Slack](https://join.slack.com/t/grandmagroupe/shared_invite/zt-14wn7vx6f-JzSBq0bJLPWDKOzntNlElQ)
 - [GCN Website](https://gcn.nasa.gov/ )
 - [OwnCloud](https://grandma-owncloud.lal.in2p3.fr/index.php/apps/files/?dir=/&fileid=426275)
 - [I-care/Skyportal](https://skyportal-icare.ijclab.in2p3.fr/)
