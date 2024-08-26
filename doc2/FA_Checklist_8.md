@@ -13,7 +13,7 @@
 - Check [GCN Circulars](https://gcn.nasa.gov/circulars) every 30 minutes and annotate all GCN GW event social pages in SkyPortal. You can also query SkyPortal to pick up the circular easily under the properties tab by updating GCN circulars at the bottom of the page.
 - Update ongoing GW counterpart candidate sources (from GCN circulars) in SkyPortal with the photometry, whether or not we are observing them with GRANDMA.
 - If some counterpart candidate sources are found, it may be worth triggering GRANDMA, even if it is a BBH (see Section 8.5).
-- Contact telescope teams that have not responded to previous shifters' requests for observations. Contact new teams 2 hours before their night of observations and annotate the corresponding sources in the #observations channel.
+- Contact telescope teams that have not responded to previous shifters' requests for observations. Contact new teams 2 hours before their night of observations. Update who is observing in the #observations channel and in Skyportal comments.
 - Update all reporting in GRANDMA observations in sources and GCN event pages.
 
 ## 8.4 In Case of a New GW Alert
