@@ -1,4 +1,4 @@
-## 10. FA Responsibility Outline
+# 10. FA Responsibility Outline
 
 The Follow-Up Advocate’s (FA) role is to notify telescope teams at the time of a gravitational wave alert and help them point the telescopes at the correct location in the sky. As an FA or shifter, you need to verify that an alert has been received and ensure that observations are performed for the best scientific return in gravitational wave astronomy. GRANDMA operates with a 24/7 schedule divided into 4 slots. As an FA, you work during a Thursday-Thursday week, completing one 6-hour shift per day. You will have a Weekly Coordinator to guide and mentor you.
 
