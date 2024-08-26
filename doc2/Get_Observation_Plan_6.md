@@ -5,7 +5,7 @@
 1. **Notification**:
    - You received a notification of a GW alert on Slack (#gwalerts).
   
-![GW Alert Message](images/telescope_team1.png)
+![GW Alert Message](media/telescope_team1.png)
 
 
 2. **Access the Data**:
@@ -17,13 +17,13 @@
      - Otherwise, go to "Preliminary".
    - Then, navigate to `Galaxy targeting/Tiling` (use "Tiling" for bigger aperture telescopes).
   
-![Owncloud Folder](images/telescope_team2.png)
+![Owncloud Folder](media/telescope_team2.png)
 
 4. **Find Your Telescope**:
    - Locate your telescope in the `Galaxy targeting` folder (or in `Tiling` if not in `Galaxy targeting`).
-![OwnCloud Folder 2](images/telescope_team3.png)
+![OwnCloud Folder 2](media/telescope_team3.png)
    - Example: For ASTEP, find the file `Name_of_your_telescope.txt`.
-![OwnCloud Folder 3](images/telescope_team4.png)
+![OwnCloud Folder 3](media/telescope_team4.png)
      - The file contains tiles to observe, with the first tile being the most likely to find the source.
      - Be cautious as column names and numbers might not be well aligned.
      - The file includes the tile ID, RA and DEC coordinates, probability, and times in UTC.
@@ -33,7 +33,7 @@
 1. **Follow-Up Advocate Query**:
    - When the follow-up advocate flags a source as GO GRANDMA, you will receive an email indicating that you need to follow up.
   
-![Email Alert](images/telescope_team5.png)
+![Email Alert](media/telescope_team5.png)
 
 
 ### 6.3 Notify the Follow-Up Advocate
@@ -58,6 +58,6 @@
 2. **Update ICARE**:
    - Search for the event in ICARE:
   
-![Skyportal Alert](images/telescope_team6.png)
+![Skyportal Alert](media/telescope_team6.png)
 
      - Go to `GW/GRB/Neutrino` and use the source date to search for it on the site.
