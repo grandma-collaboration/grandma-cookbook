@@ -20,4 +20,4 @@ As soon as you have joined Slack, please enter the following channels:
 
 You can do this by going to "Channels" on the right sidebar and then clicking "add channels." Browse the channels to find the ones you wish to join.
 
-![List of slack channels to connect to.](images/slack_SS.png)
+![List of slack channels to connect to.](media/slack_SS.png)
