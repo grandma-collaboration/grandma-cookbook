@@ -1,4 +1,4 @@
-## 9. GCN Release Protocol
+# 9. GCN Release Protocol
 
 A GCN (Gamma-ray Coordinate Network) Circular is to be released when GRANDMA has begun obtaining images from an observation of an alert. The responsibility of writing a GCN typically falls to the weekly coordinator or the scientist currently observing. However, if others are asleep and you (the FA) are on duty, you might need to write the GCN yourself. You will be alerted if this is the case, but if images have been uploaded or observations are being processed, it might be time to ask, “Are we releasing a GCN?” to a core team member.
 
