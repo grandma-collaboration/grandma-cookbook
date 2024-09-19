@@ -12,6 +12,7 @@ User Guide
    Utilities
    Shift_Enrolling_2
    Checking_Alerts_3
+   Types_Alerts
    Notifying_Telescope_4
    Summary_Alert_5
    Get_Observation_Plan_6
