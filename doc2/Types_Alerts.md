@@ -1,4 +1,4 @@
-### How to Respond to Different Astrophysical Alerts
+# How to Respond to Different Astrophysical Alerts
 
 ## Responding to BBH Alerts in GRANDMA
 
