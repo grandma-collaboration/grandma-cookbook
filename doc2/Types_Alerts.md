@@ -1,4 +1,6 @@
-# Responding to BBH Alerts in GRANDMA
+### How to Respond to Different Astrophysical Alerts
+
+## Responding to BBH Alerts in GRANDMA
 
 ### A) Criteria for BBH Follow-Up
 BBH follow-up is required if any of the following conditions are met:
