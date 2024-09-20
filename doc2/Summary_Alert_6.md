@@ -1,4 +1,4 @@
-# 5. Summary: A GW Alert Has Been Received!
+# 6. Summary: A GW Alert Has Been Received!
 
 ![Alert Example](media/alert_example.png)
 
