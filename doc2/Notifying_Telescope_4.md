@@ -1,4 +1,4 @@
-# 4. Notifying Telescopes
+# 5. Notifying Telescopes
 
 In GRANDMA, we notify telescopes via Slack. At the time of a quality alert, you will @channel and send details of the event. When the plans arrive, you can begin contacting the telescopes individually by tagging or “@contact_person” in the `#observations` channel as night arrives or if they are experiencing night when the alert arrives.
 
@@ -53,7 +53,7 @@ The sky localization of the GW alerts given by the LVK collaborations usually lo
 
 You can check out Sarah’s explanation here: [Watch Video](https://www.youtube.com/watch?v=msaYv1E_Cv8)
 
-## 4.1 LogBook Template
+## 5.1 LogBook Template
 
 This template is not strictly mandatory, but it is recommended to follow these parameters when communicating shift to shift and team to team. Ensure you are constantly checking for active observations, not just the new ones that occurred during your shifts.
 
