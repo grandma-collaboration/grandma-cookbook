@@ -9,17 +9,17 @@ User Guide
 .. toctree::
    :maxdepth: 3
 
-   Utilities
+   Utilities_1
    Shift_Enrolling_2
    Checking_Alerts_3
-   Types_Alerts
-   Notifying_Telescope_4
-   Summary_Alert_5
-   Get_Observation_Plan_6
-   Transcripts_7
+   Types_Alerts_4
+   Notifying_Telescope_5
+   Summary_Alert_6
+   Get_Observation_Plan_7
    FA_Checklist_8
    Writing_GCN_9
    FA_Responsibility_10
+   Transcripts_12
 
 .. Indices and tables
 .. ==================
