@@ -1,7 +1,7 @@
-# 7. Raw Transcripts of Videos
+# 12. Raw Transcripts of Videos
 
 
-## 7.1 What is the role of a follow-up advocate (shifter) in GRANDMA during the next GW observing run (O4)?
+## 12.1 What is the role of a follow-up advocate (shifter) in GRANDMA during the next GW observing run (O4)?
 
 **(0:00 Global picture)**
 Hello everyone, I would like to give a bit of explanation about what is a follow-up advocate within GRANDMA, a follow-up advocate or a shifter. So in fact, this is a big role in GRANDMA because it helps to notify the telescopes team when there is a gravitational alert, and to help them for pointing the telescopes at the correct location over the sky. So as a follow-up advocate or shifter, you need to guarantee that the alert has been well received and that they are performing good observations for the best scientific return of gravitational astronomy.
@@ -69,7 +69,7 @@ So let me remind that task one is gravitational alert. Wonder if it is urgent to
 So thank you. If you have questions, of course, you can email me as always.
 
 
-## 7.2 How to register as a GRANDMA followup-advocate (shifter) ?
+## 12.2 How to register as a GRANDMA followup-advocate (shifter) ?
 
 **(0:00 Introduction)**
 Today I would like to show you how to sign on on shift. A shift is happening from Thursday to Thursday during six hours. So you can be shifter or follow-up advocate.
@@ -134,7 +134,7 @@ It is really depending on your calendar. Just be sure that when you have signed 
 So we really, really, with Iara, count on you to really do this task before 12th of May. Okay. So thank you so much and see you soon.
 
 
-## 7.3 Preliminary alert slack message
+## 12.3 Preliminary alert slack message
 
 **(0:00 Intro)**
 Hello everyone So this is the training for understanding what is the preliminary alert and we are going to see directly, we are going to go directly into GW alerts to understand what is going to return in slack and how urgent it is so let me share my screen. 
@@ -209,7 +209,7 @@ You need to check if the distance is below 200  megaparsec and if the area is be
 If it is this criteria, then the score will be equal to three. And you need to try to wake up all of GRANDMA. If the score is two, then the plan will be computed and you will have access to upload. And this will be my next video. Thank you.
 
 
-## 7.4 Notify telescope teams and Observation plan
+## 12.4 Notify telescope teams and Observation plan
 
 **(00:00 intro)**
 Hello everyone, so today we're going to talk about step 2, so notify. Last time we talked about the GW alert, one we're going to observe in GRANDMA, which type of alert, and today we're going to show how to notify the telescopes and how to produce the plan. So first I would like to come back about the gravitational wave area.
@@ -303,7 +303,7 @@ So thank you to have listened to me.
 And I will make an exercise for you straight away. Thank you.
 
 
-### 7.5 GW alert and what to observe (telescope teams)
+### 12.5 GW alert and what to observe (telescope teams)
 
 **(00:00 Intro)**
 Hello everyone, so this is a video for the telescopes team to help them to understand how to observe a gravitational alert and the counterpart candidate associated to it. 
@@ -436,7 +436,7 @@ So me as a telescope team, I have also TAO, so I said this to her as observe sou
 Thank you.
 
 
-## 7.6 Plans, Images, Photometry (telescope teams)
+## 12.6 Plans, Images, Photometry (telescope teams)
 
 **(00:00 Intro)**
 Hello everyone, so now I'm going to show you how to have access to the plan of your observation.
@@ -594,7 +594,7 @@ Is to go by Skyportal via this formula. I think you're already trained. If you n
 So thank you everyone to have listened to me for this technical part. And bye-bye.
 
 
-## 7.7 GW source candidates - Transients (follow-up advocate)
+## 12.7 GW source candidates - Transients (follow-up advocate)
 
 **(00:00 Introduction)**
  Hello everyone, so now I would like to give the training, so this is for the follow-up advocates, part 3, and we're going to talk about the source candidates.
@@ -757,7 +757,7 @@ Got it? The last one that I would like to show you is, like, with this NASAGov c
 I will pause this video right now and take care of you. Bye.
 
 
-## 7.8 GW alert: different types
+## 12.8 GW alert: different types
 
 **(0:00 Introduction)**
 Today, I would like to talk about the gravitational wave alerts and in this video we are going to understand what it means gravitational wave alert. In this video, we are going to see how we can be notifies and what are the different types of gravitational wave alerts. 
@@ -791,7 +791,7 @@ In the UPDATE, we use all the parameter space of gravitational waves to construc
 You will be notified by the #gwalerts. You will receive PRELIMINARY which is extremely important, and the one that we wake up to. You can then face an INITIAL that will tell you if an event is astrophysical or not. Then, several hours later you will receive an UPDATE that provides the final skymap. 
 
 
-## 7.9 Non-European weekly coordinators : How to create a shift in Skyportal
+## 12.9 Non-European weekly coordinators : How to create a shift in Skyportal
 
 **(00:00 - 00:45)** I would like to create a video for a person that would like to be a weekly coordinator but is not working in Paris time or in Europe time. And I would like to show how to create a shift when you are not in Europe. So let me share my screen. 
 
@@ -812,7 +812,7 @@ You will be notified by the #gwalerts. You will receive PRELIMINARY which is ext
 **(4:36 - 5:07)** So I click submit. And then I have slots here and arriving here. So you see in my view in Paris time, it perfectly fit the other shifter’s slot. So then I will create this slots. But for the next slots, I decided that I will be available as weekly coordinator to also to question to beginner shifter/Followup Advocate. 
 
 
-## 7.10 European weekly coordinator How to create a shift in Skyportal
+## 12.10 European weekly coordinator How to create a shift in Skyportal
 
 **(0:00 - 0:18)**
 Hello everyone, I hope that you're fine. So I'm gonna show you how to set up some shift as weekly coordinator. So weekly coordinator, this video is for weekly coordinators, not for shift weekly coordinator.
@@ -875,7 +875,7 @@ And the last point is that you do not only have one slot regarding the LOI. If y
 Thank you everyone, and bye-bye.
 
 
-## 7.11 Managing the ZTF candidates (follow-up advocate training)
+## 12.11 Managing the ZTF candidates (follow-up advocate training)
 
 **(0:02 - 0:15)**
 So hello, Grandma. So after a presentation I made on the Grandma Telecon of Thursday, I was asked to make a video about the ZTF candidates management. So here it is.
@@ -950,7 +950,7 @@ I also had a look on the other transient on ALeRCE, and it appeared that it was 
 I'd like to thank you for listening, and I wish you were a good shift and a good O4 run.
 
 
-## 7.12 Managing the Annotation and Adding Sources (Follow-up Advocate Training)
+## 12.12 Managing the Annotation and Adding Sources (Follow-up Advocate Training)
 
 **(0:00 - 0:18)**
 Hello everyone, I'll be talking about how to add sources to SkyPortal. More specifically, I'll talk about four different things and go through the process step by step. I'll talk about how to add the source to SkyPortal, how to add classifications such as tags on SkyPortal, like I care, not I care, go grandma, stop grandma, depending on the event.
@@ -1041,7 +1041,7 @@ Magnitude system is AB, and my filter is an R filter. I will now submit. If I go
 That's it. I talked about how to add the source to SkyPortal, how to add tags and classification to that source, how to add social comments, as well as what type of social comments to expect on SkyPortal, and lastly, how to add photometry from different resources such as TNS. Thank you very much.
 
 
-## 7.13 Sources candidates of GW - advices
+## 12.13 Sources candidates of GW - advices
 
 **(00:00 Introduction)**
 Hello everyone, I hope that you're doing fine. So today we are in April of 2024 and in this video I would like to make some update about the source candidates of GW and to give you more tips about it and to play with Skyportal for that. So right now I am on weekly coordinator with my team that name Flocon and so we have learned a lot discussing one to each other and in my team there are three people that are beginners so it's good to see what still need to be learned by the people.
@@ -1171,7 +1171,7 @@ and the last one is uh is about the Galaxy targeting stuff so it is similarly th
  uh to perform greater training and the weekly conator give you a training for example me spend three hours before uh I mean to start to explain and when this event happen there was something that was not well understood and each of you um I mean fa or weekly coordinator need to be engaged and responsible you are the one in fact that um that are responsible of the full Network you know and we we rely on it so it's very important to do that okay and uh yeah don't forget to drink of course with your grandmother so nice to be healthy for your shifter okay so see you because we are only Saturday and we still need to I mean manage this candidate okay au revoir bye-bye have a nice time
 
 
-## 7.14 Responding to Gravitational Wave Alerts: Follow-Up Advocate
+## 12.14 Responding to Gravitational Wave Alerts: Follow-Up Advocate
 
 **(Introduction)**
 
@@ -1244,7 +1244,7 @@ Only some events will have a PRELIMINARY, INITIAL AND UPDATE alerts. Not all of 
 events will. 
 As a shifter, you need to read all of the alerts that arrive during your shift, whether you have received the PRELIMINARY alerts during your shift time or not. This is why it is important to make accurate reports between shift times."
 SIDE NOTE:  "Rarely, before the PRELIMINARY, an EARLY warning alert will be delivered. We do not follow up in GRANDMA with these EARLY alerts because there is no skymap associated with it. These are not things you need to respond to. Wait for the PRELIMINARY alert. ”
-Sarah describes the different alert types in more detail in her video “GW alert: different types”. The transcript for this video can be found in Section 7.8 of the manual. 
+Sarah describes the different alert types in more detail in her video “GW alert: different types”. The transcript for this video can be found in Section 7.8 (Author EDIT: Now 12.8) of the manual. 
 Now, we know what the various types of alerts we can receive during our shift time will look like. 
 
 I will pause here for questions. The next section will go over what to do when we receive a new preliminary alert. 
@@ -1294,7 +1294,7 @@ Make note that sometimes new PRELIMINARY alerts can come in between UPDATE or IN
 
 Sarah describes this in more detail in her video, “Preliminary alert slack message”. This video should have already been viewed by the FAs, as she discusses important nuances that help FAs determine follow-up. 
 
-The transcripts for that video are in Section 8.3. A summary of that information is also found in the manual under Section 3.
+The transcripts for that video are in Section 8.3 (Author EDIT: Now Section 12.3). A summary of that information is also found in the manual under Section 3.
 
 I will pause here for questions. The next section will go over what to do after you post in the #observations channel. 
 
@@ -1350,12 +1350,12 @@ Annotating reports in SkyPortal for 3 days.
 
 Ensuring Science READY images and photometry values are updated.
 
-For more information on GW Source Candidates and different types of observation plans, please refer to Sarah’s video, “GW source candidates - Transients (follow-up advocate)”. As well, the transcript for this video can be found in Section 7.7. 
+For more information on GW Source Candidates and different types of observation plans, please refer to Sarah’s video, “GW source candidates - Transients (follow-up advocate)”. As well, the transcript for this video can be found in Section 7.7 (Author EDIT: Now 12.7) . 
 
 Next Section is End of Shift Reports and what they look like. 
 
 **(Section 6: End of Shift Report)**
-The end of shift reports are pretty straight forward and do not need to follow an exact format. Examples of a template with a list of telescopes do exist in the manual under Section 4.1, in case you ever need a reminder. 
+The end of shift reports are pretty straight forward and do not need to follow an exact format. Examples of a template with a list of telescopes do exist in the manual under Section 4.1 (Author EDIT: Now Section 5.1), in case you ever need a reminder. 
 However, end of shift reports do need to include the following, if applicable: name of new alert that occurred during your shift, updates for any previous alerts that were followed up on, telescope teams you contacted, the most recent GCN circulars that occurred during your shift, and any activities in skyportal (such as did you update any tables, comments, candidates, or GCNs on skyportal).
 NOTE: If any of these are not applicable to what occurred during your shift time. For example, if there were no new alerts, state “No new alerts.” 
 Like I stated before, they should look like what you send in #observations for an alert. 
