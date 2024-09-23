@@ -1,5 +1,7 @@
 # 6. Summary: A GW Alert Has Been Received!
 
+So, you've receieved an alert! What's next? 
+
 ![Alert Example](media/alert_example.png)
 
 ### Via Email or Slack (check #gwalerts):
@@ -24,7 +26,7 @@
 
 4. **Notify Telescope Teams**:
    - Go to SkyPortal and follow the instructions from the cookbook starting at “Notifying Telescopes.”
-   - Update responses using the template both with your team mates and in the #observation channel.
+   - Update responses using the template both with your teammates and in the #observation channel.
    - Post to Skyportal comments section about which telescopes are observing and any details surrounding those observations such as the most recent updated parameters found in the #gwalerts channel, who has uploaded images, etc.
      You can see examples of these comments here:
      
