@@ -4,7 +4,8 @@
 
 These alerts can be seen in #gwalerts and in SkyPortal.
 
-### A) Criteria for BBH Follow-Up
+**A) Criteria for BBH Follow-Up**
+
 BBH follow-up is required if any of the following conditions are met:
 - **Well localized**: Sky localization area is less than 200 deg².
 - **Very close**: Distance is less than 200 Mpc with a 90% credible region (CR) of less than 1000 deg².
@@ -17,7 +18,8 @@ BBH follow-up is required if any of the following conditions are met:
 - BBH at 60 Mpc with a 90% CR of 4000 deg² + GRB: **Yes, Follow-Up**
 - BBH at 80 Mpc with a 90% CR of 500 deg²: **Yes, Follow-Up**
 
-### B) Determining Follow-Up Strategy
+**B) Determining Follow-Up Strategy**
+
 1. **If BBH is < 200 Mpc or < 200 deg²**:
    - **Trigger All Telescopes**: Use both Tiling and Galaxy Targeting for 24 hours.
    - **Next Steps**: Trigger follow-up on counterpart candidates reported in GCN.
@@ -25,11 +27,11 @@ BBH follow-up is required if any of the following conditions are met:
    - **Stop Follow-Up**: When it’s no longer scientifically valuable.
    - **Tags in GRANDMA**: Start and stop GRANDMA properly; don’t leave "Go GRANDMA" indefinitely.
 
-2. **If BBH is > 200 Mpc or > 200 deg²**:
+3. **If BBH is > 200 Mpc or > 200 deg²**:
    - **Limited Follow-Up**: Use TAROT (TCH, TCA, TRE) and FRAM (Auger, CTA-N) for 24 hours.
    - **If Counterparts are Reported in GCN**: Trigger all GRANDMA telescopes.
 
-### C) Triggering Wide Field Telescopes (TAROT, FRAM)
+**C) Triggering Wide Field Telescopes (TAROT, FRAM)**
 - **Check Telescope Availability**: Use the GCN SkyPortal page to see which telescopes can observe.
 - **Generate Plan in SkyPortal**: Be mindful of bugs (e.g., TCH) and ensure you use the most updated alert version.
 - **Notify Team**: Email Sergey and Martin Masek for FRAM, Sarah Antier, and Alain Klotz for TAROT.
@@ -61,4 +63,20 @@ To determine if a detection is in the galactic plane, you typically evaluate the
     - Objects with |_**b**_| > 30° are generally far from the plane and are considered to be in the galactic halo or extragalactic.
 
 Basically, if the galactic latitude _**b**_ is low (near 0°), the detection is likely in the galactic plane. For higher _**b**_, the object is outside the plane.
+
+## 4.4 Responding to GRBs (Gamma-Ray Bursts)
+
+When responding to GRB alerts, the following factors are crucial:
+
+1. **Focus on GRBs reported by Swift**:
+   - GRBs reported by **Swift** should be prioritized over those reported by **Fermi**, as Fermi alerts are not ingested into SkyPortal. 
+   - **ZTF follow-up** nor **SkyPortal** are automated for Fermi GRBs. They should not be prioritized for follow-up.
+
+2. **Look for Potential Counterparts**:
+   - Always check if there is a potential counterpart reported by external instruments or teams.
+   - If a counterpart is reported, verify the localization accuracy. 
+     - If the localization is within a few arcseconds and reported by instruments like **Swift** or **SVOM**, these are high-priority alerts, and follow-up observations should be requested.
+
+3. **Handling GRBs Without Counterparts**:
+   - If no counterpart is reported for a GRB, it becomes difficult to justify observations. In these cases, asking telescopes to observe may not be productive, as there would be no clear target to point to.
 
