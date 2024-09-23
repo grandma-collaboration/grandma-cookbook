@@ -2,6 +2,10 @@
 
 In GRANDMA, we notify telescopes via Slack. At the time of a quality alert, you will @channel and send details of the event. When the plans arrive, you can begin contacting the telescopes individually by tagging or “@contact_person” in the `#observations` channel as night arrives or if they are experiencing night when the alert arrives.
 
+You can find the observability plan on skyportal. Go to the source page of the alert, click on the observability dropdown at the top of the page and click PDF. 
+
+![Observability button dropdown on Skyportal image.](media/Observability.png)
+
 The list of telescope contacts is available at this link: [Contact Telescope Teams](https://forge.in2p3.fr/attachments/download/213747/Contact%20Telescope%20teams-2.pdf)
 
 Additional contacts are as follows:
