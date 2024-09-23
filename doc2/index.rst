@@ -19,6 +19,7 @@ User Guide
    FA_Checklist_8
    Writing_GCN_9
    FA_Responsibility_10
+   Assessment_11
    Transcripts_12
 
 .. Indices and tables
