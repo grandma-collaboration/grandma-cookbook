@@ -20,7 +20,7 @@
 
 8. What is the role of a follow-up advocate? What about a weekly coordinator?
 
-9. What should you do if images have been uploaded to the skyportal and you are the on-duty FA?
+9. What should you do if images have been uploaded to OwnCloud and you are the on-duty FA?
 
 10. Explain the importance of including upper limits in a GCN Circular.
 
