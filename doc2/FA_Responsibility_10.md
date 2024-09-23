@@ -37,6 +37,7 @@ What does it mean to notify the telescope teams? The telescope teams may have al
 1. **Monitor Image Uploads**:
    - Ensure telescope teams upload images to SkyPortal or OwnCloud with the correct name and format within 24 hours of observation.
    - Verify that photometric results are provided. Seek assistance from the Weekly Coordinator if needed.
+   - Observe for 3 days then STOP GRANDMA on the source if no transients have been found. 
 
 ### Task 4 - Transient
 
@@ -44,3 +45,4 @@ What does it mean to notify the telescope teams? The telescope teams may have al
    - After observing, scanning, and taking images, identify potential GW counterparts.
    - Use SkyPortal and other sources to determine candidates. Direct telescopes to these candidates if necessary.
    - Produce a report for both the community (like the GCN) and GRANDMA detailing observations, sensitivities, and photometry of transient sources. This report should be prepared with the other shifters and the Weekly Coordinator.
+   - STOP GRANDMA tag is added after candidate is found. 
