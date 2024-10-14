@@ -1,4 +1,6 @@
-## GRANDMA Observations of SN\,2023wrk, a Luminous Type Ia Supernova with Significant Unburned Carbon in the Outer Ejecta
+# Acknowledgments
+
+### GRANDMA Observations of SN\,2023wrk, a Luminous Type Ia Supernova with Significant Unburned Carbon in the Outer Ejecta
 
 Based in part on observations made at Observatoire de Haute Provence (CNRS), France, with the MISTRAL instrument. This research has also made use of the MISTRAL database, operated at CeSAM (LAM), Marseille, France. We acknowledge the excellent support from Observatoire de Haute-Provence, in particular Jerome Schmitt, Jean Claude Brunel, Francois Huppert, Jean Balcaen, Yoann Degot-Longhi, Stephane Favard, and Jean-Pierre Troncin. We thank the OHP direction for the allocations of two DDT observing slots.
 
