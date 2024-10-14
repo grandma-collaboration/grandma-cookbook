@@ -21,6 +21,7 @@ User Guide
    FA_Responsibility_10
    Assessment_11
    Transcripts_12
+   Acknowledgments
 
 .. Indices and tables
 .. ==================
