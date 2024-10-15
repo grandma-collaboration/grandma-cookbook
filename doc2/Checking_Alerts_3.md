@@ -38,3 +38,6 @@ When receiving an **UPDATED** classification of the same GW alert, you can infor
 You will also see the GW alerts in SkyPortal. On the dashboard, you will find the most recent GW alerts and their classifications.
 
 ![Checking Alerts 2](media/check_ss2.png)
+
+## This can also be explained on the [GCN website](https://gcn.nasa.gov/missions/lvk) for the LVK mission.  
+
