@@ -2,7 +2,7 @@
 
 ## 4.1 Responding to BBH Alerts 
 
-These alerts can be seen in #gwalerts and in SkyPortal.
+These alerts can be seen in #gwalerts and in SkyPortal. You follow up on these alerts with the same protocol as you do with GW alerts. Any difference is stated in its respective section. 
 
 **A) Criteria for BBH Follow-Up**
 
