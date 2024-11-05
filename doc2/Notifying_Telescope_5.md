@@ -13,45 +13,45 @@ Familiarize yourself with the information pertaining to each telescope. Refer to
 If no slack contact is available and a telescope has good observability. Look through document for the correspondent's email and inform weekly coordinator, Cristina Andrade, or Sarah Antier.
 
 Slack contacts are as follows:
-**@Nu**: TRT-SBO, TRT-GUAO
-**@Aom**: TRT-SBO, TRT-GUAO
-**@Haowei Peng**: Xinglong-TNT
-**@Abu**: SNOVA, NOWT
-**@Yodgor**: UBAI-T60N, UBAI-T60S
-**@Yusuf**: UBAI-T60N, UBAI-T60S
-**@Otabek Burkhonov**: UBAI-T60N, UBAI-T60S
-**@Zumrud**: ShAO-T60, ShAO-T2m
-**@Shabnam**: ShAO-T60
-**@Emin Gurbanov**: ShAO-T60
-**@Emrah Hesenov**: ShAO-T60
-**@Nariman**: ShAO-T60
-**@Sabahaddin Alishov**: ShAO-T60
-**@Nino**: Abastumani-T70
-**@Sophia Beradze**: Abastumani-T70
-**@Oleksandra Pyshna**: Lisnyky
-**@Andrii**: Lisnyky
-**@Baransky**: Lisnyky
-**@Ahmed Fouad**: KAO
-**@Ali Takey**: KAO
-**@Ahmed Shokry Elshaer**: KAO
-**@Mona**: KAO
-**@Amira Tawfeek**: KAO
-**@Zouhair Benkhaldoun**: MOSS, OWL
-**@Aziz Astro**: MOSS, OWL
-**@Ali Janati**: MOSS, OWL
-**@Rainer Hainich**: OST-CDK20
-**@Sarah**: C2PU
-**@Wagner Corradi**: OPD, SOAR
-**@Iara Tosta e Melo**: OPD, SOAR
-**@Felipe Navarete**: OPD, SOAR
-**@Nelio Sasaki**: OPD, SOAR
-**@Ted Almeida**: OPD
-**@Priyadarshini Gokuldass**: VIRT
-**@Brice Orange**: VIRT
-**@Kyle Noonan**: VIRT
-**@Swen Pormente**: ASTEP
-**@Alain Klotz**: TAROT - TRE (Réunion), TCA (France), TCH (Chile)
-
+- **@Nu**: TRT-SBO, TRT-GUAO
+- **@Aom**: TRT-SBO, TRT-GUAO
+- **@Haowei Peng**: Xinglong-TNT
+- **@Abu**: SNOVA, NOWT
+- **@Yodgor**: UBAI-T60N, UBAI-T60S
+- **@Yusuf**: UBAI-T60N, UBAI-T60S
+- **@Otabek Burkhonov**: UBAI-T60N, UBAI-T60S
+- **@Zumrud**: ShAO-T60, ShAO-T2m
+- **@Shabnam**: ShAO-T60
+- **@Emin Gurbanov**: ShAO-T60
+- **@Emrah Hesenov**: ShAO-T60
+- **@Nariman**: ShAO-T60
+- **@Sabahaddin Alishov**: ShAO-T60
+- **@Nino**: Abastumani-T70
+- **@Sophia Beradze**: Abastumani-T70
+- **@Oleksandra Pyshna**: Lisnyky
+- **@Andrii**: Lisnyky
+- **@Baransky**: Lisnyky
+- **@Ahmed Fouad**: KAO
+- **@Ali Takey**: KAO
+- **@Ahmed Shokry Elshaer**: KAO
+- **@Mona**: KAO
+- **@Amira Tawfeek**: KAO
+- **@Zouhair Benkhaldoun**: MOSS, OWL
+- **@Aziz Astro**: MOSS, OWL
+- **@Ali Janati**: MOSS, OWL
+- **@Rainer Hainich**: OST-CDK20
+- **@Sarah**: C2PU
+- **@Wagner Corradi**: OPD, SOAR
+- **@Iara Tosta e Melo**: OPD, SOAR
+- **@Felipe Navarete**: OPD, SOAR
+- **@Nelio Sasaki**: OPD, SOAR
+- **@Ted Almeida**: OPD
+- **@Priyadarshini Gokuldass**: VIRT
+- **@Brice Orange**: VIRT
+- **@Kyle Noonan**: VIRT
+- **@Swen Pormente**: ASTEP
+- **@Alain Klotz**: TAROT - TRE (Réunion), TCA (France), TCH (Chile)
+  
 In case of GW alerts, the telescope teams need to provide feedback on whether they received the plan and if they plan to observe. If you do not hear from them, ensure you have some new information 2 hours before their night.
 
 You can see the list of telescopes in dark or sunlight on the main dashboard of SkyPortal.
