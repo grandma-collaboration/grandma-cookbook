@@ -6,44 +6,51 @@ You can find the observability plan on skyportal. Go to the source page of the a
 
 ![Observability button dropdown on Skyportal image.](media/Observability.png)
 
-The list of telescope contacts is available at this link: [Contact Telescope Teams](https://forge.in2p3.fr/attachments/download/213747/Contact%20Telescope%20teams-2.pdf)
+The list of telescope contacts, as of 2024, is available at this link: [Contact Telescope Teams](https://forge.in2p3.fr/attachments/download/213747/Contact%20Telescope%20teams-2.pdf). 
 
-Additional contacts are as follows:
-- **@Nino**: Abstunami-T70, Abstunami-T50
-- **@song xuan**: BJP/ALi-50
-- **@Antonio de Ugarte Postigo**: CAHA-OSN, GTC, CFHT-WIRCam, TCH, TCA, TRE
-- **@The Wise GRB Guy**: CAHA-OSN, GTC
-- **@Emmanuel Bertin**: CFHT-WIRCam
-- **@Rivet Jean-Pierre**: C2PU-Omicron
-- **@Belèn Yu Irureta-Goyena**: EPFL-TELESTO
-- **@Elisabeth Rachith**: EPFL-TELESTO
-- **@Stephan Hellmich**: EPFL-TELESTO
-- **@Martin Maöek**: FZU-Auger, FZU-CTA
-- **@Sergey Karpov**: FZU-Auger, FZU-CTA
-- **@Felipe Navarete**: Goodman
-- **@Ahmed Fouad**: KAO
-- **@Ali Takey**: KAO
-- **@ahmedsh11**: KAO
-- **@Eslam Elhosseiny**: KAO
-- **@gamaledin**: KAO
-- **@Zouhair Benkhaldoun**: MOSS, OWL, TRAPPIST
-- **@WAGNER CORRADI**: OPD-1.6m, OPD-60
-- **@Rainer Hainich**: OST/CDK20
-- **@Emin Gurbanov**: ShAO-T60, ShAO-2m
-- **@Emrah Hesenov**: ShAO-T60, ShAO-2m
-- **@Nariman**: ShAO-T60, ShAO-2m
-- **@Shabnam**: ShAO-T60, ShAO-2m
-- **@Zumrud**: ShAO-T60, ShAO-2m
-- **@Abu**: SNOVA
-- **@wangletian**: SNOVA
-- **@Alain Klotz**: TCH, TCA, TRE, Makes-T60, PicDuMidi-T1M
-- **@nu**: TRT-SBO, TRT-SRO
-- **@Otabek Burkhonov**: UBAI-T60N, UBAI-T60S
-- **@Yodgor**: UBAI-T60N, UBAI-T60S
-- **@kylenoonan**: VIRT
-- **@N. Brice Orange**: VIRT
-- **@Priyadarshini Gokuldass**: VIRT
-- **@Fangzhou Guo**: Xinglong-2.16m / Xinglong-TNT
+Familiarize yourself with the information pertaining to each telescope. Refer to it prior to making any observation decisions or plans! 
+
+If no slack contact is available and a telescope has good observability. Look through document for the correspondent's email and inform weekly coordinator, Cristina Andrade, or Sarah Antier.
+
+Slack contacts are as follows:
+**@Nu**: TRT-SBO, TRT-GUAO
+**@Aom**: TRT-SBO, TRT-GUAO
+**@Haowei Peng**: Xinglong-TNT
+**@Abu**: SNOVA, NOWT
+**@Yodgor**: UBAI-T60N, UBAI-T60S
+**@Yusuf**: UBAI-T60N, UBAI-T60S
+**@Otabek Burkhonov**: UBAI-T60N, UBAI-T60S
+**@Zumrud**: ShAO-T60, ShAO-T2m
+**@Shabnam**: ShAO-T60
+**@Emin Gurbanov**: ShAO-T60
+**@Emrah Hesenov**: ShAO-T60
+**@Nariman**: ShAO-T60
+**@Sabahaddin Alishov**: ShAO-T60
+**@Nino**: Abastumani-T70
+**@Sophia Beradze**: Abastumani-T70
+**@Oleksandra Pyshna**: Lisnyky
+**@Andrii**: Lisnyky
+**@Baransky**: Lisnyky
+**@Ahmed Fouad**: KAO
+**@Ali Takey**: KAO
+**@Ahmed Shokry Elshaer**: KAO
+**@Mona**: KAO
+**@Amira Tawfeek**: KAO
+**@Zouhair Benkhaldoun**: MOSS, OWL
+**@Aziz Astro**: MOSS, OWL
+**@Ali Janati**: MOSS, OWL
+**@Rainer Hainich**: OST-CDK20
+**@Sarah**: C2PU
+**@Wagner Corradi**: OPD, SOAR
+**@Iara Tosta e Melo**: OPD, SOAR
+**@Felipe Navarete**: OPD, SOAR
+**@Nelio Sasaki**: OPD, SOAR
+**@Ted Almeida**: OPD
+**@Priyadarshini Gokuldass**: VIRT
+**@Brice Orange**: VIRT
+**@Kyle Noonan**: VIRT
+**@Swen Pormente**: ASTEP
+**@Alain Klotz**: TAROT - TRE (Réunion), TCA (France), TCH (Chile)
 
 In case of GW alerts, the telescope teams need to provide feedback on whether they received the plan and if they plan to observe. If you do not hear from them, ensure you have some new information 2 hours before their night.
 
