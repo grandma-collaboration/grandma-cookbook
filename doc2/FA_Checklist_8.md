@@ -24,6 +24,7 @@
 - Inform the next shifters about what they should track for the next 72 hours.
 - Ensure that the Science READY images (calibrated images with WCS corrected) are uploaded to the corresponding folder in OwnCloud.
 - Make sure the photometry values are updated in SkyPortal under sources -> click on the event link -> scroll down to Photometry -> click on ‘upload additional photometry’ and also in the OwnCloud folder.
+- Make sure to update the summary as often as observations and images are uploaded.
 - Write the circular with your team, adding all telescope teams in the author list, Follow-up advocates on duty, WC, and core team. Report a subset if there are too many observations and ensure validation from the core team.
 - At the end of the process, label the event STOP GRANDMA.
 
@@ -32,6 +33,7 @@
   - Link it with SkyPortal and add the source:
     - Go to SkyPortal Dashboard -> scroll to the bottom -> under ‘Add a Source’, choose ‘GRANDMA’ for ‘share data with’ drop-down menu. Enter the GW counterpart name given in the circular and its corresponding RA and Dec in the suggested format and click submit.
   - Add the corresponding photometry (refer to point 7 in the previous section) from the GCN circulars report.
+  - Update coordinates as candidates are found. 
 
 - **If the sources do not belong to a significant GW alert**:
   - Add it in the #icare-skyportal channel on Slack with a request to add the corresponding GCN events (can be done only by admins).
