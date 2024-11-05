@@ -15,8 +15,8 @@ So, you've receieved an alert! What's next?
 
 2. **If the Alert Meets Criteria**:
    - If it is a BHNS/BNS event and meets one of the criteria for 90%, 50%, or distance, we have the scope to observe it.
-   - Notify the #observations channel on Slack with the message:  
-     `"New alert: name of alert; list of parameters. We will now wait for the observation plan to be created."`
+   - In any case of observation, ensure the event name is added as “SYYMMDD(X)”; it is not automatic. For example, “S230609u".
+   - Inform #Observations: `"New alert: name of alert; list of parameters. We will now wait for the observation plan to be created."`
 
 3. **Wait for Observation Plan**:
    - Go to OwnCloud and wait for an observation plan to be created.
@@ -26,8 +26,9 @@ So, you've receieved an alert! What's next?
 
 4. **Notify Telescope Teams**:
    - Go to SkyPortal and follow the instructions from the cookbook starting at “Notifying Telescopes.”
-   - Update responses using the template both with your teammates and in the #observation channel.
+   - Update responses using the template within the #observation channel, in skyportal comments, and with your teammates(at the end of your shift).
    - Post to Skyportal comments section about which telescopes are observing and any details surrounding those observations such as the most recent updated parameters found in the #gwalerts channel, who has uploaded images, etc.
+  
      You can see examples of these comments here:
      
      ![Screenshot of comments section on Skyportal.](media/Skyportalcomments.png)
