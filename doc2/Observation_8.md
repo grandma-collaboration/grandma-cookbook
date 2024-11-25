@@ -1,13 +1,13 @@
-## 8.Skyportal: Observation Plans and Photometry for Follow-up Advocate
+# 8. Skyportal: Observation Plans and Photometry for Follow-up Advocate
 
-### Observation Plans
+## 8.1 Observation Plans
 - Talk about observability
 - talk about day night map on the cover
 - talk abotu filling out observation plans and when you do so.
 - why we use 300s so much (on forge on one of the proposals it explains how we reach magnitudes at certain exposures)
 
 
-### Uploading Photometry
+## 8.2 Uploading Photometry
 Some filter systems are commonly associated with specific magnitude systems. For example:
 
 SDSS filters (u’, g’, r’, i’, z’) are typically calibrated in the AB system.
