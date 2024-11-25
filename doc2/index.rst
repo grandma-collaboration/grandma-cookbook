@@ -18,9 +18,8 @@ User Guide
    Get_Observation_Plan_7
    FA_Checklist_8
    Writing_GCN_9
-   FA_Responsibility_10
-   Assessment_11
-   Transcripts_12
+   Assessment_10
+   Transcripts_11
    Acknowledgments
 
 .. Indices and tables
