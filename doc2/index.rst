@@ -16,10 +16,11 @@ User Guide
    5_Notifying_Telescope
    6_Summary_Alert
    7_Get_Observation_Plan
-   8_FA_Checklist
-   9_Writing_GCN
-   10_Assessment
-   11_Transcripts
+   8_Skyportal_Use
+   9_FA_Checklist
+   10_Writing_GCN
+   11_Assessment
+   12_Transcripts
    Acknowledgments
 
 .. Indices and tables
