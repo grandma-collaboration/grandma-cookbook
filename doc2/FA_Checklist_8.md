@@ -1,6 +1,6 @@
 # 8. Shifter’s Checklist
 
-For an overview on the FA's responsibilities and the use of skyportal, see this video. The transcript can be found in Section 11: Transcripts.
+For an overview on the FA's responsibilities and the use of skyportal, see this [video](https://www.youtube.com/watch?v=_N7fgiPfiXA). The transcript can be found in Section 11: Transcripts. 
 
 ## 8.1 Before the Shift
 - Activate your notifications to receive source and GCN GW events notifications on your phone or other devices.
