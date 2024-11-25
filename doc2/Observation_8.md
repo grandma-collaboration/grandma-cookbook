@@ -1,4 +1,4 @@
-## Observation Plans and Photometry for Follow-up Advocate
+## 8.Skyportal: Observation Plans and Photometry for Follow-up Advocate
 
 ### Observation Plans
 - Talk about observability
