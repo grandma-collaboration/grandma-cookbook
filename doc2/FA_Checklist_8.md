@@ -1,5 +1,7 @@
 # 8. Shifter’s Checklist
 
+For an overview on the FA's responsibilities and the use of skyportal, see this video. The transcript can be found in Section 11: Transcripts.
+
 ## 8.1 Before the Shift
 - Activate your notifications to receive source and GCN GW events notifications on your phone or other devices.
 - Make sure to respond to any messages sent by your Weekly Coordinator (WC) and get their feedback.
