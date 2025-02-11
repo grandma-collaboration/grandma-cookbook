@@ -1,13 +1,13 @@
 # 9. Shifter’s Checklist
 
-For an overview on the FA's responsibilities and the use of skyportal, see this [video](https://www.youtube.com/watch?v=_N7fgiPfiXA). The transcript can be found in Section 11: Transcripts. 
+Below are the different aspects of a shifter's responsibilities during their week. For links to corresponding videos, go to the bottom of this page.
 
 ## 9.1 Before the Shift
 - Activate your notifications to receive source and GCN GW events notifications on your phone or other devices.
 - Make sure to respond to any messages sent by your Weekly Coordinator (WC) and get their feedback.
 
 ## 9.2 At the Start of Your Shift
-- Check the status of [LVK](https://online.igwn.org/grafana/public-dashboards/1a0efabe65384a7287abfcc1996e4c4d?orgld=1&refresh=5s&orgId=1).
+- Check the status of [LVK](https://online.igwn.org/grafana/public-dashboards/1a0efabe65384a7287abfcc1996e4c4d?orgld=1&refresh=5s&orgId=1). Are all instruments in operation?
 - Write “on duty” in the #shifters channel on Slack.
 - Perform any immediate actions requested by the previous shifter during their transmission. If no transition actions are stated, ask for a recap.
 
@@ -19,8 +19,8 @@ For an overview on the FA's responsibilities and the use of skyportal, see this 
 - Update all reporting in GRANDMA observations in sources and GCN event pages.
 
 ## 9.4 In Case of a New GW Alert
-- Check the status and write a report in #observations (including type of source, etc.).
-- Add the name of the SXX in SkyPortal by going to the event page under GW/GRB/Neutrino and clicking on the ‘+’ sign at the top right (next to interactions). Add the corresponding SXX name tag to the event.
+- Check the status and write a report in #observations (including type of source, etc.). **NOTE:** For all GW alerts in #gwalerts, you need to report their name, 90/50% and distance into the observations channel. You need to say whether there is follow up or not. It is important to do this in order to make sure all alerts have been responded to and that all activity is up to date. 
+- If there is a new alert and follow up, Add the name of the SXX in SkyPortal by going to the event page under GW/GRB/Neutrino and clicking on the ‘+’ sign at the top right (next to interactions). Add the corresponding SXX name tag to the event.
 - If no follow-up is required, remove GO GRANDMA and add Not-Icare.
 - If follow-up is required, prepare to receive notifications from the telescope teams regarding their observation plans. If they don’t respond, contact them and annotate everything in the GCN event page of SkyPortal.
 - Inform the next shifters about what they should track for the next 72 hours.
@@ -48,8 +48,58 @@ For an overview on the FA's responsibilities and the use of skyportal, see this 
   - Write the corresponding circular.
   - After 3 days, label the event STOP GRANDMA.
 
-## 9.6 At the End of Your Shift Week
+## 9.6 At the End of your Daily Shift
+
+Communication between FAs and the weekly coordinator is crucial. We encourage frequent communication not only with the WC but also with other FAs. The weekly coordinator (WC) will create a Slack channel for your group.
+
+If you need help with shift work or scheduling, seek assistance within your team first before contacting Cristina or another core team member. 
+
+At the end of each shift, you need to list your activities: 
+- If we are observing: which telescopes did you last contact?
+- What was the last GCN you checked?
+- Did you add photometry to skyportal from a GCN?
+- Who uploaded images? 
+
+If you notice that the previous shifter did not complete all tasks, it is YOUR responsibility to fill the gap and ensure tasks are not left incomplete. It is also courteous to inform the FA of any uncompleted tasks. Accidents happen!
+
+Here are some examples of communication between FAs. 
+
+**Note:** As an FA, remember to annotate all events with new circulars coming in SkyPortal.
+
+---
+
+**Previous FA to the Next FA**
+
+- **New Events:**
+  - `S230601bf`: BBH far away, significant (annotation on SkyPortal done but labelization is missing; you need to take care of it), waiting for interesting transients
+- **GCN Tracker:**
+  - Keep track of GCN circulars > 33903
+- **Further Events:**
+  - `S2329ay`: Source candidate from ZTF (GCN33900): ZTF23aapmnpce needs to be labelized correctly once photometric data have been imported
+  - `AT2023`: Source candidate is observing with KAO, waiting for improved weather in ShAO. No response from the UBAI team regarding observations
+- **Technical Issue:**
+  - `S230601bf` didn't produce any #gwalerts notifications; Sarah will capture this
+
+## 9.7 At the End of Your Shift Week
 - Check the status of [LVK](https://online.igwn.org/grafana/public-dashboards/1a0efabe65384a7287abfcc1996e4c4d?orgld=1&refresh=5s&orgId=1). Include status in report. 
 - Present positives and negatives for the next FA team.
 - Provide a report of the observations made and results.
-- Fill out the Overleaf summary report.
+
+## 9.8 Shifter & Weekly Coordinator Responsibility Videos
+
+For an overview on the FA's responsibilities and the use of skyportal, see this [video](https://www.youtube.com/watch?v=_N7fgiPfiXA). The transcript can be found in Section 12: Transcripts. 
+
+If you are new to GRANDMA and would like to better understand your role within the collaboration, Sarah has made helpful videos explaining them:
+
+- **FAs:** [Video Explanation](https://www.youtube.com/watch?v=3LtLRkEGx0w)
+
+- All instructions and tutorials can be found here: [FA Instructions](https://forge.in2p3.fr/projects/grandma/wiki/FAinstruction_)
+
+For both weekly coordinators and FAs, you can find videos below to help you subscribe to a shift of your preference. The videos have transcripts in Section 12 of this document.
+
+- **Weekly Coordinators:**
+  - Instructions for non-European time zones: [Video](https://www.youtube.com/watch?v=LPvvChG1Lg8)
+  - Instructions for European time zones: [Video](https://www.youtube.com/watch?v=9L1OJ77OI_I)
+
+- **FAs:**
+  - Instructions on how to subscribe to shifts: [Video](https://www.youtube.com/watch?v=0QNlvaGl7XY)
