@@ -42,6 +42,13 @@ Sometimes events are labeled signifigant and GO GRANDMA when they are not.
   
 ![SkyPortal Tags](media/sptags.png)
 
+### **8.1.4 Aliases & Candidates**
+
+Aliases is the function on skyportal where you add your candidates or associated events. So, if we have a GW event we make source pages for the event itself and for its potential kilonova candidates. 
+
+Click the '+' Symbol and add the name of the associated event as it is found in SkyPortal "Sources" tab and "GW/GRB/Neutrino" tab. 
+
+![Aliases](media/aliasesskyportal.png)
 ---
 
 ## 8.2 Observation Plans
