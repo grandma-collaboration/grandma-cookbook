@@ -13,7 +13,15 @@
 ![Source Creation](media/sourcecreation.png)
 
 ### **8.1.1 Adding Classifications**
-Classifications provide clarity on the status and priority of the source.
+Classifications provide clarity on the status and priority of the source. 
+
+Two cases when you handle classification: 
+
+When you have created a new source, add a classification. 
+
+When a new alert comes in through skyportal via email (either a GRB or GW event), check to see if classification is needed to be adjusted.
+
+Sometimes events are labeled signifigant and GO GRANDMA when they are not. 
 
 - Scroll to the **"Classifications"** section.  
 - Select:  
@@ -22,6 +30,8 @@ Classifications provide clarity on the status and priority of the source.
    - Choose classification tags: `Go GRANDMA`, `Stop GRANDMA`, `I Care`, `Not I Care`.  
 - **Probability:** Set to `1` if the classification is certain.  
 - Submit your classification.  
+
+![SkyPortal Classification](media/classification.png)
 
 ### **8.1.2 Adding and Removing Tags**
 - To **add a tag**, click on the `+` button near the tags section underneath the source name and enter your desired tag (e.g., `I Care`).  
