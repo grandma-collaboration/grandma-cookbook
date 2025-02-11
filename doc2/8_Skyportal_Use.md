@@ -6,7 +6,9 @@
 - **Step 3:** Enter the required details:  
    - **Object ID:** Provided in the GCN Circular or TNS.  
    - **Right Ascension (RA) and Declination (Dec):** Copy these values from the source information.  
-- **Step 4:** Submit the source. Once added, the source will appear in the source list.  
+- **Step 4:** Submit the source. Once added, the source will appear in the source list.
+
+**IMPORTANT:** Make sure that the source you create is classified to "GRANDMA". 
 
 ### **8.1.1 Adding Classifications**
 Classifications provide clarity on the status and priority of the source.
