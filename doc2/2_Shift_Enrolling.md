@@ -28,7 +28,7 @@ If you aren't sure what your group is, go to sheet "Shifts count (FA&WC) O#b-par
 ## 2.2 Shift Sign Up: Skyportal
 Once you have selected your week on the spreadsheet, go to SkyPortal and find the corresponding date. A week of shifts should have been made on this point and it should like this: 
 
-![Skyportal Shifts](media/shiftskyportalorg.png)
+![Skyportal Shifts](media/shiftskyportalorg1.png)
 
 Notice that the yellow arrow is aligning on a thursday - when a week of shifts begin. Look for the date where your shift begins and find your time slot. **Remember:**: Shift slots start at 1100h UTC. 
 
