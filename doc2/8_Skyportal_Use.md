@@ -4,7 +4,7 @@
 - **Step 1:** Navigate to the SkyPortal homepage.  
 - **Step 2:** Go to Sources page. Click on the '+' sign in upper right hand corner and **"Add Source."**  
 - **Step 3:** Enter the required details:  
-   - **Object ID:** Provided in the GCN Circular or TNS.  
+   - **Object ID:** Provided in the GCN Circular or TNS. It could be a GRB (GRBYYMMDD) or a GW event (SYYMMDD##). 
    - **Right Ascension (RA) and Declination (Dec):** Copy these values from the source information.  
 - **Step 4:** Submit the source. Once added, the source will appear in the source list.
 
