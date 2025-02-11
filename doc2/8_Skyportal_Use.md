@@ -1,6 +1,9 @@
 # 8. Skyportal: Creating Sources, Observation Plans and Uploading Photometry for Follow-up Advocates
 
-## 8.1 Creating Sources
+## 8.1 Sources & Event Management
+
+### **8.1.1 Create a Source**
+
 - **Step 1:** Navigate to the SkyPortal homepage.  
 - **Step 2:** Go to Sources page. Click on the '+' sign in upper right hand corner and **"Add Source."**  
 - **Step 3:** Enter the required details:  
@@ -12,7 +15,7 @@
 
 ![Source Creation](media/sourcecreation.png)
 
-### **8.1.1 Adding Classifications**
+### **8.1.2 Adding Classifications**
 Classifications provide clarity on the status and priority of the source. 
 
 Two cases when you handle classification: 
@@ -33,9 +36,11 @@ Sometimes events are labeled signifigant and GO GRANDMA when they are not.
 
 ![SkyPortal Classification](media/classification.png)
 
-### **8.1.2 Adding and Removing Tags**
+### **8.1.3 Adding and Removing Tags**
 - To **add a tag**, click on the `+` button near the tags section underneath the source name and enter your desired tag (e.g., `I Care`).  
-- To **remove a tag**, hover over it and click the trash bin icon. Confirm deletion.  
+- To **remove a tag**, hover over it and click the trash bin icon. Confirm deletion.
+  
+![SkyPortal Tags](media/sptags.png)
 
 ---
 
