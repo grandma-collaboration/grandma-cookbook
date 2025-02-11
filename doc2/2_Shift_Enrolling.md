@@ -15,20 +15,20 @@ You will be sorted by your group name which you can see on the shift spreadsheet
 
 Each dark green row indicates the first shift of a new week. 
 
-![Shift Organization](shiftorg.png)
+![Shift Organization](media/shiftorg.png)
 
 Make sure to fill in your name in Column, titled "FAs" - based on the color of the column where your GROUP name is located. This corresponds to your time zone.
 
 Fill your name in 7 times for that week. It will look like this:
 
-![Shift Sheet Names](shiftnames.png)
+![Shift Sheet Names](media/shiftnames.png)
 
 If you aren't sure what your group is, go to sheet "Shifts count (FA&WC) O#b-part#" and find your name. The "I" column is your group name.
 
 ## 2.2 Shift Sign Up: Skyportal
 Once you have selected your week on the spreadsheet, go to SkyPortal and find the corresponding date. A week of shifts should have been made on this point and it should like this: 
 
-![Skyportal Shifts](shiftskyportalorg.png)
+![Skyportal Shifts](media/shiftskyportalorg.png)
 
 Notice that the yellow arrow is aligning on a thursday - when a week of shifts begin. Look for the date where your shift begins and find your time slot. **Remember:**: Shift slots start at 1100h UTC. 
 
