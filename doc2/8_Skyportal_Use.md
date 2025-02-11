@@ -10,6 +10,8 @@
 
 **IMPORTANT:** Make sure that the source you create is classified to "GRANDMA". 
 
+![Source Creation](media/sourcecreation.png)
+
 ### **8.1.1 Adding Classifications**
 Classifications provide clarity on the status and priority of the source.
 
