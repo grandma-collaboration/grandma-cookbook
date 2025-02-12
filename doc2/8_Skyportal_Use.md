@@ -51,9 +51,13 @@ Click the '+' Symbol and add the name of the associated event as it is found in 
 ![Aliases](media/aliasesskyportal.png)
 ---
 
-## 8.2 Observation Plans
+## 8.2 Observation Plans and Follow-Up Requests
 
 ### **8.2.1 Creating an Observation Plan**
+
+
+### **8.2.2 Creating a Follow-Up Request**
+
 - Go to the **"Follow-Up"** tab on the source page.  
 - Select a telescope from the **GRANDMA network** (e.g., TAROT TCA, FRAM).  
 - Configure observation details:  
@@ -66,7 +70,7 @@ Exposure time and count are variable. A default is usually 10 images by 300 seco
 
 - Submit the plan.  
 
-### **8.2.2 Monitoring Observation Plans**
+### **8.2.3 Monitoring Observation Plans**
 - View submitted plans on the source page.  
 - Check the **Observability Map** for real-time telescope availability:  
    - **Yellow Telescopes:** Daytime  
@@ -84,7 +88,6 @@ Some filter systems are commonly associated with specific magnitude systems. For
 SDSS filters (u’, g’, r’, i’, z’) are typically calibrated in the AB system.
 Johnson-Cousins filters (e.g., U, B, V, R, I), also referred to as Bessel filters, are often calibrated in Vega magnitudes.
 Many near-infrared filters (J, H, K from the 2MASS system) also use the Vega system.
-Standard filters include UGRIZ. 
 
 When a counterpart is detected, use the UVOT counterpart coordinates immediately, if available. If SWIFT UVOT does not detect a counterpart, use the coordinates from other telescopes detecting the counterpart. Update to the most accurate counterpart coordinates available, even if not provided by SWIFT/UVOT.
 
