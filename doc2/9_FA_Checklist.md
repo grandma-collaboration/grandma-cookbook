@@ -66,7 +66,39 @@ Here are some examples of communication between FAs.
 
 **Note:** As an FA, remember to annotate all events with new circulars coming in SkyPortal.
 
----
+### 9.6.1 LogBook Template & Examples
+
+This template is not strictly mandatory, but it is recommended to follow these parameters when communicating shift to shift and team to team. Ensure you are constantly checking for active observations, not just the new ones that occurred during your shifts.
+
+**Template:**
+
+**Date:** DD-MM-YYYY  
+**On duty:** “Your Name/Weekly Coordinator’s Name” on duty “your shift slot” UTC
+
+**Events of Shift Here**
+
+(or if an alert has been detected:)
+
+**New alert:** “name of alert”  
+**Parameters:** “list of parameters”; Observation Plan?; Go-GRANDMA?;
+
+**Instrument:** (observation plan or not, performed? Why?)  
+For the ones who are not in night time: **NIGHT:** “when night time occurs
+
+--- Example for when there was an alert during your shift (Flag also the data analysis) ---
+
+25-5-2023
+Cristina Andrade/Vini Rupchandani on duty 22h-04h UTC
+
+New alert: GW candidate S230525a
+Parameters: NSBH, -90% area: 1001.0 deg2 / 50% area: 266.0
+-Distance: 276.0 +/- 79.0 Mpc, GRANDMA Score: 2, GO-GRANDMA. 
+Contacted the following people: X, X, X, X. These are the ones who have responded.
+UBAI-T60N: No Observation Plan.
+ShAO-T60: Received Observation Plan. Unable to Observe due to probability is 0.0005.
+Abastumani-T70: Received Observation Plan
+
+--- Example for a week with a candidate search ---
 
 **Previous FA to the Next FA**
 
