@@ -1,16 +1,46 @@
 # 5. Notifying Telescopes
 
-In GRANDMA, we notify telescopes via Slack. At the time of a quality alert, you will @channel and send details of the event. When the plans arrive, you can begin contacting the telescopes individually by tagging or “@contact_person” in the `#observations` channel as night arrives or if they are experiencing night when the alert arrives.
+In GRANDMA, we notify telescopes via Slack. At the time of a quality alert, you will @channel and send details of the event. For example, a message notifying #observations about an alert could look like this: 
 
-You can find the observability plan on skyportal. Go to the source page of the alert, click on the observability dropdown at the top of the page and click PDF. 
+![Example 1](media/example1ReportObs.png)
+
+The above example is for a GW alert. 
+
+![Example 2](media/example2ReportObs.png)
+
+The second example is for a GRB alert from a GCN event. 
+
+## 5.1 Observability 
+
+For GW alerts that are observable (a quality alert), observation plans can take 15-30 minutes to be generated. For GRBs, observation plans are not automatically generated. It is not the responsibility of the shifter to generate observation plans. However, it is good to know what these are. You can read more in Section 7. 
+
+Regardless of the type of event we are observing, it is best to use the 'observability' pdf to determine who can first observe and contact those telescopes. If it is for a GW alert, you can let them know observation plans are being generated. 
+
+You can find the observability pdf on skyportal. Go to the source page of the alert, click on the observability dropdown at the top of the page and click PDF. 
 
 ![Observability button dropdown on Skyportal image.](media/Observability.png)
+
+The pdf opens up to reveal this figure. 
+
+![Observability PDF](media/ObservabilityPDF.png)
+
+The bottom left corner of the x-axis is the current hour in UTC. The purple bar indicates the ability to observe and for what time. The telescopes who have a bar during your shift time need to be contacted. The order of priority is determined to how close the bar is to the leftmost corner of the x-axis.
+
+## 5.2 Contacting Telescopes 
+
+**Once you have determined observability, send a message in #observations with the name of the event (S###### or GRBYYMMDD) and then tag the telescope representative.**
+
+For GRBs, make sure to include the GCN link and the coordinates when contacting telescopes. As well, send an email with the same information AND put your request in #observations. 
+
+For GW events, **when the plans arrive**, you can contact the telescopes individually by tagging or “@contact_person” in the `#observations` channel as night arrives or if they are experiencing night when the alert arrives. When plans arrive, you send an email AND notify, again, in #observations.
+
+## 5.3 Contact List 
 
 The list of telescope contacts, as of 2024, is available at this link: [Contact Telescope Teams](https://forge.in2p3.fr/attachments/download/213747/Contact%20Telescope%20teams-2.pdf). 
 
 Familiarize yourself with the information pertaining to each telescope. Refer to it prior to making any observation decisions or plans! 
 
-If no slack contact is available and a telescope has good observability. Look through document for the correspondent's email and inform weekly coordinator, Cristina Andrade, or Sarah Antier.
+If no slack contact is available and a telescope has good observability. Look through document for the correspondent's email and inform the weekly coordinator, Cristina Andrade, or Sarah Antier.
 
 Slack contacts are as follows:
 - **@Nu**: TRT-SBO, TRT-GUAO
@@ -64,105 +94,6 @@ The sky localization of the GW alerts given by the LVK collaborations usually lo
 
 You can check out Sarah’s explanation here: [Watch Video](https://www.youtube.com/watch?v=msaYv1E_Cv8)
 
-## 5.1 LogBook Template
 
-This template is not strictly mandatory, but it is recommended to follow these parameters when communicating shift to shift and team to team. Ensure you are constantly checking for active observations, not just the new ones that occurred during your shifts.
-
-**Template:**
-
-**Date:** DD-MM-YYYY  
-**On duty:** “Your Name/Weekly Coordinator’s Name” on duty “your shift slot” UTC
-
-**Events of Shift Here**
-
-(or if an alert has been detected:)
-
-**New alert:** “name of alert”  
-**Parameters:** “list of parameters”; Observation Plan?; Go-GRANDMA?;
-
-**Instrument:** (observation plan or not, performed? Why?)  
-For the ones who are not in night time: **NIGHT:** “when night time occurs”
-
-**Instruments:**
-
-- VLT-FORS2: sarah.antier@oca.eu, Antonio De Ugarte <deugarte@oca.eu>  
-  If you do not receive any answer from professionals and the source seems interesting, trigger KNC by contacting:  
-  KNC [email to Sarah Antier (sarah.antier@oca.eu) and Damien Turpin (damien.turpin@cea.fr)]
-
----
-
-**DAY 0 report (observation plan or not, performed? Why?)**
-
-- TCH:
-- TCA:
-- TRE:
-- FZU-Auger:
-- FZU-CTA-N:
-- MOSS:
-- OWL:
-- TRT-SRO:
-- Zadko:
-- TRT-SBO:
-- TRT-GAO:
-- TNT (China)
-- NOWT:
-- ALi-50:
-- SNOVA:
-- UBAI-T60N/S:
-- Makes-60:
-- ShAO-T60:
-- Abastumani-T70:
-- Lisnyky-AZT8:
-- KAO:
-- OST-CDK:
-- VIRT:
-- SOAR-photo:
-- ASTEP:
-- OPD-1.6/0.6/0.4:
-- (Special demands (see above))
-- Makes-T60:
-- SOAR:
-- CFHT/MEGACAM:
-- CFHT/WIRCAM:
-- KNC:
-- GMG:
-- GTC:
-- Xinglong-2.16m [only if the source is brighter than 17.5 mag and only for spectroscopy]
-- VLT/FORS2:
-- SALT:
-- OAJ:
-- DDOTI:
-- TNT (Thailand)
-- ShaAO-2m:
-- T1Picdumidi:
-- Zadko:
-- C2PU:
-
-—---------------------------
-Remember to Inform the next FA of the time in UTC which of the next telescopes need to be contacted as night-time occurs for them.
-—---------------------------
-
-Example for when there are no new observations AND changes had to be made for another alert from a previous shift. This information can be monitored and found in #observations. Expect more extensive details should there be an actual alert:
-
-25-5-2023
-Cristina Andrade/Vini Rupchandani on duty 22h-04h UTC
-
-No new observations. Tagged alert GW230525 with “BBH” and “Not I-care”. Removed “GO-GRANDMA”. 
-
-Other: Organized images. 
-—---------------------------
-
-Example for when there was an alert during your shift (Flag also the data analysis):
-
-25-5-2023
-Cristina Andrade/Vini Rupchandani on duty 22h-04h UTC
-
-New alert: GW candidate S230525a
-Parameters: NSBH, -90% area: 1001.0 deg2 / 50% area: 266.0
--Distance: 276.0 +/- 79.0 Mpc, GRANDMA Score: 2, GO-GRANDMA. 
-Contacted the following people: X, X, X, X. These are the ones who have responded.
-UBAI-T60N: No Observation Plan.
-ShAO-T60: Received Observation Plan. Unable to Observe due to probability is 0.0005.
-Abastumani-T70: Received Observation Plan
 
 
