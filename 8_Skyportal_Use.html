@@ -1,0 +1,661 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>8. Skyportal: Creating Sources, Observation Plans and Uploading Photometry for Follow-up Advocates &#8212; grandma-cookbook vUndefined documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/grandma-cookbook-docs.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=651bf316"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '8_Skyportal_Use';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="9. Shifter’s Checklist" href="9_FA_Checklist.html" />
+    <link rel="prev" title="7. Get the Observation Plan (Only for Telescope Teams)" href="7_Get_Observation_Plan.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo_grandma.jpg" class="logo__image only-light" alt="grandma-cookbook vUndefined documentation - Home"/>
+    <script>document.write(`<img src="_static/logo_grandma.jpg" class="logo__image only-dark" alt="grandma-cookbook vUndefined documentation - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="1_Utilities.html">1. Signing Up for GRANDMA’s Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2_Shift_Enrolling.html">2. Enrolling in Shifts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3_Checking_Alerts.html">3. Checking Alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4_Types_Alerts.html">4. How to Respond to Different Astrophysical Alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5_Notifying_Telescope.html">5. Notifying Telescopes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6_Summary_Alert.html">6. A GW Alert Has Been Received!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="7_Get_Observation_Plan.html">7. Get the Observation Plan (Only for Telescope Teams)</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">8. Skyportal: Creating Sources, Observation Plans and Uploading Photometry for Follow-up Advocates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="9_FA_Checklist.html">9. Shifter’s Checklist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10_Writing_GCN.html">10. GCN Release Protocol</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11_Assessment.html">11. Follow-Up Advocate (FA) Manual: Exercise Sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12_Transcripts.html">12. Raw Transcripts of Videos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Acknowledgments.html">Acknowledgments</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/nuclear-multimessenger-astronomy/grandma-cookbook" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/nuclear-multimessenger-astronomy/grandma-cookbook/edit/main/doc2/8_Skyportal_Use.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/nuclear-multimessenger-astronomy/grandma-cookbook/issues/new?title=Issue%20on%20page%20%2F8_Skyportal_Use.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/8_Skyportal_Use.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>8. Skyportal: Creating Sources, Observation Plans and Uploading Photometry for Follow-up Advocates</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sources-event-management">8.1 Sources &amp; Event Management</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-source"><strong>8.1.1 Create a Source</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-classifications"><strong>8.1.2 Adding Classifications</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-and-removing-tags"><strong>8.1.3 Adding and Removing Tags</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#aliases-candidates"><strong>8.1.4 Aliases &amp; Candidates</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#observation-plans-and-follow-up-requests">8.2 Observation Plans and Follow-Up Requests</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-an-observation-plan"><strong>8.2.1 Creating an Observation Plan</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-a-follow-up-request"><strong>8.2.2 Creating a Follow-Up Request</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#monitoring-observation-plans"><strong>8.2.3 Monitoring Observation Plans</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#uploading-photometry">8.3 Uploading Photometry</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#force-photometry-with-atlas"><strong>8.3.1 Force Photometry with ATLAS</strong></a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="skyportal-creating-sources-observation-plans-and-uploading-photometry-for-follow-up-advocates">
+<h1>8. Skyportal: Creating Sources, Observation Plans and Uploading Photometry for Follow-up Advocates<a class="headerlink" href="#skyportal-creating-sources-observation-plans-and-uploading-photometry-for-follow-up-advocates" title="Link to this heading">#</a></h1>
+<section id="sources-event-management">
+<h2>8.1 Sources &amp; Event Management<a class="headerlink" href="#sources-event-management" title="Link to this heading">#</a></h2>
+<section id="create-a-source">
+<h3><strong>8.1.1 Create a Source</strong><a class="headerlink" href="#create-a-source" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>Step 1:</strong> Navigate to the SkyPortal homepage.</p></li>
+<li><p><strong>Step 2:</strong> Go to Sources page. Click on the ‘+’ sign in upper right hand corner and <strong>“Add Source.”</strong></p></li>
+<li><p><strong>Step 3:</strong> Enter the required details:</p>
+<ul>
+<li><p><strong>Object ID:</strong> Provided in the GCN Circular or TNS. It could be a GRB (GRBYYMMDD) or a GW event (SYYMMDD##).</p></li>
+<li><p><strong>Right Ascension (RA) and Declination (Dec):</strong> Copy these values from the source information.</p></li>
+</ul>
+</li>
+<li><p><strong>Step 4:</strong> Submit the source. Once added, the source will appear in the source list.</p></li>
+</ul>
+<p><strong>IMPORTANT:</strong> Make sure that the source you create is classified to “GRANDMA”.</p>
+<p><img alt="Source Creation" src="_images/sourcecreation.png" /></p>
+</section>
+<section id="adding-classifications">
+<h3><strong>8.1.2 Adding Classifications</strong><a class="headerlink" href="#adding-classifications" title="Link to this heading">#</a></h3>
+<p>Classifications provide clarity on the status and priority of the source.</p>
+<p>Two cases when you handle classification:</p>
+<p>When you have created a new source, add a classification.</p>
+<p>When a new alert comes in through skyportal via email (either a GRB or GW event), check to see if classification is needed to be adjusted.</p>
+<p>Sometimes events are labeled signifigant and GO GRANDMA when they are not.</p>
+<ul class="simple">
+<li><p>Scroll to the <strong>“Classifications”</strong> section.</p></li>
+<li><p>Select:</p>
+<ul>
+<li><p><strong>Group:</strong> <code class="docutils literal notranslate"><span class="pre">GRANDMA</span></code></p></li>
+<li><p><strong>Taxonomy:</strong> <code class="docutils literal notranslate"><span class="pre">GRANDMA</span> <span class="pre">Campaign</span> <span class="pre">Source</span> <span class="pre">Observation</span> <span class="pre">1.0</span></code></p></li>
+<li><p>Choose classification tags: <code class="docutils literal notranslate"><span class="pre">Go</span> <span class="pre">GRANDMA</span></code>, <code class="docutils literal notranslate"><span class="pre">Stop</span> <span class="pre">GRANDMA</span></code>, <code class="docutils literal notranslate"><span class="pre">I</span> <span class="pre">Care</span></code>, <code class="docutils literal notranslate"><span class="pre">Not</span> <span class="pre">I</span> <span class="pre">Care</span></code>.</p></li>
+</ul>
+</li>
+<li><p><strong>Probability:</strong> Set to <code class="docutils literal notranslate"><span class="pre">1</span></code> if the classification is certain.</p></li>
+<li><p>Submit your classification.</p></li>
+</ul>
+<p><img alt="SkyPortal Classification" src="_images/classification.png" /></p>
+</section>
+<section id="adding-and-removing-tags">
+<h3><strong>8.1.3 Adding and Removing Tags</strong><a class="headerlink" href="#adding-and-removing-tags" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>To <strong>add a tag</strong>, click on the <code class="docutils literal notranslate"><span class="pre">+</span></code> button near the tags section underneath the source name and enter your desired tag (e.g., <code class="docutils literal notranslate"><span class="pre">I</span> <span class="pre">Care</span></code>).</p></li>
+<li><p>To <strong>remove a tag</strong>, hover over it and click the trash bin icon. Confirm deletion.</p></li>
+</ul>
+<p><img alt="SkyPortal Tags" src="_images/sptags.png" /></p>
+</section>
+<section id="aliases-candidates">
+<h3><strong>8.1.4 Aliases &amp; Candidates</strong><a class="headerlink" href="#aliases-candidates" title="Link to this heading">#</a></h3>
+<p>Aliases is the function on skyportal where you add your candidates or associated events. So, if we have a GW event we make source pages for the event itself and for its potential kilonova candidates.</p>
+<p>Click the ‘+’ Symbol and add the name of the associated event as it is found in SkyPortal “Sources” tab and “GW/GRB/Neutrino” tab.</p>
+</section>
+</section>
+<section id="id1">
+<h2><img alt="Aliases" src="_images/aliasesskyportal.png" /><a class="headerlink" href="#id1" title="Link to this heading">#</a></h2>
+</section>
+<section id="observation-plans-and-follow-up-requests">
+<h2>8.2 Observation Plans and Follow-Up Requests<a class="headerlink" href="#observation-plans-and-follow-up-requests" title="Link to this heading">#</a></h2>
+<section id="creating-an-observation-plan">
+<h3><strong>8.2.1 Creating an Observation Plan</strong><a class="headerlink" href="#creating-an-observation-plan" title="Link to this heading">#</a></h3>
+</section>
+<section id="creating-a-follow-up-request">
+<h3><strong>8.2.2 Creating a Follow-Up Request</strong><a class="headerlink" href="#creating-a-follow-up-request" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Go to the <strong>“Follow-Up”</strong> tab on the source page.</p></li>
+<li><p>Select a telescope from the <strong>GRANDMA network</strong> (e.g., TAROT TCA, FRAM).</p></li>
+<li><p>Configure observation details:</p>
+<ul>
+<li><p><strong>Filters</strong>: Whether bessel or standard is specfic to the telescope and object you are viewing. See more on filters in <strong>8.3</strong>.</p></li>
+<li><p><strong>Exposure Time</strong></p></li>
+<li><p><strong>Exposure Count</strong><br />
+Exposure time and count are variable. A default is usually 10 images by 300 second.</p></li>
+<li><p><strong>Air Mass</strong>: Use an air mass of 1.8 across all telescopes.</p></li>
+<li><p><strong>Start and End Dates</strong>: Do a two night range. It will give the telescope teams time to observe.</p></li>
+</ul>
+</li>
+<li><p>Submit the plan.</p></li>
+</ul>
+</section>
+<section id="monitoring-observation-plans">
+<h3><strong>8.2.3 Monitoring Observation Plans</strong><a class="headerlink" href="#monitoring-observation-plans" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>View submitted plans on the source page.</p></li>
+<li><p>Check the <strong>Observability Map</strong> for real-time telescope availability:</p>
+<ul>
+<li><p><strong>Yellow Telescopes:</strong> Daytime</p></li>
+<li><p><strong>Blue Telescopes:</strong> Nighttime</p></li>
+</ul>
+</li>
+<li><p>Prefer notifying telescopes at least two hours before nighttime.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="uploading-photometry">
+<h2>8.3 Uploading Photometry<a class="headerlink" href="#uploading-photometry" title="Link to this heading">#</a></h2>
+<p>Information about uploading photometry can be found in the data anlysis manual for STDWeb. However, here is some general information regarding filters within the GRANDMA system.</p>
+<p>Some filter systems are commonly associated with specific magnitude systems. For example:</p>
+<p>SDSS filters (u’, g’, r’, i’, z’) are typically calibrated in the AB system.
+Johnson-Cousins filters (e.g., U, B, V, R, I), also referred to as Bessel filters, are often calibrated in Vega magnitudes.
+Many near-infrared filters (J, H, K from the 2MASS system) also use the Vega system.</p>
+<p>When a counterpart is detected, use the UVOT counterpart coordinates immediately, if available. If SWIFT UVOT does not detect a counterpart, use the coordinates from other telescopes detecting the counterpart. Update to the most accurate counterpart coordinates available, even if not provided by SWIFT/UVOT.</p>
+<p><strong>General guidelines:</strong></p>
+<ul class="simple">
+<li><p>Use an air mass of 1.8 across all telescopes.</p></li>
+<li><p>If a gain is not specified, default to a value of 1, as gains may vary slightly across telescopes. If a gain is missing in the header and causes an inspection error, consult the telescope team for the correct gain.</p></li>
+<li><p>If the limiting magnitude (upper limit) is unknown, make an estimated guess and leave a note. The upper limit is not typically used if a magnitude and error are provided.</p></li>
+<li><p>Finally, include the coordinates used in the analysis file, especially if obtained from STDWeb, the telescope team, or a GCN notice. Do not wait to add data to the table if coordinates are missing; just ensure they’re added once available.</p></li>
+</ul>
+<section id="force-photometry-with-atlas">
+<h3><strong>8.3.1 Force Photometry with ATLAS</strong><a class="headerlink" href="#force-photometry-with-atlas" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Navigate to <strong>“Observability”</strong> and run force photometry for archival data.</p></li>
+<li><p>Recommended search windows:</p>
+<ul>
+<li><p><strong>Short-Term:</strong> Last 6 days</p></li>
+<li><p><strong>Long-Term:</strong> Up to 1 year</p></li>
+</ul>
+</li>
+<li><p>Analyze the data:</p>
+<ul>
+<li><p>Look for detections pre-dating the gravitational wave event.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="7_Get_Observation_Plan.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">7. Get the Observation Plan (Only for Telescope Teams)</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="9_FA_Checklist.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">9. Shifter’s Checklist</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sources-event-management">8.1 Sources &amp; Event Management</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-source"><strong>8.1.1 Create a Source</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-classifications"><strong>8.1.2 Adding Classifications</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-and-removing-tags"><strong>8.1.3 Adding and Removing Tags</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#aliases-candidates"><strong>8.1.4 Aliases &amp; Candidates</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#observation-plans-and-follow-up-requests">8.2 Observation Plans and Follow-Up Requests</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-an-observation-plan"><strong>8.2.1 Creating an Observation Plan</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-a-follow-up-request"><strong>8.2.2 Creating a Follow-Up Request</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#monitoring-observation-plans"><strong>8.2.3 Monitoring Observation Plans</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#uploading-photometry">8.3 Uploading Photometry</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#force-photometry-with-atlas"><strong>8.3.1 Force Photometry with ATLAS</strong></a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The GRANDMA Team
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023, The GRANDMA Team.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
