@@ -1,10 +1,10 @@
 # 3. Checking Alerts & Determining Follow Up
 
-In this campaign, we will follow GW alerts, GRBs, and other fast transients.
+In this campaign, we will follow GW alerts, GRBs, and other fast transients. This section will discuss how to determine follow up for GRANDMA's primary target of GW alerts with BNS/NSBH progenitors **AND** Gamma Ray Bursts (GRBs). 
 
 ## 3.1 Gravitational Waves 
 
-There will be different classifications of GW alerts: preliminary, early, initial, and updated.
+There will be different classifications of GW alerts that are distributed by the gravitational wave interferometers: LIGO, VIRGO, KAGRA (LVK). These different alert types are: preliminary, early, initial, and updated. These will be ingested by slack where you will recieve an alert in the `#gwalerts` channel. 
 
 ### 3.1.1 Preliminary Alerts
 
