@@ -137,6 +137,8 @@ Currently, we support robotic follow-up requests for the following instruments:
    - **Start and End Dates**  
      Request a **two-night observation window** to allow flexibility for the telescope team.
 
+![Follow Up Request Form](media/followuprequest.png)
+
 **Important Notes for Shifters**
 
 Maintaining **accurate and up-to-date photometry** on SkyPortal is critical. Shifters rely on this information to responsibly determine if a follow-up is needed. Please do not let a shift pass without:
@@ -159,6 +161,55 @@ Maintaining **accurate and up-to-date photometry** on SkyPortal is critical. Shi
 
 ## 8.3 Uploading Photometry
 
+Photometry must be uploaded to SkyPortal to track and visualize the transient's brightness evolution. This can be done in one of two ways:
+
+1. By **synthesizing images** from telescope teams via STDWeb.
+2. By **uploading photometry from GCN Circulars**, which typically provide magnitudes, magnitude errors, and upper limits.
+
+Details on synthesizing images are available in the **STDWeb Data Analysis Manual**.
+
+Below is a general guide to filters and magnitude systems used within the GRANDMA network:
+
+- **SDSS filters** (`u'`, `g'`, `r'`, `i'`, `z'`) → usually calibrated in the **AB magnitude system**.
+- **Johnson-Cousins filters** (`U`, `B`, `V`, `R`, `I`, also known as Bessel filters) → usually in **Vega magnitudes**.
+- **Near-infrared filters** (`J`, `H`, `K` from the 2MASS system) → typically in the **Vega system**.
+
+### 8.3.1 Uploading Photometry from GCN Circulars
+
+To manually add photometry from a GCN:
+
+1. Navigate to the **Photometry** section on the event’s **source page**. This is where the light curve (magnitude vs. time) is displayed.
+2. Click **“Upload Photometry”**, then choose **“Using Form (One)”**.
+3. Fill out the form carefully to ensure clean light curve visualization. Refer to the example provided and the instructions below: 
+![Photometry Form](media/photometryform.png)
+4. **Instrument**:
+   - If the instrument listed in the GCN is available in SkyPortal (e.g., `SWIFT/UVOT`), select it.
+   - If the instrument is not listed, select **`GCN`** from the dropdown.
+5. **Share data with GRANDMA** (unless instructed otherwise).
+6. **Observation date**: This is when the observation began. GCNs may provide it in MJD format—convert it to UTC as needed.
+7. **Magnitude** and **magnitude error**: Enter these directly from the GCN.
+8. **Limiting magnitude (upper limit)**:
+   - If only an upper limit is available, round it to the nearest magnitude and include the phrase `"arbitrary upper limit"` in the alternate data input.
+   - If both magnitude and error are given, do not input an upper limit.
+9. **Magnitude system**: If not explicitly stated, infer it using the filter system:
+   - `SDSS` → AB system
+   - `Johnson/Bessel` or `2MASS` → Vega system
+10. **Filter**:
+    - GCNs often list filters like `r=19.9`. For this, use `sdssr` as the filter value.
+11. **Origin**: Always enter `"GCN"` — **do not add any additional text**.
+12. **Exposure time and count**: If provided, include them.
+13. **Alternative JSON Data**:
+    - Format exactly as:
+      ```json
+      {"note": "GCN 39380 VLT/X-shooter arbitrary upper limit"}
+      ```
+    - If the upper limit is **not** arbitrary, omit that part:
+      ```json
+      {"note": "GCN 39380 VLT/X-shooter"}
+      ```
+    - Important: Use **straight double quotes (`" "`) only**. Avoid copying from external documents where curly quotes may be introduced, as these will cause errors.
+
+> **Warning:** The alternate data input is highly sensitive to formatting. Always double-check your quotes and JSON syntax before submitting.
 
 ### **8.3.2 Force Photometry with ATLAS**
 
