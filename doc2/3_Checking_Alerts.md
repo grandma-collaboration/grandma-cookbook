@@ -6,13 +6,19 @@ In this campaign, we will follow GW alerts, GRBs, and other fast transients. Thi
 
 There will be different classifications of GW alerts that are distributed by the gravitational wave interferometers: LIGO, VIRGO, KAGRA (LVK). These different alert types are: preliminary, early, initial, and updated. These will be ingested by slack where you will recieve an alert in the `#gwalerts` channel. 
 
+**We are to follow up on GW alerts that meet the following criteria:**
+     - Preferred event type (BNS, BHNS)
+     - 90% and 50% localizations (less than 200 deg²)
+     - Distance (less than 200 Mpc)
+     - GRANDMA Score of 2,3, or 4. 
+     **Note:** In O4, we only deal with “significant” alerts. This means the FAR should be at least 12 per year (with significant being equal to 1).
+
+
 ### 3.1.1 Preliminary Alerts
 
-As soon as LVK detects an event, a **PRELIMINARY** alert will be shown in the `#gwalerts` Slack channel and `#skyportal-alerts`, which will include a skymap. A skymap means that our telescopes can start observing within the indicated sky area. As an FA, you should notify the telescopes about the event and request observations. Check Sarah’s video to understand whether the preliminary alert should be followed or not.
+As soon as LVK detects an event, a **PRELIMINARY** alert will be shown in the `#gwalerts` Slack channel and `#skyportal-alerts`, which will include a skymap. A skymap means that our telescopes can start observing within the indicated sky area. As an FA, you should wait til the intial or updated alert before responding in #observations. If it is a particularly interesting event, you can notify the #observations channel about the event and then wait for an update before requesting observations. 
 
 In the `#gwalerts` Slack channel and `#skyportal-alerts`, there is a message to assist you if you have any doubts.
-
-**Note:** In O4, we only deal with “significant” alerts. This means the FAR should be at least 12 per year (with significant being equal to 1).
 
 Sarah’s video provides a detailed explanation of the **PRELIMINARY** GW ALERT, including how it appears in the `#gwalerts` Slack channel and `#skyportal-alerts`, and which alerts are best followed by GRANDMA: [Watch Video](https://www.youtube.com/watch?v=b0HGRygGzrE). 
 
