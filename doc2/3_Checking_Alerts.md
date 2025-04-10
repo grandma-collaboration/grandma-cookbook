@@ -50,5 +50,21 @@ You will also see the GW alerts in SkyPortal. On the dashboard, you will find th
 
 ## This can also be explained on the [GCN website](https://gcn.nasa.gov/missions/lvk) for the LVK mission.
 
-## 3.2 Gamma Ray Bursts & Reading from GCN Circulars 
+## 3.2 Gamma Ray Bursts (GRBs) 
+
+GRB alerts are not automatically ingested into slack like GWs are. We are informed of a new GRB through GCN Circulars. 
+
+When responding to GRB alerts, the following factors are crucial:
+
+1. **Focus on GRBs reported by Swift**:
+   - GRBs reported by **Swift** should be prioritized over those reported by **Fermi**, as Fermi alerts are not ingested into SkyPortal. 
+   - **ZTF follow-up** nor **SkyPortal** are automated for Fermi GRBs. They should not be prioritized for follow-up.
+
+2. **Look for Potential Counterparts**:
+   - Always check if there is a potential counterpart reported by external instruments or teams.
+   - If a counterpart is reported, verify the localization accuracy. 
+     - If the localization is within a few arcseconds and reported by instruments like **Swift** or **SVOM**, these are high-priority alerts, and follow-up observations should be requested.
+
+3. **Handling GRBs Without Counterparts**:
+   - If no counterpart is reported for a GRB, it becomes difficult to justify observations. In these cases, asking telescopes to observe may not be productive, as there would be no clear target to point to.
 
