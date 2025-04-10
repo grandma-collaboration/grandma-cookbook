@@ -1,19 +1,22 @@
 # 8. Skyportal: Creating Sources, Observation Plans and Uploading Photometry for Follow-up Advocates
 
 ## 8.1 Sources & Event Management
+This section goes over what needs to be done in **SkyPortal** after you have determined an event is worth following up on. 
 
 ### **8.1.1 Create a Source**
+You create a source when you decide you are following up on an event.
 
 - **Step 1:** Navigate to the SkyPortal homepage.  
 - **Step 2:** Go to Sources page. Click on the '+' sign in upper right hand corner and **"Add Source."**  
-- **Step 3:** Enter the required details:  
+- **Step 3:** Enter the required details:
+   - **Shared with**: GRANDMA (unless you've been told to share to others, as well).    
    - **Object ID:** Provided in the GCN Circular or TNS. It could be a GRB (GRBYYMMDD) or a GW event (SYYMMDD##). 
    - **Right Ascension (RA) and Declination (Dec):** Copy these values from the source information.  
 - **Step 4:** Submit the source. Once added, the source will appear in the source list.
 
-**IMPORTANT:** Make sure that the source you create is classified to "GRANDMA". 
-
 ![Source Creation](media/sourcecreation.png)
+
+**IMPORTANT:** Rarely, some GCN events automatically generate a source page. This occurs when an optical counterpart is indentified and it has been reported to the [Transient Network System (TNS)](https://www.wis-tns.org/). So, check the *sources* page to see if there are any events near T0 that could be associated with a GCN Circular or a GW alert. 
 
 ### **8.1.2 Adding Classifications**
 Classifications provide clarity on the status and priority of the source. 
