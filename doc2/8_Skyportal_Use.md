@@ -3,10 +3,17 @@
 ## 8.1 Sources & Event Management
 This section goes over what needs to be done in **SkyPortal** after you have determined an event is worth following up on. 
 
-### **8.1.1 Create a Source**
-A source page is where all the science and activity occurs. Once you have it generated, you can find it in `Sources` in SkyPortal. A GCN Event Page (which can be found in the 'GW/GRB/Neutrino' tab) is what is automatically generated and where you can create observation plans. We do not do science on the observation plan page. 
+**First, we need to know the difference between a `GCN Event Page` and a `Source` Page.**
 
-You create a source when you decide you are following up on an event.
+A GCN Event Page (which can be found in the 'GW/GRB/Neutrino' tab) is what is automatically generated and where you can create observation plans (learn more about Observation Plans in 8.2.2). We do not do science on this page. An example of this page is below. 
+
+![Aliases](media/aliasesskyportal.png)
+
+A source page is where all the science and activity occurs. Once you have it generated, you can find it in `Sources` in SkyPortal. 
+
+### **8.1.1 Create a Source Page**
+
+You create a `Source` page when you decide you are following up on an event.
 
 - **Step 1:** Navigate to the SkyPortal homepage.  
 - **Step 2:** Go to Sources page. Click on the '+' sign in upper right hand corner and **"Add Source."**  
@@ -57,7 +64,7 @@ Click the '+' Symbol and add the name of the associated event as it is found in 
 
 ![Aliases](media/aliasesskyportal.png)
 
-### **8.1.4 When do you update the coordinates in the source page?**
+### **8.1.5 When do you update the coordinates in the source page?**
 
 When a counterpart is detected, use the UVOT counterpart coordinates immediately, if available. If SWIFT/UVOT does not detect a counterpart, use the coordinates from other telescopes detecting the counterpart. Update to the most accurate counterpart coordinates available, even if not provided by SWIFT/UVOT. So, those with the smallest uncertainty in arcseconds. 
 
