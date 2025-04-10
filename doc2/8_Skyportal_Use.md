@@ -21,21 +21,23 @@ You create a source when you decide you are following up on an event.
 ### **8.1.2 Adding Classifications**
 Classifications provide clarity on the status and priority of the source. 
 
-Two cases when you handle classification: 
+**Two cases when you handle classification:**
 
-When you have created a new source, add a classification. 
+- When you have created a new source, add a classification. 
 
-When a new alert comes in through skyportal via email (either a GRB or GW event), check to see if classification is needed to be adjusted.
-
-Sometimes events are labeled signifigant and GO GRANDMA when they are not. 
+- When a new alert comes in through skyportal via email (either a GRB or GW event), check to see if a classification needs to be adjusted. Sometimes, events are labeled `Signifigant` and `GO GRANDMA` when they are not. These classifications will pop up on the header of each page and can be manually removed. You can see an example in 8.1.3.
 
 - Scroll to the **"Classifications"** section.  
 - Select:  
    - **Group:** `GRANDMA`  
    - **Taxonomy:** `GRANDMA Campaign Source Observation 1.0`  
-   - Choose classification tags: `Go GRANDMA`, `Stop GRANDMA`, `I Care`, `Not I Care`.  
+   - Choose classification tags: `Go GRANDMA`, `Stop GRANDMA`, `Go GRANDMA (HIGH PRIORITY)`.
+   - **Taxonomy:** `GRANDMA Campaign Source Classification 1.0`  
+   - Choose classification tags: `Kilonova`, `Not Kilonova`, `GRB`, `Not GRB`, `GW Counterpart`, `Not GW Counterpart`, `GW Candidate`, `Not GW Candidate`, `Supernova`, `Not Supernova`, `I Care`, `Not I Care`.  
 - **Probability:** Set to `1` if the classification is certain.  
-- Submit your classification.  
+- Submit your classification.
+
+**NOTE** If observing/getting photometry after 24 hours: select `I-care`. **Short GRBs** and **Kilonvoa** are considered `GO GRANDMA (HIGH PRIORITY)`.
 
 ![SkyPortal Classification](media/classification.png)
 
@@ -47,19 +49,49 @@ Sometimes events are labeled signifigant and GO GRANDMA when they are not.
 
 ### **8.1.4 Aliases & Candidates**
 
-Aliases is the function on skyportal where you add your candidates or associated events. So, if we have a GW event we make source pages for the event itself and for its potential kilonova candidates. 
+Aliases is the function on skyportal where you add your candidates or associated events. So, if we have a GW event, we make source pages for the event itself and for its potential optical candidates. We, then, add any of those possible sources or optical counterparts to the GCN Event Page, as seen in the example below.
 
-Click the '+' Symbol and add the name of the associated event as it is found in SkyPortal "Sources" tab and "GW/GRB/Neutrino" tab. 
+Click the '+' Symbol and add the name of the associated event as it is found in SkyPortal "Sources" tab or as the transient is named in the GCN Circular (e.g., GRB######X) and this creates a link to the [**Gamma-ray Coordinates Network Viewer**](https://heasarc.gsfc.nasa.gov/wsgi-scripts/tach/gcn_v2/tach.wsgi/?event=S250206dm).
 
 ![Aliases](media/aliasesskyportal.png)
+
 ---
 
-## 8.2 Observation Plans and Follow-Up Requests
+## 8.2 Observability, Observation Plans and Follow-Up Requests
 
-### **8.2.1 Creating an Observation Plan**
+### 8.2.1 Observability 
 
 
-### **8.2.2 Creating a Follow-Up Request**
+### **8.2.2 Creating an Observation Plan**
+
+Follow-Up Advocates (or Shifters) will not need to generate Observation Plans. But, it is an important aspect of SkyPortal to familiarize yourself with in the event a telescope operator requests you to generate them. 
+
+For **GW events**, Observation Plans are generated automatically and then uploaded to **OwnCloud** in a file labeled `GWEMOPT`. 
+For **GRBs**, no observation plans are automatically generated for GRBs as precise coordinates are usually provided. This means that an **OwnCloud** file needs to be created for an event to store images. 
+
+Observation Plan generation has a few different primary features which I will go over below: 
+
+**Select a Localization Map (blue/first arrow):**
+Choose a skymap (e.g., Bilby.offline1.multiorder.fits) from a gravitational wave alert to define the sky region to target.
+
+**Choose an Instrument (purple/second arrow):**
+Select your telescope (e.g., Thai Robotic Telescope – TRT-SRO) that will perform the observations.
+
+**Set Observation Dates (green/third arrow):**
+Define the start and end times for the observation window, ensuring they align with visibility constraints and urgency.
+
+**Set Detection Criteria (orange/fourth arrow):**
+Enter the minimum number of required detections (e.g., 2) and cumulative probability coverage (e.g., 0.95) to prioritize high-confidence regions.
+
+**Select Query List and Galaxy Catalog (light blue/fifth arrow):**
+Use the sources query list and a galaxy catalog (e.g., CLU) to match potential host galaxies within the localization.
+
+**Submit:** Press SUBMIT to generate the observation plan. The system will compute the optimal targets within your selected skymap region, date range, and detection criteria.
+
+![Observation Plan Example](media/observationplanex.png)
+
+
+### **8.2.3 Creating a Follow-Up Request**
 
 - Go to the **"Follow-Up"** tab on the source page.  
 - Select a telescope from the **GRANDMA network** (e.g., TAROT TCA, FRAM).  
@@ -73,7 +105,7 @@ Exposure time and count are variable. A default is usually 10 images by 300 seco
 
 - Submit the plan.  
 
-### **8.2.3 Monitoring Observation Plans**
+### **8.2.4 Monitoring Observation Plans**
 - View submitted plans on the source page.  
 - Check the **Observability Map** for real-time telescope availability:  
    - **Yellow Telescopes:** Daytime  
