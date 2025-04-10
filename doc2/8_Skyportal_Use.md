@@ -75,7 +75,7 @@ Add in your value and error, if provided. Then, in redshift 'Origin', put the GC
 
 ![Redshift](media/redshift.png)
 
-### 8.1.7 GCN Crossmatches 
+### **8.1.7 GCN Crossmatches**
 
 GCN Crossmatches connects your `Source` page to the associated GCN Event Page. 
 
@@ -99,7 +99,7 @@ As optical counterparts (candidates) are found, updates the coordinates on the s
 
 ## 8.2 Observability, Observation Plans and Follow-Up Requests
 
-### 8.2.1 Observability 
+### **8.2.1 Observability**
 
 An observability plot shows which telescopes in a network can observe a target over time. This tool is used to plan follow-up observations by helping you identify which telescopes are currently available or will become available soon, when the target is visible at each site, and which stations are best suited for submitting observation requests. This plot will update as time progresses. Make sure to produce a new plot for each shift. 
 
@@ -223,7 +223,7 @@ Maintaining **accurate and up-to-date photometry** on SkyPortal is critical. Shi
 
 ---
 
-## 8.3 Uploading Photometry
+## **8.3 Uploading Photometry**
 
 Photometry must be uploaded to SkyPortal to track and visualize the transient's brightness evolution. This can be done in one of two ways:
 
@@ -238,7 +238,7 @@ Below is a general guide to filters and magnitude systems used within the GRANDM
 - **Johnson-Cousins filters** (`U`, `B`, `V`, `R`, `I`, also known as Bessel filters) → usually in **Vega magnitudes**.
 - **Near-infrared filters** (`J`, `H`, `K` from the 2MASS system) → typically in the **Vega system**.
 
-### 8.3.1 Uploading Photometry from GCN Circulars
+### **8.3.1 Uploading Photometry from GCN Circulars**
 
 To manually add photometry from a GCN:
 
