@@ -19,6 +19,7 @@ User Guide
    5_Notifying_Telescope
    7_Get_Observation_Plan
    8_Skyportal_Use
+   Shift_Team_Documents
    9_FA_Checklist
    10_Writing_GCN
    11_Assessment
