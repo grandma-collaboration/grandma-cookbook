@@ -63,19 +63,3 @@ To determine if a detection is in the galactic plane, you typically evaluate the
     - Objects with |_**b**_| > 30° are generally far from the plane and are considered to be in the galactic halo or extragalactic.
 
 Basically, if the galactic latitude _**b**_ is low (near 0°), the detection is likely in the galactic plane. For higher _**b**_, the object is outside the plane.
-
-## 4.4 Responding to GRBs (Gamma-Ray Bursts)
-
-When responding to GRB alerts, the following factors are crucial:
-
-1. **Focus on GRBs reported by Swift**:
-   - GRBs reported by **Swift** should be prioritized over those reported by **Fermi**, as Fermi alerts are not ingested into SkyPortal. 
-   - **ZTF follow-up** nor **SkyPortal** are automated for Fermi GRBs. They should not be prioritized for follow-up.
-
-2. **Look for Potential Counterparts**:
-   - Always check if there is a potential counterpart reported by external instruments or teams.
-   - If a counterpart is reported, verify the localization accuracy. 
-     - If the localization is within a few arcseconds and reported by instruments like **Swift** or **SVOM**, these are high-priority alerts, and follow-up observations should be requested.
-
-3. **Handling GRBs Without Counterparts**:
-   - If no counterpart is reported for a GRB, it becomes difficult to justify observations. In these cases, asking telescopes to observe may not be productive, as there would be no clear target to point to.
