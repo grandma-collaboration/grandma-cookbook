@@ -68,7 +68,14 @@ Click the '+' Symbol and add the name of the associated event as it is found in 
 
 When a counterpart is detected, use the UVOT counterpart coordinates immediately, if available. If SWIFT/UVOT does not detect a counterpart, use the coordinates from other telescopes detecting the counterpart. Update to the most accurate counterpart coordinates available, even if not provided by SWIFT/UVOT. So, those with the smallest uncertainty in arcseconds. 
 
-### **8.1.6 Summaries**
+### **8.1.6 Redshift**
+When you recieve a redshift from a GCN for a GRB event, go to the header of your `Source` page and click the 'pencil' icon. 
+
+Add in your value and error, if provided. Then, in redshift 'Origin', put the GCN number (e.g., GCN #####). 
+
+![Redshift](media/redshift.png)
+
+### **8.1.7 Summaries**
 
 At the start of observations, make sure to add a summary to the source page. This is the template:
 
