@@ -75,7 +75,15 @@ Add in your value and error, if provided. Then, in redshift 'Origin', put the GC
 
 ![Redshift](media/redshift.png)
 
-### **8.1.7 Summaries**
+### 8.1.7 GCN Crossmatches 
+
+GCN Crossmatches connects your `Source` page to the associated GCN Event Page. 
+
+Simply, click on the 'pencil' icon on the `Source` page and search for a start to end date +3 days around start of event. Put probability to 1. An example of a successful GCN Crossmatch and its input form is below: 
+
+![GCN Crossmatch](media/gcncm.png)
+
+### **8.1.8 Summaries**
 
 At the start of observations, make sure to add a summary to the source page. This is the template:
 
