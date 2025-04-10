@@ -265,7 +265,7 @@ To manually add photometry from a GCN:
 
 ### **8.3.2 Force Photometry with ATLAS**
 
-- Navigate to **"Observability"** and run force photometry for archival data.  
+Navigate to **"Force Photometry"** on your `Source` page and run force photometry for archival data.  
 - Recommended search windows:  
    - **Short-Term:** Last 6 days  
    - **Long-Term:** Up to 1 year  
