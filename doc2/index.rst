@@ -1,5 +1,6 @@
 The Global Rapid Advanced Network Devoted to the Multi-messenger Addicts (GRANDMA) cookbook
 =====================================================
+**Currently, under construction. As of April 10th - Cristina Andrade**
 
 .. image:: media/grandma.png
 
