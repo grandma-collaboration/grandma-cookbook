@@ -67,6 +67,32 @@ When a counterpart is detected, use the UVOT counterpart coordinates immediately
 
 ### 8.2.1 Observability 
 
+An observability plot shows which telescopes in a network can observe a target over time. This tool is used to plan follow-up observations by helping you identify which telescopes are currently available or will become available soon, when the target is visible at each site, and which stations are best suited for submitting observation requests. This plot will update as time progresses. Make sure to produce a new plot for each shift. 
+
+The `Observability` plot can be produced by clicking on the icon located on the Source page of an event. Click 'PDF' and it will download automatically. 
+
+![Observability](media/observability.png)
+
+How do you determine who can observe from this plot? 
+
+![Observability Plot](media/observabilityplot.png)
+
+1. **Axes**
+
+- **Y-Axis (Vertical):**  
+  Lists all available telescopes in the network (e.g., TAROT/TCA, KAIT, GTC, etc.).  
+  Each row corresponds to one telescope.
+
+- **X-Axis (Horizontal):**  
+  Represents time, typically starting from the current UTC time at the origin (the leftmost edge).  
+  Time advances to the right in hour intervals, labeled by UTC hour (e.g., 00:00, 03:00, 06:00...).
+
+2. **Bars or Shaded Regions**
+- These indicate when a telescope has the target above the horizon and can observe it.
+- The length of the bar shows how long the target is visible.
+- If colors are used:  
+  - **Purple** indicates good visibility.  
+  - **Gradients** indicate twilight or dawn.
 
 ### **8.2.2 Creating an Observation Plan**
 
