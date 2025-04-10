@@ -7,12 +7,12 @@ In this campaign, we will follow GW alerts, GRBs, and other fast transients. Thi
 There will be different classifications of GW alerts that are distributed by the gravitational wave interferometers: LIGO, VIRGO, KAGRA (LVK). These different alert types are: preliminary, early, initial, and updated. These will be ingested by slack where you will recieve an alert in the `#gwalerts` channel. 
 
 **We are to follow up on GW alerts that meet the following criteria:**
-     - Preferred event type (BNS, BHNS)
-     - 90% and 50% localizations (less than 200 deg²)
-     - Distance (less than 200 Mpc)
-     - GRANDMA Score of 2,3, or 4. 
-     **Note:** In O4, we only deal with “significant” alerts. This means the FAR should be at least 12 per year (with significant being equal to 1).
+1. Preferred event type (BNS, BHNS)
+2. 90% and 50% localizations (less than 200 deg²)
+3. Distance (less than 200 Mpc)
+4. GRANDMA Score of 2,3, or 4. 
 
+**Note:** In O4, we only deal with “significant” alerts. This means the FAR should be at least 12 per year (with significant being equal to 1).
 
 ### 3.1.1 Preliminary Alerts
 
@@ -33,7 +33,6 @@ Moreover, if you have started observations, once all observations are completed,
 In both cases, ensure the event name is added as “S230609u”; it is not automatic.
 
 ![Checking Alerts 1](media/check_ss1.png)
-
 
 ### 3.1.2 Initial Alerts
 
