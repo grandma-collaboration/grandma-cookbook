@@ -10,23 +10,7 @@ The above example is for a GW alert.
 
 The second example is for a GRB alert from a GCN event. 
 
-## 5.1 Observability 
-
-For GW alerts that are observable (a quality alert), observation plans can take 15-30 minutes to be generated. For GRBs, observation plans are not automatically generated. It is not the responsibility of the shifter to generate observation plans. However, it is good to know what these are. You can read more in Section 7. 
-
-Regardless of the type of event we are observing, it is best to use the 'observability' pdf to determine who can first observe and contact those telescopes. If it is for a GW alert, you can let them know observation plans are being generated. 
-
-You can find the observability pdf on skyportal. Go to the source page of the alert, click on the observability dropdown at the top of the page and click PDF. 
-
-![Observability button dropdown on Skyportal image.](media/Observability.png)
-
-The pdf opens up to reveal this figure. 
-
-![Observability PDF](media/ObservabilityPDF.png)
-
-The bottom left corner of the x-axis is the current hour in UTC. The purple bar indicates the ability to observe and for what time. The telescopes who have a bar during your shift time need to be contacted. The order of priority is determined to how close the bar is to the leftmost corner of the x-axis.
-
-## 5.2 Contacting Telescopes 
+## 5.1 Contacting Telescopes 
 
 **Once you have determined observability, send a message in #observations with the name of the event (S###### or GRBYYMMDD) and then tag the telescope representative.**
 
