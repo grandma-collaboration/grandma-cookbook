@@ -201,6 +201,8 @@ Currently, we support robotic follow-up requests for the following instruments:
 
 **Important Notes for Shifters**
 
+It is reccomended that a Shifter leaves priority alone, put a plan a few min ahead in UTC time and make filter based in what is being said in GCN. 
+
 Maintaining **accurate and up-to-date photometry** on SkyPortal is critical. Shifters rely on this information to responsibly determine if a follow-up is needed. Please do not let a shift pass without:
 
 - Uploading all processed images and synthesize them when possible.
