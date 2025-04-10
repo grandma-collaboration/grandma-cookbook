@@ -12,10 +12,11 @@ User Guide
 
    1_Utilities
    2_Shift_Enrolling
-   3_Checking_Alerts
+   workflow
+   GW_followup
+   GRB_followup
    4_Types_Alerts
    5_Notifying_Telescope
-   6_Summary_Alert
    7_Get_Observation_Plan
    8_Skyportal_Use
    9_FA_Checklist
