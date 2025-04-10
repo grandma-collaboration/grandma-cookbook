@@ -1,4 +1,4 @@
-# 3. Checking Alerts & Determining Follow Up
+# 3. Determining GW Follow Up
 
 In this campaign, we will follow GW alerts, GRBs, and other fast transients. This section will discuss how to determine follow up for GRANDMA's primary target of GW alerts with BNS/NSBH progenitors **AND** Gamma Ray Bursts (GRBs). 
 
