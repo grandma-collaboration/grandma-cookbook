@@ -4,6 +4,8 @@
 This section goes over what needs to be done in **SkyPortal** after you have determined an event is worth following up on. 
 
 ### **8.1.1 Create a Source**
+A source page is where all the science and activity occurs. Once you have it generated, you can find it in `Sources` in SkyPortal. A GCN Event Page (which can be found in the 'GW/GRB/Neutrino' tab) is what is automatically generated and where you can create observation plans. We do not do science on the observation plan page. 
+
 You create a source when you decide you are following up on an event.
 
 - **Step 1:** Navigate to the SkyPortal homepage.  
@@ -55,6 +57,10 @@ Click the '+' Symbol and add the name of the associated event as it is found in 
 
 ![Aliases](media/aliasesskyportal.png)
 
+### **8.1.4 When do you update the coordinates in the source page?**
+
+When a counterpart is detected, use the UVOT counterpart coordinates immediately, if available. If SWIFT/UVOT does not detect a counterpart, use the coordinates from other telescopes detecting the counterpart. Update to the most accurate counterpart coordinates available, even if not provided by SWIFT/UVOT. So, those with the smallest uncertainty in arcseconds. 
+
 ---
 
 ## 8.2 Observability, Observation Plans and Follow-Up Requests
@@ -91,19 +97,56 @@ Use the sources query list and a galaxy catalog (e.g., CLU) to match potential h
 ![Observation Plan Example](media/observationplanex.png)
 
 
-### **8.2.3 Creating a Follow-Up Request**
+### **8.2.3 Submitting a Follow-Up Request**
 
-- Go to the **"Follow-Up"** tab on the source page.  
-- Select a telescope from the **GRANDMA network** (e.g., TAROT TCA, FRAM).  
-- Configure observation details:  
-   - **Filters**: Whether bessel or standard is specfic to the telescope and object you are viewing. See more on filters in **8.3**. 
-   - **Exposure Time**  
-   - **Exposure Count**  
-Exposure time and count are variable. A default is usually 10 images by 300 second.
-   - **Air Mass**: Use an air mass of 1.8 across all telescopes.
-   - **Start and End Dates**: Do a two night range. It will give the telescope teams time to observe. 
+Follow-up requests are generated when we wish to **automatically trigger a robotic telescope** to observe a transient. After submitting a request, please ensure you **contact a member of the associated telescope team**. 
 
-- Submit the plan.  
+Currently, we support robotic follow-up requests for the following instruments:  
+**TAROT, TRT, AbAO, UBAI, OPD**.  
+
+**Note:** Only **TAROT** supports *fully robotic* triggering without the need to contact the telescope PI.
+
+### How to Submit a Follow-Up Request
+
+1. **Navigate to the Source Page**  
+   Go to the event’s source page in SkyPortal and click the **“Follow-Up”** tab.
+
+2. **Select an Instrument or Allocation**  
+   Choose a telescope from the **GRANDMA network** (e.g., *TAROT-TCA*, *FRAM*, etc.).  
+   Ensure you select a **station that can observe the target** based on the observability plot.
+
+3. **Share Data with GRANDMA**  
+   Tick the option to **share the request and resulting data with the GRANDMA collaboration**.
+
+4. **Configure Observation Details**
+   - **Filters**  
+     Select filters based on the **evolutionary stage of the transient** and **instrument availability**. For example:
+     - Early-stage kilonovae: prioritize **blue or UV filters** (`u`, `g`)
+     - Later stages: consider **redder filters** (`i`, `z`, `Y`)
+
+   - **Exposure Time** and **Number of Exposures**  
+     These should reflect the **brightness of the target** at the time of the request.  
+     > As a general guide:  
+     > - For fainter sources (e.g., mag > 20), increase both exposure time and count.  
+     > - For brighter sources (mag ~17–18), shorter exposures may suffice.  
+     If unsure, consult recent photometry on the source page.
+
+   - **Air Mass**  
+     Leave this field at the default setting unless instructed otherwise.
+
+   - **Start and End Dates**  
+     Request a **two-night observation window** to allow flexibility for the telescope team.
+
+**Important Notes for Shifters**
+
+Maintaining **accurate and up-to-date photometry** on SkyPortal is critical. Shifters rely on this information to responsibly determine if a follow-up is needed. Please do not let a shift pass without:
+
+- Uploading all processed images and synthesize them when possible.
+- Attach relevant GCN circulars to the photometry table.
+- Use this data to judge whether continued observation in a specific filter is scientifically justified.
+
+> **Science tip:**  
+> Kilonovae typically **rise in the blue/UV bands** and **fade in the red/NIR**. Monitoring their evolution with the appropriate filters helps confirm their nature.
 
 ### **8.2.4 Monitoring Observation Plans**
 - View submitted plans on the source page.  
@@ -116,23 +159,8 @@ Exposure time and count are variable. A default is usually 10 images by 300 seco
 
 ## 8.3 Uploading Photometry
 
-Information about uploading photometry can be found in the data anlysis manual for STDWeb. However, here is some general information regarding filters within the GRANDMA system. 
 
-Some filter systems are commonly associated with specific magnitude systems. For example:
-
-SDSS filters (u’, g’, r’, i’, z’) are typically calibrated in the AB system.
-Johnson-Cousins filters (e.g., U, B, V, R, I), also referred to as Bessel filters, are often calibrated in Vega magnitudes.
-Many near-infrared filters (J, H, K from the 2MASS system) also use the Vega system.
-
-When a counterpart is detected, use the UVOT counterpart coordinates immediately, if available. If SWIFT UVOT does not detect a counterpart, use the coordinates from other telescopes detecting the counterpart. Update to the most accurate counterpart coordinates available, even if not provided by SWIFT/UVOT.
-
-**General guidelines:**
-- Use an air mass of 1.8 across all telescopes.
-- If a gain is not specified, default to a value of 1, as gains may vary slightly across telescopes. If a gain is missing in the header and causes an inspection error, consult the telescope team for the correct gain.
-- If the limiting magnitude (upper limit) is unknown, make an estimated guess and leave a note. The upper limit is not typically used if a magnitude and error are provided.
-- Finally, include the coordinates used in the analysis file, especially if obtained from STDWeb, the telescope team, or a GCN notice. Do not wait to add data to the table if coordinates are missing; just ensure they’re added once available.
-
-### **8.3.1 Force Photometry with ATLAS**
+### **8.3.2 Force Photometry with ATLAS**
 
 - Navigate to **"Observability"** and run force photometry for archival data.  
 - Recommended search windows:  
