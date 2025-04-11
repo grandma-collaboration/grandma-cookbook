@@ -5,10 +5,10 @@ A GCN (Gamma-ray Coordinates Network) Circular is released when GRANDMA has obta
 ## Who Writes the GCN?
 
 The responsibility for drafting a GCN typically falls to:
-- The **Weekly Coordinator** or
+- The **Weekly Coordinator** 
 - The **scientist currently observing**.
 
-However, if you are the FA on duty and others are unavailable, you may need to initiate or draft the GCN yourself. If images are being uploaded or observations are being processed, it’s appropriate to ask the Core Team:  
+However, if you are the FA on duty and others are unavailable, you may need to initiate or draft the GCN yourself. If images are being uploaded or observations are being processed, it’s appropriate to ask the Core Team or consult the **GRB Chair** for confirmation.
 > *“Are we releasing a GCN?”*
 
 ---
@@ -24,7 +24,7 @@ GCNs are used to:
 
 ## When to Release
 
-- A GCN should be released **after the first images are obtained and reduced**, especially if upper limits can be reported.
+- A GCN should be released **after the first images are obtained and reduced**, especially if a detection has been made or upper limits can be reported.
 - GCNs may summarize observations from a **single telescope** or **multiple telescopes** within the GRANDMA network.
 - GCN release timing may depend on the **Core Team’s guidance** or scientific significance of the event.
 
@@ -56,7 +56,6 @@ GCNs are used to:
 
 ### In Case of **Detection**:
 
-- The **GRB Chairs** should be consulted regarding scientific communication.
 - If GRANDMA has contributed a **significant fraction of the data** (e.g., ≥50% of the planned cadence), a **GRANDMA-led paper** may be initiated.
 - If GRANDMA has limited data, we may **offer data to another team’s publication**, ensuring proper credit.
 - To coordinate joint publications, we are establishing points of contact with collaborations such as:
