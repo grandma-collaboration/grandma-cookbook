@@ -1,7 +1,8 @@
-# The Workflows
+# 3. The Workflows
 
 ### Think Like an Observer  
-The most important aspect of GRANDMA is ensuring **rapid and efficient response**. Timely follow-up and communication are essential.
+
+The most important aspect of GRANDMA is ensuring **rapid and efficient response**. Timely follow-up and communication are essential. Below are the two types of *general* workflows within GRANDMA for follow up: new and ongoing follow up. 
 
 ---
 
