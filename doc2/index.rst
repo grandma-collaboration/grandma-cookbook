@@ -13,17 +13,16 @@ User Guide
    1_Utilities
    2_Shift_Enrolling
    3_workflow
-   GW_followup
-   GRB_followup
-   4_Types_Alerts
-   5_Notifying_Telescope
-   7_Get_Observation_Plan
-   8_Skyportal_Use
-   Shift_Team_Documents
-   9_FA_Checklist
-   10_Writing_GCN
-   11_Assessment
-   12_Transcripts
+   4_GW_followup
+   5_GRB_followup
+   6_Types_Alerts
+   7_Notifying_Telescope
+   8_Get_Observation_Plan
+   9_Skyportal_Use
+   10_Shift_Team_Documents
+   11_Writing_GCN
+   12_Assessment
+   13_Transcripts
    Acknowledgments
 
 .. Indices and tables
