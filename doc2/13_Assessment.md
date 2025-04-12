@@ -1,6 +1,6 @@
-# 11. Follow-Up Advocate (FA) Manual: Exercise Sheet
+# 13. Follow-Up Advocate (FA) Manual: Exercise Sheet
 
-## Section 1: Multiple-Choice Questions
+## Section 13.1: Multiple-Choice Questions
 
 1. **What is the primary role of the Follow-Up Advocate (FA) during a gravitational wave alert?**
    - a) To analyze the data from the telescopes  
@@ -26,7 +26,7 @@
    - c) No, we only upload photometry for the events we are observing.  
    - d) Yes, all are added to the photometry table.  
 
-## Section 2: Short Answer Questions
+## Section 13.2: Short Answer Questions
 
 1. **What do you include in skyportal comments for an alert? Can you give an example?**  
 2. **Describe the process for determining whether a gravitational wave alert is high-profile.**  
@@ -39,7 +39,7 @@
 9. **What is the role of a follow-up advocate? What about a weekly coordinator?**  
 10. **What should you do when you start and end your shift?**
 
-## Section 3: Scenario-Based Questions
+## Section 13.3: Scenario-Based Questions
 
 ### Scenario 1:
 **Context:** You receive a gravitational wave alert that appears to be a BNS merger within 150 Mpc, and the localization area is 180 deg².  
@@ -53,7 +53,7 @@
 **Context:** After initial observations, a transient candidate is identified by an external team. An object is found in the images.  
 **Question:** Do we send a GCN report or wait for the analysis? If yes, what is included? If not, what is preventing you?
 
-## Section 4: Scenarios Part II
+## Section 13.4: Scenarios Part II
 
 ### Scenario 1: GW Candidate S230621ab  
 **Context:** You receive an alert for GW candidate S230621ab during your shift. The alert arrives at 02:30 UTC and is detected by three interferometers.  
