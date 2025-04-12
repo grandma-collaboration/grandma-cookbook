@@ -1,8 +1,8 @@
-# 10. GCN Release Protocol
+# 12. GCN Release Protocol
 
 A GCN (Gamma-ray Coordinates Network) Circular is released when GRANDMA has obtained images or upper limits from an alert observation. GCNs serve as a formal method of reporting GRANDMA’s observational status to the broader community.
 
-## Who Writes the GCN?
+## 12.1 Who Writes the GCN?
 
 The responsibility for drafting a GCN typically falls to:
 - The **Weekly Coordinator** 
@@ -13,7 +13,7 @@ However, if you are the FA on duty and others are unavailable, you may need to i
 
 ---
 
-## Purpose of a GCN
+## 12.2 Purpose of a GCN
 
 GCNs are used to:
 - Acknowledge the **detection** of a source or **non-detection** (upper limits).
@@ -22,7 +22,7 @@ GCNs are used to:
 
 ---
 
-## When to Release
+## 12.3 When to Release
 
 - A GCN should be released **after the first images are obtained and reduced**, especially if a detection has been made or upper limits can be reported.
 - GCNs may summarize observations from a **single telescope** or **multiple telescopes** within the GRANDMA network.
@@ -30,7 +30,7 @@ GCNs are used to:
 
 ---
 
-## How to Prepare a GCN
+## 12.4 How to Prepare a GCN
 
 1. **Check OwnCloud**:  
    - Navigate to the relevant alert folder under `Candidates` for a GCN draft or template.
@@ -52,9 +52,9 @@ GCNs are used to:
 
 ---
 
-## Science & Publication Protocols
+## 12.5 Science & Publication Protocols
 
-### In Case of **Detection**:
+**In Case of Detection:**
 
 - If GRANDMA has contributed a **significant fraction of the data** (e.g., ≥50% of the planned cadence), a **GRANDMA-led paper** may be initiated.
 - If GRANDMA has limited data, we may **offer data to another team’s publication**, ensuring proper credit.
@@ -65,14 +65,14 @@ GCNs are used to:
   - Colibri
   - EP
 
-### In Case of **Non-Detection**:
+ **In Case of Non-Detection:**
 
 - Non-detections (upper limits) may still be scientifically valuable.
 - If the **upper limits are deep or numerous**, the GRB group may recommend:
   - Writing a **GCN Circular**  
   - Including the data in a **“1-per-year” backup science paper** led by GRANDMA
 
-#### Scientific framing for upper limits may include:
+**Scientific framing for upper limits may include:**
 - High-density environments (e.g., **faint X-ray rich GRBs**):  
   Example: [GRB 040403 (INTEGRAL)](https://arxiv.org/abs/astro-ph/0412012)
 - Dust obscuration and dark GRBs:  
@@ -81,9 +81,9 @@ GCNs are used to:
 
 ---
 
-## Example GCN Text
+## 12.5.1 Example GCN Text
 
-### In Case of Detection:
+**In Case of Detection:**
 
 **Subject:** Event Initial (GW,GRB,EP,etc) YYDDMMX GRANDMA/Kilonova Catcher Detections (if KNC data is present)
 
@@ -105,7 +105,7 @@ GRANDMA is a worldwide telescope network (grandma.ijclab.in2p3.fr) devoted to th
 
 ---
 
-### In Case of Non-Detection:
+**In Case of Non-Detection:**
 
 **Subject:** Event Initial (GW,GRB,EP,etc) YYDDMMX GRANDMA/Kilonova Catcher Observations (if KNC data is present)
 
@@ -142,7 +142,7 @@ GRANDMA is a worldwide telescope network (grandma.ijclab.in2p3.fr) devoted to th
 (IF KNC DATA: Kilonova-Catcher (KNC) is the citizen science program of GRANDMA (http://kilonovacatcher.in2p3.fr/).)
 
 ---
-## Additional Resources
+## 12.6 Additional Resources
 
 - Full archive of GRANDMA’s GCNs: [GCN Circular Database](https://gcn.nasa.gov/circulars?query=GRANDMA&startDate=&endDate=)  
 - Sarah Antier's video training on GCN writing: ["Source Candidates of GW – Advice"](https://www.youtube.com/watch?v=u7M2Xhf2c5U&t=707s)  
