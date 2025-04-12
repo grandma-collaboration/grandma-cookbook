@@ -12,7 +12,7 @@ User Guide
 
    1_Utilities
    2_Shift_Enrolling
-   workflow
+   3_workflow
    GW_followup
    GRB_followup
    4_Types_Alerts
