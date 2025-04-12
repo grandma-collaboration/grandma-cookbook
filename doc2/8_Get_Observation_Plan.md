@@ -1,6 +1,6 @@
-# 7. Get the Observation Plan (Only for Telescope Teams)
+# 8. Get the Observation Plan (Only for Telescope Teams)
 
-## 7.1 Retrieve Your Data Promptly After a GW Alert
+## 8.1 Retrieve Your Data Promptly After a GW Alert
 
 1. **Notification**:
    - You received a notification of a GW alert on Slack (#gwalerts).
@@ -28,7 +28,7 @@
      - Be cautious as column names and numbers might not be well aligned.
      - The file includes the tile ID, RA and DEC coordinates, probability, and times in UTC.
 
-## 7.2 Retrieve Data for Follow-Up
+## 8.2 Retrieve Data for Follow-Up
 
 1. **Follow-Up Advocate Query**:
    - When the follow-up advocate flags a source as GO GRANDMA, you will receive an email indicating that you need to follow up.
@@ -36,14 +36,14 @@
 ![Email Alert](media/telescope_team5.png)
 
 
-## 7.3 Notify the Follow-Up Advocate
+## 8.3 Notify the Follow-Up Advocate
 
 1. **Inform GRANDMA**:
    - Once you have the information and are ready to observe, notify the rest of GRANDMA:
      - Post in #observations on Slack.
      - Contact the individual on shift or the weekly coordinator. This information will be evident in #Shifters.
 
-## 7.4 Reporting Observations
+## 8.4 Reporting Observations
 
 1. **On Slack (#observations)**:
    - Write a message to inform about your observations:
