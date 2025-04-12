@@ -12,10 +12,10 @@ For GW events, **when the plans arrive**, you can contact the telescopes individ
 
 For example, a message notifying `#observations` about an alert could look like this: 
 
-This example is for a GW alert: 
+**This example is for a GW alert:**
 ![Example 1](media/example1ReportObs.png)
 
-The second example is for a GRB alert from a GCN event. 
+**The second example is for a GRB alert from a GCN event:**
 
 > GO GRANDMA: GRB 250221A Swift detection of a burst with an optical counterpart, GCN 39396. Uncertainty of 3 arcmin.
 
