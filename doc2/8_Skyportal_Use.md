@@ -13,7 +13,7 @@ A source page is where all the science and activity occurs. Once you have it gen
 
 ### **8.1.1 Create a Source Page**
 
-You create a `Source` page when you decide you are following up on an event.
+You create a `Source` page when you decide you are following up on an event or a possible optical candidate for a GW event. GW Events can have many possible counterparts when we are searching for it.
 
 - **Step 1:** Navigate to the SkyPortal homepage.  
 - **Step 2:** Go to Sources page. Click on the '+' sign in upper right hand corner and **"Add Source."**  
@@ -83,7 +83,15 @@ Simply, click on the 'pencil' icon on the `Source` page and search for a start t
 
 ![GCN Crossmatch](media/gcncm.png)
 
-### **8.1.8 Summaries**
+### **8.1.8 SkyPortal Comments**
+Did you do anything involving the science during your shift? Add a GCN event to the photometry table? Analyzed images? Added the redshift? Updated the coordinates? Requested observations? Recieved feedback about who is observing? Updated the summary? 
+
+ADD IT TO SKYPORTAL COMMENTS! Any actvity you complete, needs to be left as a comment for the collaboration to be able to review quickly for a single event. In general, you should write down for your **Shift Logs** which will be discussed in another section. However, a quick and easy place to do this is in the SkyPortal comments section. Two birds, one stone! 
+
+![Screenshot of comments section on Skyportal.](media/Skyportalcomments.png)
+
+
+### **8.1.9 Summaries**
 
 At the start of observations, make sure to add a summary to the source page. This is the template:
 
