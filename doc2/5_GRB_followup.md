@@ -1,8 +1,9 @@
-## Determining GRB Follow Up
+## 5. Determining GRB Follow Up
 
-### What GRBs Should Be Observed?
+GRB follow-up in GRANDMA is guided by scientific interest, localization quality, and operational feasibility. GRB events are reported in the GCN Circulars. 
 
-GRB follow-up in GRANDMA is guided by scientific interest, localization quality, and operational feasibility. GRB events are reported in the GCN Circulars. The following classes of GRBs are prioritized:
+## 5.1 What GRBs Should Be Observed?
+The following classes of GRBs are prioritized:
 
 1. **Long GRBs with X-ray Counterparts**  
    - These may indicate X-ray-rich, optically faint bursts in high-density environments (possibly merger-driven).  
@@ -31,7 +32,7 @@ GRB follow-up in GRANDMA is guided by scientific interest, localization quality,
 
 ---
 
-### Operational Notes on GRB Alerts
+### 5.1.1 Operational Notes on GRB Alerts
 
 - **GRB alerts are not automatically ingested into Slack or SkyPortal** like GW alerts are.
 - GRBs are **announced through GCN Circulars**, which must be monitored via email.
@@ -45,7 +46,7 @@ GRB follow-up in GRANDMA is guided by scientific interest, localization quality,
 
 ---
 
-### Procedure for Observing GRBs
+## 5.2 Procedure for Observing GRBs
 
 1. **Trigger the GRANDMA Network**  
    - Share alert and relevant context via **email and Slack**.  
