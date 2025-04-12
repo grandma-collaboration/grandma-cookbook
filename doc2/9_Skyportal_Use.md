@@ -1,17 +1,17 @@
-# 8. Skyportal: Creating Sources, Observation Plans and Uploading Photometry for Follow-up Advocates
+# 9. Skyportal: Creating Sources, Observation Plans and Uploading Photometry for Follow-up Advocates
 
-## 8.1 Sources & Event Management
+## 9.1 Sources & Event Management
 This section goes over what needs to be done in **SkyPortal** after you have determined an event is worth following up on. 
 
 **First, we need to know the difference between a `GCN Event Page` and a `Source` Page.**
 
-A GCN Event Page (which can be found in the 'GW/GRB/Neutrino' tab) is what is automatically generated and where you can create observation plans (learn more about Observation Plans in 8.2.2). We do not do science on this page. An example of this page is below. 
+A GCN Event Page (which can be found in the 'GW/GRB/Neutrino' tab) is what is automatically generated and where you can create observation plans (learn more about Observation Plans in 9.2.2). We do not do science on this page. An example of this page is below. 
 
 ![Aliases](media/aliasesskyportal.png)
 
 A source page is where all the science and activity occurs. Once you have it generated, you can find it in `Sources` in SkyPortal. 
 
-### **8.1.1 Create a Source Page**
+### **9.1.1 Create a Source Page**
 
 You create a `Source` page when you decide you are following up on an event or a possible optical candidate for a GW event. GW Events can have many possible counterparts when we are searching for it.
 
@@ -27,14 +27,14 @@ You create a `Source` page when you decide you are following up on an event or a
 
 **IMPORTANT:** Rarely, some GCN events automatically generate a source page. This occurs when an optical counterpart is indentified and it has been reported to the [Transient Network System (TNS)](https://www.wis-tns.org/). So, check the *sources* page to see if there are any events near T0 that could be associated with a GCN Circular or a GW alert. 
 
-### **8.1.2 Adding Classifications**
+### **9.1.2 Adding Classifications**
 Classifications provide clarity on the status and priority of the source. 
 
 **Two cases when you handle classification:**
 
 - When you have created a new source, add a classification. 
 
-- When a new alert comes in through skyportal via email (either a GRB or GW event), check to see if a classification needs to be adjusted. Sometimes, events are labeled `Signifigant` and `GO GRANDMA` when they are not. These classifications will pop up on the header of each page and can be manually removed. You can see an example in 8.1.3.
+- When a new alert comes in through skyportal via email (either a GRB or GW event), check to see if a classification needs to be adjusted. Sometimes, events are labeled `Signifigant` and `GO GRANDMA` when they are not. These classifications will pop up on the header of each page and can be manually removed. You can see an example in 9.1.3.
 
 - Scroll to the **"Classifications"** section.  
 - Select:  
@@ -50,13 +50,13 @@ Classifications provide clarity on the status and priority of the source.
 
 ![SkyPortal Classification](media/classification.png)
 
-### **8.1.3 Adding and Removing Tags**
+### **9.1.3 Adding and Removing Tags**
 - To **add a tag**, click on the `+` button near the tags section underneath the source name and enter your desired tag (e.g., `I Care`).  
 - To **remove a tag**, hover over it and click the trash bin icon. Confirm deletion.
   
 ![SkyPortal Tags](media/sptags.png)
 
-### **8.1.4 Aliases & Candidates**
+### **9.1.4 Aliases & Candidates**
 
 Aliases is the function on skyportal where you add your candidates or associated events. So, if we have a GW event, we make source pages for the event itself and for its potential optical candidates. We, then, add any of those possible sources or optical counterparts to the GCN Event Page, as seen in the example below.
 
@@ -64,18 +64,18 @@ Click the '+' Symbol and add the name of the associated event as it is found in 
 
 ![Aliases](media/aliasesskyportal.png)
 
-### **8.1.5 When do you update the coordinates in the source page?**
+### **9.1.5 When do you update the coordinates in the source page?**
 
 When a counterpart is detected, use the UVOT counterpart coordinates immediately, if available. If SWIFT/UVOT does not detect a counterpart, use the coordinates from other telescopes detecting the counterpart. Update to the most accurate counterpart coordinates available, even if not provided by SWIFT/UVOT. So, those with the smallest uncertainty in arcseconds. 
 
-### **8.1.6 Redshift**
+### **9.1.6 Redshift**
 When you recieve a redshift from a GCN for a GRB event, go to the header of your `Source` page and click the 'pencil' icon. 
 
 Add in your value and error, if provided. Then, in redshift 'Origin', put the GCN number (e.g., GCN #####). 
 
 ![Redshift](media/redshift.png)
 
-### **8.1.7 GCN Crossmatches**
+### **9.1.7 GCN Crossmatches**
 
 GCN Crossmatches connects your `Source` page to the associated GCN Event Page. 
 
@@ -83,7 +83,7 @@ Simply, click on the 'pencil' icon on the `Source` page and search for a start t
 
 ![GCN Crossmatch](media/gcncm.png)
 
-### **8.1.8 SkyPortal Comments**
+### **9.1.8 SkyPortal Comments**
 Did you do anything involving the science during your shift? Add a GCN event to the photometry table? Analyzed images? Added the redshift? Updated the coordinates? Requested observations? Recieved feedback about who is observing? Updated the summary? 
 
 ADD IT TO SKYPORTAL COMMENTS! Any actvity you complete, needs to be left as a comment for the collaboration to be able to review quickly for a single event. In general, you should write down for your **Shift Logs** which will be discussed in another section. However, a quick and easy place to do this is in the SkyPortal comments section. Two birds, one stone! 
@@ -91,7 +91,7 @@ ADD IT TO SKYPORTAL COMMENTS! Any actvity you complete, needs to be left as a co
 ![Screenshot of comments section on Skyportal.](media/Skyportalcomments.png)
 
 
-### **8.1.9 Summaries**
+### **9.1.9 Summaries**
 
 At the start of observations, make sure to add a summary to the source page. This is the template:
 
@@ -105,9 +105,9 @@ As optical counterparts (candidates) are found, updates the coordinates on the s
 
 ---
 
-## 8.2 Observability, Observation Plans and Follow-Up Requests
+## 9.2 Observability, Observation Plans and Follow-Up Requests
 
-### **8.2.1 Observability**
+### **9.2.1 Observability**
 
 An observability plot shows which telescopes in a network can observe a target over time. This tool is used to plan follow-up observations by helping you identify which telescopes are currently available or will become available soon, when the target is visible at each site, and which stations are best suited for submitting observation requests. This plot will update as time progresses. Make sure to produce a new plot for each shift. 
 
@@ -136,7 +136,7 @@ How do you determine who can observe from this plot?
   - **Purple** indicates good visibility.  
   - **Gradients** indicate twilight or dawn.
 
-### **8.2.2 Creating an Observation Plan**
+### **9.2.2 Creating an Observation Plan**
 
 Follow-Up Advocates (or Shifters) will not need to generate Observation Plans. But, it is an important aspect of SkyPortal to familiarize yourself with in the event a telescope operator requests you to generate them. 
 
@@ -165,7 +165,7 @@ Use the sources query list and a galaxy catalog (e.g., CLU) to match potential h
 ![Observation Plan Example](media/observationplanex.png)
 
 
-### **8.2.3 Submitting a Follow-Up Request**
+### **9.2.3 Submitting a Follow-Up Request**
 
 Follow-up requests are generated when we wish to **automatically trigger a robotic telescope** to observe a transient. After submitting a request, please ensure you **contact a member of the associated telescope team**. 
 
@@ -222,7 +222,7 @@ Maintaining **accurate and up-to-date photometry** on SkyPortal is critical. Shi
 > **Science tip:**  
 > Kilonovae typically **rise in the blue/UV bands** and **fade in the red/NIR**. Monitoring their evolution with the appropriate filters helps confirm their nature.
 
-### **8.2.4 Monitoring Observation Plans**
+### **9.2.4 Monitoring Observation Plans**
 - View submitted plans on the source page.  
 - Check the **Observability Map** for real-time telescope availability:  
    - **Yellow Telescopes:** Daytime  
@@ -231,7 +231,7 @@ Maintaining **accurate and up-to-date photometry** on SkyPortal is critical. Shi
 
 ---
 
-## **8.3 Uploading Photometry**
+## **9.3 Uploading Photometry**
 
 Photometry must be uploaded to SkyPortal to track and visualize the transient's brightness evolution. This can be done in one of two ways:
 
@@ -246,7 +246,7 @@ Below is a general guide to filters and magnitude systems used within the GRANDM
 - **Johnson-Cousins filters** (`U`, `B`, `V`, `R`, `I`, also known as Bessel filters) → usually in **Vega magnitudes**.
 - **Near-infrared filters** (`J`, `H`, `K` from the 2MASS system) → typically in the **Vega system**.
 
-### **8.3.1 Uploading Photometry from GCN Circulars**
+### **9.3.1 Uploading Photometry from GCN Circulars**
 
 To manually add photometry from a GCN:
 
@@ -283,7 +283,7 @@ To manually add photometry from a GCN:
 
 > **Warning:** The alternate data input is highly sensitive to formatting. Always double-check your quotes and JSON syntax before submitting.
 
-### **8.3.2 Force Photometry with ATLAS**
+### **9.3.2 Force Photometry with ATLAS**
 
 Navigate to **"Force Photometry"** on your `Source` page and run force photometry for archival data.  
 - Recommended search windows:  
