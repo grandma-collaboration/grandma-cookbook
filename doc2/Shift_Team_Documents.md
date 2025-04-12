@@ -10,7 +10,7 @@ Shift logs are the **backbone of continuity and coordination** during observatio
 
 > **If it's not written down, it didn't happen.**
 ---
-Below is a template of what should be included in a shift log to monitor observations *as a team*. 
+Below is a template of what should be included in a shift log to monitor observations *as a team*. Particularly, we create these documents using google docs, due to its versatility. 
 
 ## Structure of a Shift Log
 
