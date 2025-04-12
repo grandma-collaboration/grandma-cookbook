@@ -36,7 +36,7 @@ For example, a message notifying `#observations` about an alert could look like 
 
 ## 5.2 Contact List 
 
-The list of telescope contacts, as of 2024, is available at this link: [Contact Telescope Teams](https://forge.in2p3.fr/attachments/download/213747/Contact%20Telescope%20teams-2.pdf). 
+The list of active telescope teams and their contacts, as of May 2025, is available at this link: [Contact Telescope Teams](). 
 
 Familiarize yourself with the information pertaining to each telescope. Refer to it prior to making any observation decisions or plans! 
 
@@ -44,7 +44,8 @@ If no slack contact is available and a telescope has good observability. Look th
 
 TAROT telescope teams do not need to be contacted before requesting follow up. The system can be initiated with a follow up request as seen in the section on the use of SkyPortal.
 
-Slack contacts are as follows:
+**As of May 2025:** The following is a list of **actively participating telescopes** and their teams. Their Slack contacts are as follows:
+
 - **@Nu**: TRT-SBO, TRT-GUAO
 - **@Aom**: TRT-SBO, TRT-GUAO
 - **@Haowei Peng**: Xinglong-TNT
