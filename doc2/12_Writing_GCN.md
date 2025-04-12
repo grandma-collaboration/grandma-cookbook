@@ -54,7 +54,7 @@ GCNs are used to:
 
 ## 12.5 Science & Publication Protocols
 
-**In Case of Detection:**
+### 12.5.1 In Case of Detection:
 
 - If GRANDMA has contributed a **significant fraction of the data** (e.g., ≥50% of the planned cadence), a **GRANDMA-led paper** may be initiated.
 - If GRANDMA has limited data, we may **offer data to another team’s publication**, ensuring proper credit.
@@ -65,7 +65,7 @@ GCNs are used to:
   - Colibri
   - EP
 
- **In Case of Non-Detection:**
+ ### 12.5.2 In Case of Non-Detection:
 
 - Non-detections (upper limits) may still be scientifically valuable.
 - If the **upper limits are deep or numerous**, the GRB group may recommend:
@@ -81,9 +81,9 @@ GCNs are used to:
 
 ---
 
-## 12.5.1 Example GCN Text
+## 12.6 Example GCN Text
 
-**In Case of Detection:**
+### 12.6.1 In Case of Detection:
 
 **Subject:** Event Initial (GW,GRB,EP,etc) YYDDMMX GRANDMA/Kilonova Catcher Detections (if KNC data is present)
 
@@ -105,7 +105,7 @@ GRANDMA is a worldwide telescope network (grandma.ijclab.in2p3.fr) devoted to th
 
 ---
 
-**In Case of Non-Detection:**
+### 12.6.2 In Case of Non-Detection:
 
 **Subject:** Event Initial (GW,GRB,EP,etc) YYDDMMX GRANDMA/Kilonova Catcher Observations (if KNC data is present)
 
@@ -142,7 +142,7 @@ GRANDMA is a worldwide telescope network (grandma.ijclab.in2p3.fr) devoted to th
 (IF KNC DATA: Kilonova-Catcher (KNC) is the citizen science program of GRANDMA (http://kilonovacatcher.in2p3.fr/).)
 
 ---
-## 12.6 Additional Resources
+## 12.7 Additional Resources
 
 - Full archive of GRANDMA’s GCNs: [GCN Circular Database](https://gcn.nasa.gov/circulars?query=GRANDMA&startDate=&endDate=)  
 - Sarah Antier's video training on GCN writing: ["Source Candidates of GW – Advice"](https://www.youtube.com/watch?v=u7M2Xhf2c5U&t=707s)  
