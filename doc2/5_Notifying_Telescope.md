@@ -92,6 +92,8 @@ As mentioned previously, it is ideal to have a small sky area for the GW alert. 
 
 The sky localization of the GW alerts given by the LVK collaborations usually looks like a banana shape (often large), and for this reason, we do not have only one localization of the source but several. Telescope teams will need to receive more than one localization to cover the entire sky map. Depending on the FOV of the telescopes, covering the entire sky map might be time-consuming. Instead of giving regions within the sky maps to observe, we select galaxies within it for targeting.
 
+**NOTE:** Make sure to send an email when stopping observation and to classify the source as `STOP GRANDMA` when done. 
+
 You can check out Sarah’s explanation here: [Watch Video](https://www.youtube.com/watch?v=msaYv1E_Cv8)
 
 
