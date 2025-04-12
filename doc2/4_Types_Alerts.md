@@ -1,6 +1,6 @@
-# 4. How to Respond to Different Astrophysical Alerts
+# 6. How to Respond to Different Astrophysical Alerts
 
-## 4.1 Responding to BBH Alerts 
+## 6.1 Responding to BBH Alerts 
 
 These alerts can be seen in #gwalerts and in SkyPortal. You follow up on these alerts with the same protocol as you do with GW alerts. Any difference is stated in its respective section. 
 
@@ -36,7 +36,7 @@ BBH follow-up is required if any of the following conditions are met:
 - **Generate Plan in SkyPortal**: Be mindful of bugs (e.g., TCH) and ensure you use the most updated alert version.
 - **Notify Team**: Email Sergey and Martin Masek for FRAM, Sarah Antier, and Alain Klotz for TAROT.
 
-## 4.2 Responding to IceCube Neutrino 
+## 6.2 Responding to IceCube Neutrino 
 
 These alerts will be found in GCN emails and SkyPortal (usually). 
 
@@ -48,7 +48,7 @@ These alerts will be found in GCN emails and SkyPortal (usually).
 - **Multiplicity**: Multiple neutrino detections from the same region indicate a strong astrophysical event.
 - **Detector Sensitivity**: High signal-to-noise ratios with minimal background are more reliable.
 
-## 4.3 Responding to Einstein Probe X-Ray Alerts 
+## 6.3 Responding to Einstein Probe X-Ray Alerts 
 
 This process is a little more vague. We are looking to see if the alert lies in the galactic plane and if there have been other high-energy phenomena detected around the time of this alert. If the galactic latitude is too low, it is a galactic event and you should pass on follow-up. Primarily, you will recieve a notice from Nicolas to follow up.
 
