@@ -42,6 +42,8 @@ Familiarize yourself with the information pertaining to each telescope. Refer to
 
 If no slack contact is available and a telescope has good observability. Look through document for the correspondent's email and inform the weekly coordinator, Cristina Andrade, or Sarah Antier.
 
+TAROT telescope teams do not need to be contacted before requesting follow up. The system can be initiated with a follow up request as seen in the section on the use of SkyPortal.
+
 Slack contacts are as follows:
 - **@Nu**: TRT-SBO, TRT-GUAO
 - **@Aom**: TRT-SBO, TRT-GUAO
