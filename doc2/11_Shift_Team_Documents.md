@@ -12,11 +12,11 @@ Shift logs are the **backbone of continuity and coordination** during observatio
 ---
 Below is a template of what should be included in a shift log to monitor observations *as a team*. Particularly, we create these documents using google docs, due to its versatility. 
 
-## Structure of a Shift Log
+## 11.1 Structure of a Shift Log
 
 Each shift entry should follow a standardized structure and be written directly in the **Team Shift Document** under the correct date and UTC range.
 
-## Template for Shift Entry
+## 11.1.1 Template for Shift Entry
 
 **Shift X – [Date] UTC [Start Time]–[End Time] ([Shifter Name])**
 
@@ -47,7 +47,7 @@ The end of each shift should include the following, when appropriate.
 - Tasks for next shifter
 - Any `STOP GRANDMA` decisions with justification
 
-## Keeping Track of Observation Campaigns, Images, & GCN Circulars 
+## 11.2 Keeping Track of Observation Campaigns, Images, & GCN Circulars 
 
 For busy weeks with any ongoing observations, especially when there is more than one (e.g., GRB250221A, GRB250226A), create individual subtabs in the shift google document for each event. This helps:
 - Isolate activity by target
