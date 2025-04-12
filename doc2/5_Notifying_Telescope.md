@@ -1,14 +1,6 @@
 # 5. Notifying Telescopes
 
-In GRANDMA, we notify telescopes via Slack. At the time of a quality alert, you will @channel and send details of the event. For example, a message notifying #observations about an alert could look like this: 
-
-![Example 1](media/example1ReportObs.png)
-
-The above example is for a GW alert. 
-
-![Example 2](media/example2ReportObs.png)
-
-The second example is for a GRB alert from a GCN event. 
+In GRANDMA, we notify telescopes via Slack. At the time of a quality alert, you will @channel and send details of the event. You will continue to do so for 24-48 hours as we look for a optical counterpart. If it is not found in that time, we stop observing by sending a message to `#observations`.
 
 ## 5.1 Contacting Telescopes 
 
@@ -18,7 +10,31 @@ For GRBs, make sure to include the GCN link and the coordinates when contacting 
 
 For GW events, **when the plans arrive**, you can contact the telescopes individually by tagging or “@contact_person” in the `#observations` channel as night arrives or if they are experiencing night when the alert arrives. When plans arrive, you send an email AND notify, again, in #observations.
 
-## 5.3 Contact List 
+For example, a message notifying `#observations` about an alert could look like this: 
+
+This example is for a GW alert: 
+![Example 1](media/example1ReportObs.png)
+
+The second example is for a GRB alert from a GCN event. 
+
+> GO GRANDMA: GRB 250221A Swift detection of a burst with an optical counterpart, GCN 39396. Uncertainty of 3 arcmin.
+
+>@channel Can you please observe?
+
+>Coordinates: 
+>RA, Dec 59.477, -15.139 which is 
+   RA(J2000) = 03h 57m 54s
+   Dec(J2000) = -15d 08' 18"
+
+>@Aom with TRT-SRO?
+>@Sergey Karpov @Martin Mašek with FRAM-CTA-N then FRAM-Auger?
+>@WAGNER CORRADI OPD/1.6m and 60m 
+
+>OwnCloud Link: https://grandma-owncloud.lal.in2p3.fr/index.php/apps/files/?dir=/Candidates/GRB/GRB250221A&fileid=1246869 
+
+>Source: https://skyportal-icare.ijclab.in2p3.fr/source/GRB250221A
+
+## 5.2 Contact List 
 
 The list of telescope contacts, as of 2024, is available at this link: [Contact Telescope Teams](https://forge.in2p3.fr/attachments/download/213747/Contact%20Telescope%20teams-2.pdf). 
 
