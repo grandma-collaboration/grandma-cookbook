@@ -12,37 +12,36 @@ Shift logs are the **backbone of continuity and coordination** during observatio
 ---
 Below is a template of what should be included in a shift log to monitor observations *as a team*. Particularly, we create these documents using google docs, due to its versatility. 
 
-## 11.1 Structure of a Shift Log
+## 11.1 Structure of a Shift Log Document
 
 Each shift entry should follow a standardized structure and be written directly in the **Team Shift Document** under the correct date and UTC range.
 
-## 11.1.1 Template for Shift Entry
+### Template for Shift Entry
+The end of each shift should include the following, when appropriate. 
 
 **Shift X – [Date] UTC [Start Time]–[End Time] ([Shifter Name])**
 
-The end of each shift should include the following, when appropriate. 
-
-### 1. General
+**1. General**
 - Notable observations or alerts
 - Any decisions made (e.g., STOP GRANDMA, new trigger)
 
-### 2. Telescope Contacts
+**2. Telescope Contacts**
 - Telescopes contacted
 - Method of contact (Slack/email)
 - Response received (Yes/No/Observed)
 
-### 3. Image Status
+**3. Image Status**
 - Images received
 - Images uploaded to OwnCloud 
 - Photometry performed (Yes/No)
 - Uploaded to SkyPortal (Yes/No)
 
-### 4. GCN Activity
+**4. GCN Activity**
 - GCNs added to SkyPortal
 - New GCNs that came in during the shift
 - Drafted/published GCNs (link if possible)
 
-### 5. Comments & To-Dos
+**5. Comments & To-Dos**
 - Issues encountered (weather, response delays, data problems)
 - Tasks for next shifter
 - Any `STOP GRANDMA` decisions with justification
@@ -54,13 +53,13 @@ For busy weeks with any ongoing observations, especially when there is more than
 - Track telescope responses and data uploads per source
 - Organize summary tables, comments, and plans
 
-### Subtab: Images Table
+### 11.2.1 Subtab: Images Table
 For each event, include a table tracking image activity:
 | # | Image Name |   | STDweb Link | Uploaded to SkyPortal (Y/N) |   |   |
 |---|------------|---|-------------|------------------------------|---|---|
 |   |            |   |             |                              |   |   |
 
-### Subtab: GCN Table 
+### 11.2.2 Subtab: GCN Table 
 | GCN # | Related Event | Instrument | Type (Photometry/Redshift/Localization) | Uploaded to SP (Y/N) |
 |-------|----------------|------------|------------------------------------------|------------------------|
 | 39417 | GRB250221A     | TAROT      | Detection                                | Y                      |
