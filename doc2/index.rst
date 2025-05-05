@@ -1,4 +1,4 @@
-The Global Rapid Advanced Network Devoted to the Multi-messenger Addicts (GRANDMA) cookbook
+Global Rapid Advanced Network Devoted to the Multi-messenger Astronomer (GRANDMA) Cookbook
 =====================================================
 **Currently, under construction. As of April 10th - Cristina Andrade**
 
