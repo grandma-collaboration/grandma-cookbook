@@ -2,7 +2,7 @@
 
 When planning follow-up, it’s important to select telescopes based not only on when it is night at their location, but also on whether they can **observe the transient at the required depth**.
 
-> Observability (see Section 9.2.1) helps you determine **which telescopes are in darkness and when**. However, it does **not** tell you:
+Observability (see Section 9.2.1) helps you determine **which telescopes are in darkness and when**. However, it does **not** tell you:
 > - Whether a telescope is **sensitive enough** to reach the target magnitude,
 > - How many images you should request,
 > - What **exposure time** is needed to detect or constrain the event.
