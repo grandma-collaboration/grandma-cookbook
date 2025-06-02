@@ -169,6 +169,8 @@ Use the sources query list and a galaxy catalog (e.g., CLU) to match potential h
 
 Follow-up requests are generated when we wish to **automatically trigger a robotic telescope** to observe a transient. After submitting a request, please ensure you **contact a member of the associated telescope team**. 
 
+You will select a telescope based on the observability plot (9.2.1) and determine exposure and filter based on the telescope's size and the brightness of the event (Section 7). 
+
 Currently, we support robotic follow-up requests for the following instruments:  
 **TAROT, TRT, AbAO, UBAI, OPD**.  
 
