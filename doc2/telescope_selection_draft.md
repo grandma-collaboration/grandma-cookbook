@@ -44,7 +44,7 @@ You can find this information directly in **SkyPortal**:
 > **Example**:  
 > A telescope with **0.4 m diameter** (like KNC-StGelais) is suitable for events up to ~19.5 mag, with 4–6 images of ~300 seconds each.
 
-![SkyPortal Instruments Screenshot](skyportal_telescopes.png)
+![SkyPortal Instruments Screenshot](media/skyportal_telescopes.png)
 
 ---
 
