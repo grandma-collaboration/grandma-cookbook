@@ -164,8 +164,17 @@ Use the sources query list and a galaxy catalog (e.g., CLU) to match potential h
 
 ![Observation Plan Example](media/observationplanex.png)
 
+### **9.2.3 Monitoring Observation Plans**
+- View submitted plans on the source page.  
+- Check the **Observability Map** for real-time telescope availability:  
+   - **Yellow Telescopes:** Daytime  
+   - **Blue Telescopes:** Nighttime  
+- Prefer notifying telescopes at least two hours before nighttime.  
 
-### **9.2.3 Submitting a Follow-Up Request**
+---
+
+
+## **9.3 Submitting a Follow-Up Request**
 
 Follow-up requests are generated when we wish to **automatically trigger a robotic telescope** to observe a transient. After submitting a request, please ensure you **contact a member of the associated telescope team**. 
 
@@ -176,7 +185,7 @@ Currently, we support robotic follow-up requests for the following instruments:
 
 **Note:** Only **TAROT** supports *fully robotic* triggering without the need to contact the telescope PI.
 
-### How to Submit a Follow-Up Request
+**How to Submit a Follow-Up Request:**
 
 1. **Navigate to the Source Page**  
    Go to the event’s source page in SkyPortal and click the **“Follow-Up”** tab.
@@ -224,16 +233,8 @@ Maintaining **accurate and up-to-date photometry** on SkyPortal is critical. Shi
 > **Science tip:**  
 > Kilonovae typically **rise in the blue/UV bands** and **fade in the red/NIR**. Monitoring their evolution with the appropriate filters helps confirm their nature.
 
-### **9.2.4 Monitoring Observation Plans**
-- View submitted plans on the source page.  
-- Check the **Observability Map** for real-time telescope availability:  
-   - **Yellow Telescopes:** Daytime  
-   - **Blue Telescopes:** Nighttime  
-- Prefer notifying telescopes at least two hours before nighttime.  
 
----
-
-## **9.3 Uploading Photometry**
+## **9.4 Uploading Photometry**
 
 Photometry must be uploaded to SkyPortal to track and visualize the transient's brightness evolution. This can be done in one of two ways:
 
@@ -248,7 +249,7 @@ Below is a general guide to filters and magnitude systems used within the GRANDM
 - **Johnson-Cousins filters** (`U`, `B`, `V`, `R`, `I`, also known as Bessel filters) → usually in **Vega magnitudes**.
 - **Near-infrared filters** (`J`, `H`, `K` from the 2MASS system) → typically in the **Vega system**.
 
-### **9.3.1 Uploading Photometry from GCN Circulars**
+### **9.4.1 Uploading Photometry from GCN Circulars**
 
 To manually add photometry from a GCN:
 
@@ -285,7 +286,7 @@ To manually add photometry from a GCN:
 
 > **Warning:** The alternate data input is highly sensitive to formatting. Always double-check your quotes and JSON syntax before submitting.
 
-### **9.3.2 Force Photometry with ATLAS**
+### **9.4.2 Force Photometry with ATLAS**
 
 Navigate to **"Force Photometry"** on your `Source` page and run force photometry for archival data.  
 - Recommended search windows:  
