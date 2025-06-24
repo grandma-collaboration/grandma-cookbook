@@ -2,11 +2,7 @@
 
 In GRANDMA, we notify telescopes via Slack. At the time of a quality alert, you will @channel and send details of the event AND send an email to the collaboration. You will continue to do so for 24-48 hours as we look for a optical counterpart. If it is not found in that time, we stop observing by sending a message to `#observations`.
 
-## 7.1 Which telescopes do I select to observe? 
-
-
-
-## 7.2 Contacting Telescopes 
+## 7.1 Contacting Telescopes 
 
 **Once you have determined observability, send a message in #observations with the name of the event (S###### or GRBYYMMDD) and then tag the telescope representative.**
 
