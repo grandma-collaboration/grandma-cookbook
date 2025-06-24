@@ -13,6 +13,7 @@ User Guide
    1_Utilities
    2_Shift_Enrolling
    3_workflow
+   FA_Checklist
    4_GW_followup
    5_GRB_followup
    6_Types_Alerts
@@ -20,7 +21,6 @@ User Guide
    8_Get_Observation_Plan
    9_Skyportal_Use
    STDWeb_Handbook
-   10_FA_Checklist
    11_Shift_Team_Documents
    12_Writing_GCN
    13_Assessment
