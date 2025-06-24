@@ -1,40 +1,39 @@
-# 10. Weekly Coordinator & Shifter’s Checklist
+# 10. Responsibilities of the Shifter (FA) & Weekly Coordinator
 
 This will provide an outline to the duties expected of the Weekly Coordinator and their Shifters. 
 
 ---
+## 10.1 Shifter's (Follow-Up Advocate) Responsibilities
 
-## 10.1 Weekly Coordinator Checklist
+What does "in charge of triggering and operating GRANDMA" mean? (June 2025)
 
-Weekly Coordinators (WCs) lead the week of shifts and are expected to make sure that their Shifter's are following their responsibilities and reaching out for support when needed. 
+- The FA is in charge of:
+  - Evaluating if the GRB is interesting or not and which telescopes can be triggered. This is based on their usage frequency and capabilities (see table below).
+  - Triggering the appropriate telescopes.
+  - Requesting that online **measurements** (not just images in owncloud) are uploaded to **Skyportal** by the observational(telescope) teams
+  - Checking results based only on GCN and internal measurements of GRANDMA in Skyportal (is it fading ?)
+  - **Not analyzing images themselves** — image analysis is done by the observer or the team, or in very particular cases, by the FA's team or DAG.
 
-### 10.1.1 Communication & Readiness
+- **Only measurements present in Skyportal are considered valid, not just observations.** We expect images to be analyzed and the the measurements to be uploaded 24 hours post-request for the standard case.  A professional image uploaded to Owncloud without an associated measurement in Skyportal is **not validated**.
 
-- [ ] Make sure **Operation: Shifts** spreadsheet and **SkyPortal** are up to date for accurate communication between shifts.
-- [ ] Check that each shifter has access to necessary utilities and are trained. Report to Cristina if training is needed. 
-- [ ] Reach out to shifters at the **start of the week** to confirm their preparation.
-- [ ] Be available as the **first point of contact** for shifter questions and technical issues.
+More specifically,
 
+- The role of the FA is not just to request observations (on Slack), but to:
+  - Monitor the optical counterpart localization and its localization uncertainty (sometimes we have only a localization from gamma-ray or X-ray), and refresh this localization in SP
+  - Annotate Skyportal (Which type of GRB, Group management, Feedback from observational teams, and analysis)
+  - Provide, Type of source, Localization, filter, exposure, expected magnitude, AND specific time ranges of observations (e.g, within a day? within 6h? etc.)
+  - Organize revisits (do not ask only one observation)
+  - Monitor the expected fading rate and check consistency
 
-### 10.1.2 Shift Oversight
+When triggering an observation to an observational team, the FA must provide:
 
-- [ ] Confirm that **shifters are logging all actions properly** in the shift log document (Section 11).
-- [ ] Ensure **SkyPortal is updated** with (Section 9):
-  - Source summaries
-  - Photometry
-  - Comments on decisions or activity
-- [ ] Review **GCN entries** and check that key GCNs are added to the appropriate tables in the log document (Section 11).
-- [ ] Verify that **all image data is uploaded** to OwnCloud and processed or flagged for review (Section 9 & 11).
-- [ ] Cross-check that any **follow-up requests** (e.g., GO GRANDMA, STOP GRANDMA) were issued and recorded (Section 9).
-
-### 10.1.3 Decision Authority
-
-- [ ] Make **final decisions** on whether to observe events that shifters are unsure about.
-- [ ] Coordinate with the Core Team and relevant science leads as needed.
-
+1. The most up-to-date **localization** of the GRB afterglow (in arsec uncertainties) OR **specifically state** that the localization is not precise
+2. The most up-to-date **expected limiting magnitude**, based on the current light curve and measurements in Skyportal.  For this, the FA should upload all GCN measurements (as they are recieved) to Skyportal and monitor how the transient is fading.
+3. The **filters** to request:
+    - Default: **R** or **Johnson R**.
+    - For large campaigns: consider adding **I,i** and **G,g**.
+4. (Encouraged) The **number of images** and **exposure time** to request—especially when triggering via the Skyportal platform (e.g, TRT, ...).
 ---
-
-## Shifter's Checklist
 
 Below are the different aspects of a shifter's responsibilities during their week. For links to corresponding videos, go to the bottom of this page.
 
@@ -42,6 +41,7 @@ Below are the different aspects of a shifter's responsibilities during their wee
 - Activate your notifications to receive slack alerts for your team channel, `#observations`, and `#shifters`.
 - Make sure you are recieving emails from SkyPortal and emails from the GCN Circulars
 - Make sure to respond to any messages sent by your Weekly Coordinator (WC) and get their feedback.
+- Start early and communicate with your team mates regarding current observations or pending data.
 
 ### 10.2.2 At the Start of Your Shift
 - Check the status of [LVK](https://online.igwn.org/grafana/public-dashboards/1a0efabe65384a7287abfcc1996e4c4d?orgld=1&refresh=5s&orgId=1). Are all instruments in operation?
@@ -108,7 +108,36 @@ Here are some examples of communication between FAs.
 
 **Note:** As an FA, remember to annotate all events with new circulars coming in SkyPortal.
 
-### 10.2.7 Shifter & Weekly Coordinator Responsibility Videos
+## 10.3 Weekly Coordinator Checklist
+
+Weekly Coordinators (WCs) lead the week of shifts and are expected to make sure that their Shifter's are following their responsibilities and reaching out for support when needed. 
+
+### 10.3.1 Communication & Readiness
+
+- [ ] Make sure **Operation: Shifts** spreadsheet and **SkyPortal** are up to date for accurate communication between shifts.
+- [ ] Check that each shifter has access to necessary utilities and are trained. Report to Cristina if training is needed. 
+- [ ] Reach out to shifters at the **start of the week** to confirm their preparation.
+- [ ] Be available as the **first point of contact** for shifter questions and technical issues.
+
+
+### 10.3.2 Shift Oversight
+
+- [ ] Confirm that **shifters are logging all actions properly** in the shift log document (Section 11).
+- [ ] Ensure **SkyPortal is updated** with (Section 9):
+  - Source summaries
+  - Photometry
+  - Comments on decisions or activity
+- [ ] Review **GCN entries** and check that key GCNs are added to the appropriate tables in the log document (Section 11).
+- [ ] Verify that **all image data is uploaded** to OwnCloud and processed or flagged for review (Section 9 & 11).
+- [ ] Cross-check that any **follow-up requests** (e.g., GO GRANDMA, STOP GRANDMA) were issued and recorded (Section 9).
+
+### 10.3.3 Decision Authority
+
+- [ ] Make **final decisions** on whether to observe events that shifters are unsure about.
+- [ ] Coordinate with the Core Team and relevant science leads as needed.
+
+
+## 10.4 Shifter & Weekly Coordinator Responsibility Videos
 
 For an overview on the FA's responsibilities and the use of skyportal, see this [video](https://www.youtube.com/watch?v=_N7fgiPfiXA). The transcript can be found in Section 12: Transcripts. 
 
