@@ -1,4 +1,6 @@
-## 7.1 Which telescopes do I select to observe?
+# Triggering Telescopes as a Follow-Up Advocate (Shifter)
+
+## Observability & Beyond! 
 
 When planning follow-up, it’s important to select telescopes based not only on when it is night at their location, but also on whether they can **observe the transient at the required depth**.
 
@@ -7,7 +9,7 @@ Observability (see Section 9.2.1) helps you determine **which telescopes are in 
 > - How many images you should request,
 > - What **exposure time** is needed to detect or constrain the event.
 
-This table helps fill that gap by correlating telescope **aperture (diameter)** with the **expected brightness of the transient**, the **number of exposures**, and a typical **exposure time per image**.
+This table helps fill that gap by providing detailed capabilites and usage limits of telescopes within GRANDMA's network. 
 
 Use it as a guide to determine what class of telescope is appropriate for the science goal (such as early GRB afterglow, faint kilonova, deep non-detection).
 
@@ -182,7 +184,7 @@ OST: R. Hainic, F. Rünger (UnP)
 | KAIT               | Automatic |
 
 ---
-### Where to Find Telescope Aperture in SkyPortal
+## Where to Find Telescope Aperture in SkyPortal
 
 To determine which telescope to request based on the brightness of the event, it’s important to know the **aperture** of the telescope. This helps you estimate whether the telescope can reach the required magnitude (see Section 7.1 for guidelines).
 
