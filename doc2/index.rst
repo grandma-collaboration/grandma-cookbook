@@ -25,6 +25,7 @@ User Guide
    12_Writing_GCN
    13_Assessment
    14_Transcripts
+   addendum
    Acknowledgments
 
 .. Indices and tables
