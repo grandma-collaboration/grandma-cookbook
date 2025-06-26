@@ -1,4 +1,4 @@
-## Addendums to Shift Protocol 
+## 15. Addendums to Shift Protocol 
 
 Here is a list BY DATE of the addnedums and specifications to protocol. Please consult this page AFTER you are familiar with GRANDMA's general shift responsibilities. 
 
