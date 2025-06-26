@@ -1,0 +1,862 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>9. Skyportal: Creating Sources, Observation Plans and Uploading Photometry for Follow-up Advocates &#8212; grandma-cookbook vUndefined documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/grandma-cookbook-docs.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=651bf316"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '9_Skyportal_Use';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="STDWeb Simple Transient Detection for the Web HANDBOOK" href="STDWeb_Handbook.html" />
+    <link rel="prev" title="8. Get the Observation Plan (Only for Telescope Teams)" href="8_Get_Observation_Plan.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo_grandma.jpg" class="logo__image only-light" alt="grandma-cookbook vUndefined documentation - Home"/>
+    <script>document.write(`<img src="_static/logo_grandma.jpg" class="logo__image only-dark" alt="grandma-cookbook vUndefined documentation - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="1_Utilities.html">1. Signing Up for GRANDMA’s Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2_Shift_Enrolling.html">2. Enrolling in Shifts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3_workflow.html">3. The Workflows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FA_Checklist.html">Responsibilities of the Shifter (FA) &amp; Weekly Coordinator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4_GW_followup.html">4. Determining GW Follow Up</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5_GRB_followup.html">5. Determining GRB Follow Up</a></li>
+
+
+<li class="toctree-l1"><a class="reference internal" href="6_Types_Alerts.html">6. How to Respond to Different Astrophysical Alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="7_Notifying_Telescope.html">7. Triggering &amp; Notifying Telescopes as a Follow-Up Advocate (Shifter)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="8_Get_Observation_Plan.html">8. Get the Observation Plan (Only for Telescope Teams)</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">9. Skyportal: Creating Sources, Observation Plans and Uploading Photometry for Follow-up Advocates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="STDWeb_Handbook.html">STDWeb Simple Transient Detection for the Web HANDBOOK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11_Shift_Team_Documents.html">11. Shift Team Logs: Importance and Best Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12_Writing_GCN.html">12. GCN Release Protocol</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13_Assessment.html">13. Follow-Up Advocate (FA) Manual: Exercise Sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="14_Transcripts.html">14. Raw Transcripts of Videos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="addendum.html">15. Addendums to Shift Protocol</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Acknowledgments.html">Acknowledgments</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/nuclear-multimessenger-astronomy/grandma-cookbook" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/nuclear-multimessenger-astronomy/grandma-cookbook/edit/main/doc2/9_Skyportal_Use.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/nuclear-multimessenger-astronomy/grandma-cookbook/issues/new?title=Issue%20on%20page%20%2F9_Skyportal_Use.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/9_Skyportal_Use.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>9. Skyportal: Creating Sources, Observation Plans and Uploading Photometry for Follow-up Advocates</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sources-event-management">9.1 Sources &amp; Event Management</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-source-page"><strong>9.1.1 Create a Source Page</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-classifications"><strong>9.1.2 Adding Classifications</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-and-removing-tags"><strong>9.1.3 Adding and Removing Tags</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#aliases-candidates"><strong>9.1.4 Aliases &amp; Candidates</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#when-do-you-update-the-coordinates-in-the-source-page"><strong>9.1.5 When do you update the coordinates in the source page?</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#redshift"><strong>9.1.6 Redshift</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#gcn-crossmatches"><strong>9.1.7 GCN Crossmatches</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#skyportal-comments"><strong>9.1.8 SkyPortal Comments</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summaries"><strong>9.1.9 Summaries</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#observability-observation-plans-and-follow-up-requests">9.2 Observability, Observation Plans and Follow-Up Requests</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#observability"><strong>9.2.1 Observability</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-an-observation-plan"><strong>9.2.2 Creating an Observation Plan</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#monitoring-observation-plans"><strong>9.2.3 Monitoring Observation Plans</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#submitting-a-follow-up-request"><strong>9.3 Submitting a Follow-Up Request</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#uploading-photometry"><strong>9.4 Uploading Photometry</strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uploading-photometry-from-gcn-circulars"><strong>9.4.1 Uploading Photometry from GCN Circulars</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#force-photometry-with-atlas"><strong>9.4.2 Force Photometry with ATLAS</strong></a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="skyportal-creating-sources-observation-plans-and-uploading-photometry-for-follow-up-advocates">
+<h1>9. Skyportal: Creating Sources, Observation Plans and Uploading Photometry for Follow-up Advocates<a class="headerlink" href="#skyportal-creating-sources-observation-plans-and-uploading-photometry-for-follow-up-advocates" title="Link to this heading">#</a></h1>
+<section id="sources-event-management">
+<h2>9.1 Sources &amp; Event Management<a class="headerlink" href="#sources-event-management" title="Link to this heading">#</a></h2>
+<p>This section goes over what needs to be done in <strong>SkyPortal</strong> after you have determined an event is worth following up on.</p>
+<p><strong>First, we need to know the difference between a <code class="docutils literal notranslate"><span class="pre">GCN</span> <span class="pre">Event</span> <span class="pre">Page</span></code> and a <code class="docutils literal notranslate"><span class="pre">Source</span></code> Page.</strong></p>
+<p>A GCN Event Page (which can be found in the ‘GW/GRB/Neutrino’ tab) is what is automatically generated and where you can create observation plans (learn more about Observation Plans in 9.2.2). We do not do science on this page. An example of this page is below.</p>
+<p><img alt="Aliases" src="_images/aliasesskyportal.png" /></p>
+<p>A source page is where all the science and activity occurs. Once you have it generated, you can find it in <code class="docutils literal notranslate"><span class="pre">Sources</span></code> in SkyPortal.</p>
+<section id="create-a-source-page">
+<h3><strong>9.1.1 Create a Source Page</strong><a class="headerlink" href="#create-a-source-page" title="Link to this heading">#</a></h3>
+<p>You create a <code class="docutils literal notranslate"><span class="pre">Source</span></code> page when you decide you are following up on an event or a possible optical candidate for a GW event. GW Events can have many possible counterparts when we are searching for it.</p>
+<ul class="simple">
+<li><p><strong>Step 1:</strong> Navigate to the SkyPortal homepage.</p></li>
+<li><p><strong>Step 2:</strong> Go to Sources page. Click on the ‘+’ sign in upper right hand corner and <strong>“Add Source.”</strong></p></li>
+<li><p><strong>Step 3:</strong> Enter the required details:</p>
+<ul>
+<li><p><strong>Shared with</strong>: GRANDMA (unless you’ve been told to share to others, as well).</p></li>
+<li><p><strong>Object ID:</strong> Provided in the GCN Circular or TNS. It could be a GRB (GRBYYMMDD) or a GW event (SYYMMDD##).</p></li>
+<li><p><strong>Right Ascension (RA) and Declination (Dec):</strong> Copy these values from the source information.</p></li>
+</ul>
+</li>
+<li><p><strong>Step 4:</strong> Submit the source. Once added, the source will appear in the source list.</p></li>
+</ul>
+<p><img alt="Source Creation" src="_images/sourcecreation.png" /></p>
+<p><strong>IMPORTANT:</strong> Rarely, some GCN events automatically generate a source page. This occurs when an optical counterpart is indentified and it has been reported to the <a class="reference external" href="https://www.wis-tns.org/">Transient Network System (TNS)</a>. So, check the <em>sources</em> page to see if there are any events near T0 that could be associated with a GCN Circular or a GW alert.</p>
+</section>
+<section id="adding-classifications">
+<h3><strong>9.1.2 Adding Classifications</strong><a class="headerlink" href="#adding-classifications" title="Link to this heading">#</a></h3>
+<p>Classifications provide clarity on the status and priority of the source.</p>
+<p><strong>Two cases when you handle classification:</strong></p>
+<ul class="simple">
+<li><p>When you have created a new source, add a classification.</p></li>
+<li><p>When a new alert comes in through skyportal via email (either a GRB or GW event), check to see if a classification needs to be adjusted. Sometimes, events are labeled <code class="docutils literal notranslate"><span class="pre">Signifigant</span></code> and <code class="docutils literal notranslate"><span class="pre">GO</span> <span class="pre">GRANDMA</span></code> when they are not. These classifications will pop up on the header of each page and can be manually removed. You can see an example in 9.1.3.</p></li>
+<li><p>Scroll to the <strong>“Classifications”</strong> section.</p></li>
+<li><p>Select:</p>
+<ul>
+<li><p><strong>Group:</strong> <code class="docutils literal notranslate"><span class="pre">GRANDMA</span></code></p></li>
+<li><p><strong>Taxonomy:</strong> <code class="docutils literal notranslate"><span class="pre">GRANDMA</span> <span class="pre">Campaign</span> <span class="pre">Source</span> <span class="pre">Observation</span> <span class="pre">1.0</span></code></p></li>
+<li><p>Choose classification tags: <code class="docutils literal notranslate"><span class="pre">Go</span> <span class="pre">GRANDMA</span></code>, <code class="docutils literal notranslate"><span class="pre">Stop</span> <span class="pre">GRANDMA</span></code>, <code class="docutils literal notranslate"><span class="pre">Go</span> <span class="pre">GRANDMA</span> <span class="pre">(HIGH</span> <span class="pre">PRIORITY)</span></code>.</p></li>
+<li><p><strong>Taxonomy:</strong> <code class="docutils literal notranslate"><span class="pre">GRANDMA</span> <span class="pre">Campaign</span> <span class="pre">Source</span> <span class="pre">Classification</span> <span class="pre">1.0</span></code></p></li>
+<li><p>Choose classification tags: <code class="docutils literal notranslate"><span class="pre">Kilonova</span></code>, <code class="docutils literal notranslate"><span class="pre">Not</span> <span class="pre">Kilonova</span></code>, <code class="docutils literal notranslate"><span class="pre">GRB</span></code>, <code class="docutils literal notranslate"><span class="pre">Not</span> <span class="pre">GRB</span></code>, <code class="docutils literal notranslate"><span class="pre">GW</span> <span class="pre">Counterpart</span></code>, <code class="docutils literal notranslate"><span class="pre">Not</span> <span class="pre">GW</span> <span class="pre">Counterpart</span></code>, <code class="docutils literal notranslate"><span class="pre">GW</span> <span class="pre">Candidate</span></code>, <code class="docutils literal notranslate"><span class="pre">Not</span> <span class="pre">GW</span> <span class="pre">Candidate</span></code>, <code class="docutils literal notranslate"><span class="pre">Supernova</span></code>, <code class="docutils literal notranslate"><span class="pre">Not</span> <span class="pre">Supernova</span></code>, <code class="docutils literal notranslate"><span class="pre">I</span> <span class="pre">Care</span></code>, <code class="docutils literal notranslate"><span class="pre">Not</span> <span class="pre">I</span> <span class="pre">Care</span></code>.</p></li>
+</ul>
+</li>
+<li><p><strong>Probability:</strong> Set to <code class="docutils literal notranslate"><span class="pre">1</span></code> if the classification is certain.</p></li>
+<li><p>Submit your classification.</p></li>
+</ul>
+<p><strong>NOTE</strong> If observing/getting photometry after 24 hours: select <code class="docutils literal notranslate"><span class="pre">I-care</span></code>. <strong>Short GRBs</strong> and <strong>Kilonvoa</strong> are considered <code class="docutils literal notranslate"><span class="pre">GO</span> <span class="pre">GRANDMA</span> <span class="pre">(HIGH</span> <span class="pre">PRIORITY)</span></code>.</p>
+<p><img alt="SkyPortal Classification" src="_images/classification.png" /></p>
+</section>
+<section id="adding-and-removing-tags">
+<h3><strong>9.1.3 Adding and Removing Tags</strong><a class="headerlink" href="#adding-and-removing-tags" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>To <strong>add a tag</strong>, click on the <code class="docutils literal notranslate"><span class="pre">+</span></code> button near the tags section underneath the source name and enter your desired tag (e.g., <code class="docutils literal notranslate"><span class="pre">I</span> <span class="pre">Care</span></code>).</p></li>
+<li><p>To <strong>remove a tag</strong>, hover over it and click the trash bin icon. Confirm deletion.</p></li>
+</ul>
+<p><img alt="SkyPortal Tags" src="_images/sptags.png" /></p>
+</section>
+<section id="aliases-candidates">
+<h3><strong>9.1.4 Aliases &amp; Candidates</strong><a class="headerlink" href="#aliases-candidates" title="Link to this heading">#</a></h3>
+<p>Aliases is the function on skyportal where you add your candidates or associated events. So, if we have a GW event, we make source pages for the event itself and for its potential optical candidates. We, then, add any of those possible sources or optical counterparts to the GCN Event Page, as seen in the example below.</p>
+<p>Click the ‘+’ Symbol and add the name of the associated event as it is found in SkyPortal “Sources” tab or as the transient is named in the GCN Circular (e.g., GRB######X) and this creates a link to the <a class="reference external" href="https://heasarc.gsfc.nasa.gov/wsgi-scripts/tach/gcn_v2/tach.wsgi/?event=S250206dm"><strong>Gamma-ray Coordinates Network Viewer</strong></a>.</p>
+<p><img alt="Aliases" src="_images/aliasesskyportal.png" /></p>
+</section>
+<section id="when-do-you-update-the-coordinates-in-the-source-page">
+<h3><strong>9.1.5 When do you update the coordinates in the source page?</strong><a class="headerlink" href="#when-do-you-update-the-coordinates-in-the-source-page" title="Link to this heading">#</a></h3>
+<p>When a counterpart is detected, use the UVOT counterpart coordinates immediately, if available. If SWIFT/UVOT does not detect a counterpart, use the coordinates from other telescopes detecting the counterpart. Update to the most accurate counterpart coordinates available, even if not provided by SWIFT/UVOT. So, those with the smallest uncertainty in arcseconds.</p>
+</section>
+<section id="redshift">
+<h3><strong>9.1.6 Redshift</strong><a class="headerlink" href="#redshift" title="Link to this heading">#</a></h3>
+<p>When you recieve a redshift from a GCN for a GRB event, go to the header of your <code class="docutils literal notranslate"><span class="pre">Source</span></code> page and click the ‘pencil’ icon.</p>
+<p>Add in your value and error, if provided. Then, in redshift ‘Origin’, put the GCN number (e.g., GCN #####).</p>
+<p><img alt="Redshift" src="_images/redshift.png" /></p>
+</section>
+<section id="gcn-crossmatches">
+<h3><strong>9.1.7 GCN Crossmatches</strong><a class="headerlink" href="#gcn-crossmatches" title="Link to this heading">#</a></h3>
+<p>GCN Crossmatches connects your <code class="docutils literal notranslate"><span class="pre">Source</span></code> page to the associated GCN Event Page.</p>
+<p>Simply, click on the ‘pencil’ icon on the <code class="docutils literal notranslate"><span class="pre">Source</span></code> page and search for a start to end date +3 days around start of event. Put probability to 1. An example of a successful GCN Crossmatch and its input form is below:</p>
+<p><img alt="GCN Crossmatch" src="_images/gcncm.png" /></p>
+</section>
+<section id="skyportal-comments">
+<h3><strong>9.1.8 SkyPortal Comments</strong><a class="headerlink" href="#skyportal-comments" title="Link to this heading">#</a></h3>
+<p>Did you do anything involving the science during your shift? Add a GCN event to the photometry table? Analyzed images? Added the redshift? Updated the coordinates? Requested observations? Recieved feedback about who is observing? Updated the summary?</p>
+<p>ADD IT TO SKYPORTAL COMMENTS! Any actvity you complete, needs to be left as a comment for the collaboration to be able to review quickly for a single event. In general, you should write down for your <strong>Shift Logs</strong> which will be discussed in another section. However, a quick and easy place to do this is in the SkyPortal comments section. Two birds, one stone!</p>
+<p><img alt="Screenshot of comments section on Skyportal." src="_images/Skyportalcomments.png" /></p>
+</section>
+<section id="summaries">
+<h3><strong>9.1.9 Summaries</strong><a class="headerlink" href="#summaries" title="Link to this heading">#</a></h3>
+<p>At the start of observations, make sure to add a summary to the source page. This is the template:</p>
+<blockquote>
+<div><p>“The [Instrument/Telescope Name] triggered and located a [burst/astrophysical event] on [Date and UTC Time] (T0). Shortly after, [Follow-up Telescope/Instrument] identified an optical counterpart with a candidate located at RA=[Right Ascension], DEC=[Declination]. Approximately [Time] after T0, it was observed at [Magnitude] in the [Filter/Band]. Subsequent observations by [Observing Group/Consortium] using [Telescope(s) involved in the follow-up] detected the source approximately [Time post-T0], reaching a magnitude of [Magnitude or reporting an upper limit] in the [Filter/Band]. Observations were [noted limitations, such as affected by moonlight or poor weather conditions].”</p>
+</div></blockquote>
+<p>If it has been determined, document the redshift measurement and if spectroscopy has been performed in the summary and comments. Make sure to include in the summary and update the source itself. Record the source of this information.</p>
+<p>As observations continue, make sure to update the summary with who has had uploaded images, and the magnitudes/errors, and limits those images provide. Include if a candidate has been found.</p>
+<p>As optical counterparts (candidates) are found, updates the coordinates on the source page accordingly. Notify #observations, skyportal comments, and your team. Make sure to include the GCN source of these coordinates.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="observability-observation-plans-and-follow-up-requests">
+<h2>9.2 Observability, Observation Plans and Follow-Up Requests<a class="headerlink" href="#observability-observation-plans-and-follow-up-requests" title="Link to this heading">#</a></h2>
+<section id="observability">
+<h3><strong>9.2.1 Observability</strong><a class="headerlink" href="#observability" title="Link to this heading">#</a></h3>
+<p>An observability plot shows which telescopes in a network can observe a target over time. This tool is used to plan follow-up observations by helping you identify which telescopes are currently available or will become available soon, when the target is visible at each site, and which stations are best suited for submitting observation requests. This plot will update as time progresses. Make sure to produce a new plot for each shift.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">Observability</span></code> plot can be produced by clicking on the icon located on the Source page of an event. Click ‘PDF’ and it will download automatically.</p>
+<p><img alt="Observability" src="_images/observability.png" /></p>
+<p>How do you determine who can observe from this plot?</p>
+<p><img alt="Observability Plot" src="_images/observabilityplot.png" /></p>
+<ol class="arabic simple">
+<li><p><strong>Axes</strong></p></li>
+</ol>
+<ul class="simple">
+<li><p><strong>Y-Axis (Vertical):</strong><br />
+Lists all available telescopes in the network (e.g., TAROT/TCA, KAIT, GTC, etc.).<br />
+Each row corresponds to one telescope.</p></li>
+<li><p><strong>X-Axis (Horizontal):</strong><br />
+Represents time, typically starting from the current UTC time at the origin (the leftmost edge).<br />
+Time advances to the right in hour intervals, labeled by UTC hour (e.g., 00:00, 03:00, 06:00…).</p></li>
+</ul>
+<ol class="arabic simple" start="2">
+<li><p><strong>Bars or Shaded Regions</strong></p></li>
+</ol>
+<ul class="simple">
+<li><p>These indicate when a telescope has the target above the horizon and can observe it.</p></li>
+<li><p>The length of the bar shows how long the target is visible.</p></li>
+<li><p>If colors are used:</p>
+<ul>
+<li><p><strong>Purple</strong> indicates good visibility.</p></li>
+<li><p><strong>Gradients</strong> indicate twilight or dawn.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="creating-an-observation-plan">
+<h3><strong>9.2.2 Creating an Observation Plan</strong><a class="headerlink" href="#creating-an-observation-plan" title="Link to this heading">#</a></h3>
+<p>Follow-Up Advocates (or Shifters) will not need to generate Observation Plans. But, it is an important aspect of SkyPortal to familiarize yourself with in the event a telescope operator requests you to generate them.</p>
+<p>For <strong>GW events</strong>, Observation Plans are generated automatically and then uploaded to <strong>OwnCloud</strong> in a file labeled <code class="docutils literal notranslate"><span class="pre">GWEMOPT</span></code>.
+For <strong>GRBs</strong>, no observation plans are automatically generated for GRBs as precise coordinates are usually provided. This means that an <strong>OwnCloud</strong> file needs to be created for an event to store images.</p>
+<p>Observation Plan generation has a few different primary features which I will go over below:</p>
+<p><strong>Select a Localization Map (blue/first arrow):</strong>
+Choose a skymap (e.g., Bilby.offline1.multiorder.fits) from a gravitational wave alert to define the sky region to target.</p>
+<p><strong>Choose an Instrument (purple/second arrow):</strong>
+Select your telescope (e.g., Thai Robotic Telescope – TRT-SRO) that will perform the observations.</p>
+<p><strong>Set Observation Dates (green/third arrow):</strong>
+Define the start and end times for the observation window, ensuring they align with visibility constraints and urgency.</p>
+<p><strong>Set Detection Criteria (orange/fourth arrow):</strong>
+Enter the minimum number of required detections (e.g., 2) and cumulative probability coverage (e.g., 0.95) to prioritize high-confidence regions.</p>
+<p><strong>Select Query List and Galaxy Catalog (light blue/fifth arrow):</strong>
+Use the sources query list and a galaxy catalog (e.g., CLU) to match potential host galaxies within the localization.</p>
+<p><strong>Submit:</strong> Press SUBMIT to generate the observation plan. The system will compute the optimal targets within your selected skymap region, date range, and detection criteria.</p>
+<p><img alt="Observation Plan Example" src="_images/observationplanex.png" /></p>
+</section>
+<section id="monitoring-observation-plans">
+<h3><strong>9.2.3 Monitoring Observation Plans</strong><a class="headerlink" href="#monitoring-observation-plans" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>View submitted plans on the source page.</p></li>
+<li><p>Check the <strong>Observability Map</strong> for real-time telescope availability:</p>
+<ul>
+<li><p><strong>Yellow Telescopes:</strong> Daytime</p></li>
+<li><p><strong>Blue Telescopes:</strong> Nighttime</p></li>
+</ul>
+</li>
+<li><p>Prefer notifying telescopes at least two hours before nighttime.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="submitting-a-follow-up-request">
+<h2><strong>9.3 Submitting a Follow-Up Request</strong><a class="headerlink" href="#submitting-a-follow-up-request" title="Link to this heading">#</a></h2>
+<p>Follow-up requests are generated when we wish to <strong>automatically trigger a robotic telescope</strong> to observe a transient. After submitting a request, please ensure you <strong>contact a member of the associated telescope team</strong>.</p>
+<p>You will select a telescope based on the observability plot (9.2.1) and determine exposure and filter based on the telescope’s size and the brightness of the event (Section 7).</p>
+<p>Currently, we support robotic follow-up requests for the following instruments:<br />
+<strong>TAROT, TRT, AbAO, UBAI, OPD</strong>.</p>
+<p><strong>Note:</strong> Only <strong>TAROT</strong> supports <em>fully robotic</em> triggering without the need to contact the telescope PI.</p>
+<p><strong>How to Submit a Follow-Up Request:</strong></p>
+<ol class="arabic">
+<li><p><strong>Navigate to the Source Page</strong><br />
+Go to the event’s source page in SkyPortal and click the <strong>“Follow-Up”</strong> tab.</p></li>
+<li><p><strong>Select an Instrument or Allocation</strong><br />
+Choose a telescope from the <strong>GRANDMA network</strong> (e.g., <em>TAROT-TCA</em>, <em>FRAM</em>, etc.).<br />
+Ensure you select a <strong>station that can observe the target</strong> based on the observability plot.</p></li>
+<li><p><strong>Share Data with GRANDMA</strong><br />
+Tick the option to <strong>share the request and resulting data with the GRANDMA collaboration</strong>.</p></li>
+<li><p><strong>Configure Observation Details</strong></p>
+<ul>
+<li><p><strong>Filters</strong><br />
+Select filters based on the <strong>evolutionary stage of the transient</strong> and <strong>instrument availability</strong>. For example:</p>
+<ul class="simple">
+<li><p>Early-stage kilonovae: prioritize <strong>blue or UV filters</strong> (<code class="docutils literal notranslate"><span class="pre">u</span></code>, <code class="docutils literal notranslate"><span class="pre">g</span></code>)</p></li>
+<li><p>Later stages: consider <strong>redder filters</strong> (<code class="docutils literal notranslate"><span class="pre">i</span></code>, <code class="docutils literal notranslate"><span class="pre">z</span></code>, <code class="docutils literal notranslate"><span class="pre">Y</span></code>)</p></li>
+</ul>
+</li>
+<li><p><strong>Exposure Time</strong> and <strong>Number of Exposures</strong><br />
+These should reflect the <strong>brightness of the target</strong> at the time of the request.</p>
+<blockquote>
+<div><p>As a general guide:</p>
+<ul class="simple">
+<li><p>For fainter sources (e.g., mag &gt; 20), increase both exposure time and count.</p></li>
+<li><p>For brighter sources (mag ~17–18), shorter exposures may suffice.<br />
+If unsure, consult recent photometry on the source page.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>Air Mass</strong><br />
+Leave this field at the default setting unless instructed otherwise.</p></li>
+<li><p><strong>Start and End Dates</strong><br />
+Request a <strong>two-night observation window</strong> to allow flexibility for the telescope team.</p></li>
+</ul>
+</li>
+</ol>
+<p><img alt="Follow Up Request Form" src="_images/followuprequest.png" /></p>
+<p><strong>Important Notes for Shifters</strong></p>
+<p>It is reccomended that a Shifter leaves priority alone, put a plan a few min ahead in UTC time and make filter based in what is being said in GCN.</p>
+<p>Submit - Check if a plan has been accepted by clicking retrieve.</p>
+<p>Maintaining <strong>accurate and up-to-date photometry</strong> on SkyPortal is critical. Shifters rely on this information to responsibly determine if a follow-up is needed. Please do not let a shift pass without:</p>
+<ul class="simple">
+<li><p>Uploading all processed images and synthesize them when possible.</p></li>
+<li><p>Attach relevant GCN circulars to the photometry table.</p></li>
+<li><p>Use this data to judge whether continued observation in a specific filter is scientifically justified.</p></li>
+</ul>
+<blockquote>
+<div><p><strong>Science tip:</strong><br />
+Kilonovae typically <strong>rise in the blue/UV bands</strong> and <strong>fade in the red/NIR</strong>. Monitoring their evolution with the appropriate filters helps confirm their nature.</p>
+</div></blockquote>
+</section>
+<section id="uploading-photometry">
+<h2><strong>9.4 Uploading Photometry</strong><a class="headerlink" href="#uploading-photometry" title="Link to this heading">#</a></h2>
+<p>Photometry must be uploaded to SkyPortal to track and visualize the transient’s brightness evolution. This can be done in one of two ways:</p>
+<ol class="arabic simple">
+<li><p>By <strong>synthesizing images</strong> from telescope teams via STDWeb.</p></li>
+<li><p>By <strong>uploading photometry from GCN Circulars</strong>, which typically provide magnitudes, magnitude errors, and upper limits.</p></li>
+</ol>
+<p>Details on synthesizing images are available in the <strong>STDWeb Data Analysis Manual</strong>.</p>
+<p>Below is a general guide to filters and magnitude systems used within the GRANDMA network:</p>
+<ul class="simple">
+<li><p><strong>SDSS filters</strong> (<code class="docutils literal notranslate"><span class="pre">u'</span></code>, <code class="docutils literal notranslate"><span class="pre">g'</span></code>, <code class="docutils literal notranslate"><span class="pre">r'</span></code>, <code class="docutils literal notranslate"><span class="pre">i'</span></code>, <code class="docutils literal notranslate"><span class="pre">z'</span></code>) → usually calibrated in the <strong>AB magnitude system</strong>.</p></li>
+<li><p><strong>Johnson-Cousins filters</strong> (<code class="docutils literal notranslate"><span class="pre">U</span></code>, <code class="docutils literal notranslate"><span class="pre">B</span></code>, <code class="docutils literal notranslate"><span class="pre">V</span></code>, <code class="docutils literal notranslate"><span class="pre">R</span></code>, <code class="docutils literal notranslate"><span class="pre">I</span></code>, also known as Bessel filters) → usually in <strong>Vega magnitudes</strong>.</p></li>
+<li><p><strong>Near-infrared filters</strong> (<code class="docutils literal notranslate"><span class="pre">J</span></code>, <code class="docutils literal notranslate"><span class="pre">H</span></code>, <code class="docutils literal notranslate"><span class="pre">K</span></code> from the 2MASS system) → typically in the <strong>Vega system</strong>.</p></li>
+</ul>
+<section id="uploading-photometry-from-gcn-circulars">
+<h3><strong>9.4.1 Uploading Photometry from GCN Circulars</strong><a class="headerlink" href="#uploading-photometry-from-gcn-circulars" title="Link to this heading">#</a></h3>
+<p>To manually add photometry from a GCN:</p>
+<ol class="arabic">
+<li><p>Navigate to the <strong>Photometry</strong> section on the event’s <strong>source page</strong>. This is where the light curve (magnitude vs. time) is displayed.</p></li>
+<li><p>Click <strong>“Upload Photometry”</strong>, then choose <strong>“Using Form (One)”</strong>.</p></li>
+<li><p>Fill out the form carefully to ensure clean light curve visualization. Refer to the example provided and the instructions below:
+<img alt="Photometry Form" src="_images/photometryform.png" /></p></li>
+<li><p><strong>Instrument</strong>:</p>
+<ul class="simple">
+<li><p>If the instrument listed in the GCN is available in SkyPortal (e.g., <code class="docutils literal notranslate"><span class="pre">SWIFT/UVOT</span></code>), select it.</p></li>
+<li><p>If the instrument is not listed, select <strong><code class="docutils literal notranslate"><span class="pre">GCN</span></code></strong> from the dropdown.</p></li>
+</ul>
+</li>
+<li><p><strong>Share data with GRANDMA</strong> (unless instructed otherwise).</p></li>
+<li><p><strong>Observation date</strong>: This is when the observation began. GCNs may provide it in MJD format—convert it to UTC as needed.</p></li>
+<li><p><strong>Magnitude</strong> and <strong>magnitude error</strong>: Enter these directly from the GCN.</p></li>
+<li><p><strong>Limiting magnitude (upper limit)</strong>:</p>
+<ul class="simple">
+<li><p>If only an upper limit is available, round it to the nearest magnitude and include the phrase <code class="docutils literal notranslate"><span class="pre">&quot;arbitrary</span> <span class="pre">upper</span> <span class="pre">limit&quot;</span></code> in the alternate data input.</p></li>
+<li><p>If both magnitude and error are given, do not input an upper limit.</p></li>
+</ul>
+</li>
+<li><p><strong>Magnitude system</strong>: If not explicitly stated, infer it using the filter system:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">SDSS</span></code> → AB system</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Johnson/Bessel</span></code> or <code class="docutils literal notranslate"><span class="pre">2MASS</span></code> → Vega system</p></li>
+</ul>
+</li>
+<li><p><strong>Filter</strong>:</p>
+<ul class="simple">
+<li><p>GCNs often list filters like <code class="docutils literal notranslate"><span class="pre">r=19.9</span></code>. For this, use <code class="docutils literal notranslate"><span class="pre">sdssr</span></code> as the filter value.</p></li>
+</ul>
+</li>
+<li><p><strong>Origin</strong>: Always enter <code class="docutils literal notranslate"><span class="pre">&quot;GCN&quot;</span></code> — <strong>do not add any additional text</strong>.</p></li>
+<li><p><strong>Exposure time and count</strong>: If provided, include them.</p></li>
+<li><p><strong>Alternative JSON Data</strong>:</p>
+<ul>
+<li><p>Format exactly as:</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="nt">&quot;note&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;GCN 39380 VLT/X-shooter arbitrary upper limit&quot;</span><span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p>If the upper limit is <strong>not</strong> arbitrary, omit that part:</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="nt">&quot;note&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;GCN 39380 VLT/X-shooter&quot;</span><span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p>Important: Use <strong>straight double quotes (<code class="docutils literal notranslate"><span class="pre">&quot;</span> <span class="pre">&quot;</span></code>) only</strong>. Avoid copying from external documents where curly quotes may be introduced, as these will cause errors.</p></li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<div><p><strong>Warning:</strong> The alternate data input is highly sensitive to formatting. Always double-check your quotes and JSON syntax before submitting.</p>
+</div></blockquote>
+</section>
+<section id="force-photometry-with-atlas">
+<h3><strong>9.4.2 Force Photometry with ATLAS</strong><a class="headerlink" href="#force-photometry-with-atlas" title="Link to this heading">#</a></h3>
+<p>Navigate to <strong>“Force Photometry”</strong> on your <code class="docutils literal notranslate"><span class="pre">Source</span></code> page and run force photometry for archival data.</p>
+<ul class="simple">
+<li><p>Recommended search windows:</p>
+<ul>
+<li><p><strong>Short-Term:</strong> Last 6 days</p></li>
+<li><p><strong>Long-Term:</strong> Up to 1 year</p></li>
+</ul>
+</li>
+<li><p>Analyze the data:</p>
+<ul>
+<li><p>Look for detections pre-dating the gravitational wave event.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="8_Get_Observation_Plan.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">8. Get the Observation Plan (Only for Telescope Teams)</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="STDWeb_Handbook.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">STDWeb Simple Transient Detection for the Web HANDBOOK</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sources-event-management">9.1 Sources &amp; Event Management</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-source-page"><strong>9.1.1 Create a Source Page</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-classifications"><strong>9.1.2 Adding Classifications</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-and-removing-tags"><strong>9.1.3 Adding and Removing Tags</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#aliases-candidates"><strong>9.1.4 Aliases &amp; Candidates</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#when-do-you-update-the-coordinates-in-the-source-page"><strong>9.1.5 When do you update the coordinates in the source page?</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#redshift"><strong>9.1.6 Redshift</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#gcn-crossmatches"><strong>9.1.7 GCN Crossmatches</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#skyportal-comments"><strong>9.1.8 SkyPortal Comments</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summaries"><strong>9.1.9 Summaries</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#observability-observation-plans-and-follow-up-requests">9.2 Observability, Observation Plans and Follow-Up Requests</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#observability"><strong>9.2.1 Observability</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-an-observation-plan"><strong>9.2.2 Creating an Observation Plan</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#monitoring-observation-plans"><strong>9.2.3 Monitoring Observation Plans</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#submitting-a-follow-up-request"><strong>9.3 Submitting a Follow-Up Request</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#uploading-photometry"><strong>9.4 Uploading Photometry</strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uploading-photometry-from-gcn-circulars"><strong>9.4.1 Uploading Photometry from GCN Circulars</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#force-photometry-with-atlas"><strong>9.4.2 Force Photometry with ATLAS</strong></a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The GRANDMA Team
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023, The GRANDMA Team.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
