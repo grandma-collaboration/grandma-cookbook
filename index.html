@@ -1,0 +1,706 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Global Rapid Advanced Network Devoted to the Multi-messenger Astronomer (GRANDMA) Cookbook &#8212; grandma-cookbook vUndefined documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/grandma-cookbook-docs.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=651bf316"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="1. Signing Up for GRANDMA’s Utilities" href="1_Utilities.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="#">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo_grandma.jpg" class="logo__image only-light" alt="grandma-cookbook vUndefined documentation - Home"/>
+    <script>document.write(`<img src="_static/logo_grandma.jpg" class="logo__image only-dark" alt="grandma-cookbook vUndefined documentation - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="1_Utilities.html">1. Signing Up for GRANDMA’s Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2_Shift_Enrolling.html">2. Enrolling in Shifts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3_workflow.html">3. The Workflows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FA_Checklist.html">Responsibilities of the Shifter (FA) &amp; Weekly Coordinator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4_GW_followup.html">4. Determining GW Follow Up</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5_GRB_followup.html">5. Determining GRB Follow Up</a></li>
+
+
+<li class="toctree-l1"><a class="reference internal" href="6_Types_Alerts.html">6. How to Respond to Different Astrophysical Alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="7_Notifying_Telescope.html">7. Triggering &amp; Notifying Telescopes as a Follow-Up Advocate (Shifter)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="8_Get_Observation_Plan.html">8. Get the Observation Plan (Only for Telescope Teams)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="9_Skyportal_Use.html">9. Skyportal: Creating Sources, Observation Plans and Uploading Photometry for Follow-up Advocates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="STDWeb_Handbook.html">STDWeb Simple Transient Detection for the Web HANDBOOK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11_Shift_Team_Documents.html">11. Shift Team Logs: Importance and Best Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12_Writing_GCN.html">12. GCN Release Protocol</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13_Assessment.html">13. Follow-Up Advocate (FA) Manual: Exercise Sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="14_Transcripts.html">14. Raw Transcripts of Videos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="addendum.html">15. Addendums to Shift Protocol</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Acknowledgments.html">Acknowledgments</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/nuclear-multimessenger-astronomy/grandma-cookbook" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/nuclear-multimessenger-astronomy/grandma-cookbook/edit/main/doc2/index.rst" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/nuclear-multimessenger-astronomy/grandma-cookbook/issues/new?title=Issue%20on%20page%20%2Findex.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/index.rst" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.rst</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Global Rapid Advanced Network Devoted to the Multi-messenger Astronomer (GRANDMA) Cookbook</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#user-guide">User Guide</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="global-rapid-advanced-network-devoted-to-the-multi-messenger-astronomer-grandma-cookbook">
+<h1>Global Rapid Advanced Network Devoted to the Multi-messenger Astronomer (GRANDMA) Cookbook<a class="headerlink" href="#global-rapid-advanced-network-devoted-to-the-multi-messenger-astronomer-grandma-cookbook" title="Link to this heading">#</a></h1>
+<p><strong>Currently, under construction. As of April 10th - Cristina Andrade</strong></p>
+<img alt="_images/grandma.png" src="_images/grandma.png" />
+<section id="user-guide">
+<h2>User Guide<a class="headerlink" href="#user-guide" title="Link to this heading">#</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="1_Utilities.html">1. Signing Up for GRANDMA’s Utilities</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="1_Utilities.html#subscribing-to-slack">1.1 Subscribing to Slack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="1_Utilities.html#turning-on-slack-notifications">1.2 Turning on Slack Notifications</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="1_Utilities.html#general-slack-notifications">1.2.1 General Slack Notifications</a></li>
+<li class="toctree-l3"><a class="reference internal" href="1_Utilities.html#channel-specific-notifications">1.2.2 Channel-Specific Notifications</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="1_Utilities.html#getting-a-gcn-account">1.3 Getting a GCN Account</a></li>
+<li class="toctree-l2"><a class="reference internal" href="1_Utilities.html#connecting-to-grandmas-owncloud">1.4 Connecting to GRANDMA’s Owncloud</a></li>
+<li class="toctree-l2"><a class="reference internal" href="1_Utilities.html#connecting-to-icare-skyportal">1.5 Connecting to ICARE Skyportal</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="1_Utilities.html#setting-your-profile-in-skyportal">Setting Your Profile in SkyPortal</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="1_Utilities.html#getting-a-forge-account">1.6 Getting a FORGE Account</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="2_Shift_Enrolling.html">2. Enrolling in Shifts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2_Shift_Enrolling.html#shift-sign-up-spreadsheet">2.1 Shift Sign Up: Spreadsheet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2_Shift_Enrolling.html#shift-sign-up-skyportal">2.2 Shift Sign Up: Skyportal</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="3_workflow.html">3. The Workflows</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="3_workflow.html#think-like-an-observer">Think Like an Observer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="3_workflow.html#new-event-workflow">New Event Workflow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="3_workflow.html#ongoing-observation-workflow">Ongoing Observation Workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="FA_Checklist.html">Responsibilities of the Shifter (FA) &amp; Weekly Coordinator</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="FA_Checklist.html#shifters-follow-up-advocate-responsibilities">Shifter’s (Follow-Up Advocate) Responsibilities</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="FA_Checklist.html#before-the-shift">Before the Shift</a></li>
+<li class="toctree-l3"><a class="reference internal" href="FA_Checklist.html#at-the-start-of-your-shift">At the Start of Your Shift</a></li>
+<li class="toctree-l3"><a class="reference internal" href="FA_Checklist.html#during-your-shift-regular-actions">During Your Shift: Regular Actions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="FA_Checklist.html#in-case-of-a-new-gw-or-grb-alert">In Case of a New GW or GRB Alert</a></li>
+<li class="toctree-l3"><a class="reference internal" href="FA_Checklist.html#in-case-of-a-new-gw-counterpart-candidate-from-gcn-circulars">In Case of a New GW Counterpart Candidate from GCN Circulars</a></li>
+<li class="toctree-l3"><a class="reference internal" href="FA_Checklist.html#at-the-end-of-your-daily-shift">At the End of your Daily Shift</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="FA_Checklist.html#weekly-coordinator-checklist">Weekly Coordinator Checklist</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="FA_Checklist.html#communication-readiness">Communication &amp; Readiness</a></li>
+<li class="toctree-l3"><a class="reference internal" href="FA_Checklist.html#shift-oversight">Shift Oversight</a></li>
+<li class="toctree-l3"><a class="reference internal" href="FA_Checklist.html#decision-authority">Decision Authority</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="FA_Checklist.html#shifter-weekly-coordinator-responsibility-videos">Shifter &amp; Weekly Coordinator Responsibility Videos</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="4_GW_followup.html">4. Determining GW Follow Up</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="4_GW_followup.html#gravitational-waves">4.1 Gravitational Waves</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="4_GW_followup.html#preliminary-alerts">4.1.1 Preliminary Alerts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="4_GW_followup.html#initial-alerts">4.1.2 Initial Alerts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="4_GW_followup.html#updated-alerts">4.1.3 Updated Alerts</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="4_GW_followup.html#procedure-for-observing-gws">4.2 Procedure for Observing GWs</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="4_GW_followup.html#via-email-or-slack-check-gwalerts">Via Email or Slack (check #gwalerts):</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="5_GRB_followup.html">5. Determining GRB Follow Up</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5_GRB_followup.html#what-grbs-should-be-observed">5.1 What GRBs Should Be Observed?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="5_GRB_followup.html#operational-notes-on-grb-alerts">5.1.1 Operational Notes on GRB Alerts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="5_GRB_followup.html#procedure-for-observing-grbs">5.2 Procedure for Observing GRBs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6_Types_Alerts.html">6. How to Respond to Different Astrophysical Alerts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="6_Types_Alerts.html#responding-to-bbh-alerts">6.1 Responding to BBH Alerts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6_Types_Alerts.html#responding-to-icecube-neutrino">6.2 Responding to IceCube Neutrino</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6_Types_Alerts.html#responding-to-einstein-probe-x-ray-alerts">6.3 Responding to Einstein Probe X-Ray Alerts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="7_Notifying_Telescope.html">7. Triggering &amp; Notifying Telescopes as a Follow-Up Advocate (Shifter)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="7_Notifying_Telescope.html#observability-beyond">7.1 Observability &amp; Beyond!</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="7_Notifying_Telescope.html#usage-levels-of-telescopes">Usage Levels of Telescopes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="7_Notifying_Telescope.html#telescope-teams">Telescope teams</a></li>
+<li class="toctree-l3"><a class="reference internal" href="7_Notifying_Telescope.html#a-prompt-response-automatic-semi-automatic-triggering">A. Prompt Response - Automatic / Semi-Automatic Triggering</a></li>
+<li class="toctree-l3"><a class="reference internal" href="7_Notifying_Telescope.html#b-regular-telescopes-by-contact-for-observations-via-fas">B. Regular Telescopes (by contact for observations via FAs)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="7_Notifying_Telescope.html#c-telescopes-with-specific-contact">C. Telescopes with Specific Contact</a></li>
+<li class="toctree-l3"><a class="reference internal" href="7_Notifying_Telescope.html#d-telescopes-with-unknown-status">D. Telescopes with Unknown Status</a></li>
+<li class="toctree-l3"><a class="reference internal" href="7_Notifying_Telescope.html#where-to-find-telescope-aperture-in-skyportal">Where to Find Telescope Aperture in SkyPortal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="7_Notifying_Telescope.html#contacting-telescopes">7.2 Contacting Telescopes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="8_Get_Observation_Plan.html">8. Get the Observation Plan (Only for Telescope Teams)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="8_Get_Observation_Plan.html#retrieve-your-data-promptly-after-a-gw-alert">8.1 Retrieve Your Data Promptly After a GW Alert</a></li>
+<li class="toctree-l2"><a class="reference internal" href="8_Get_Observation_Plan.html#retrieve-data-for-follow-up">8.2 Retrieve Data for Follow-Up</a></li>
+<li class="toctree-l2"><a class="reference internal" href="8_Get_Observation_Plan.html#notify-the-follow-up-advocate">8.3 Notify the Follow-Up Advocate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="8_Get_Observation_Plan.html#reporting-observations">8.4 Reporting Observations</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="9_Skyportal_Use.html">9. Skyportal: Creating Sources, Observation Plans and Uploading Photometry for Follow-up Advocates</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="9_Skyportal_Use.html#sources-event-management">9.1 Sources &amp; Event Management</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="9_Skyportal_Use.html#create-a-source-page"><strong>9.1.1 Create a Source Page</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="9_Skyportal_Use.html#adding-classifications"><strong>9.1.2 Adding Classifications</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="9_Skyportal_Use.html#adding-and-removing-tags"><strong>9.1.3 Adding and Removing Tags</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="9_Skyportal_Use.html#aliases-candidates"><strong>9.1.4 Aliases &amp; Candidates</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="9_Skyportal_Use.html#when-do-you-update-the-coordinates-in-the-source-page"><strong>9.1.5 When do you update the coordinates in the source page?</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="9_Skyportal_Use.html#redshift"><strong>9.1.6 Redshift</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="9_Skyportal_Use.html#gcn-crossmatches"><strong>9.1.7 GCN Crossmatches</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="9_Skyportal_Use.html#skyportal-comments"><strong>9.1.8 SkyPortal Comments</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="9_Skyportal_Use.html#summaries"><strong>9.1.9 Summaries</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="9_Skyportal_Use.html#observability-observation-plans-and-follow-up-requests">9.2 Observability, Observation Plans and Follow-Up Requests</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="9_Skyportal_Use.html#observability"><strong>9.2.1 Observability</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="9_Skyportal_Use.html#creating-an-observation-plan"><strong>9.2.2 Creating an Observation Plan</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="9_Skyportal_Use.html#monitoring-observation-plans"><strong>9.2.3 Monitoring Observation Plans</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="9_Skyportal_Use.html#submitting-a-follow-up-request"><strong>9.3 Submitting a Follow-Up Request</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="9_Skyportal_Use.html#uploading-photometry"><strong>9.4 Uploading Photometry</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="9_Skyportal_Use.html#uploading-photometry-from-gcn-circulars"><strong>9.4.1 Uploading Photometry from GCN Circulars</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="9_Skyportal_Use.html#force-photometry-with-atlas"><strong>9.4.2 Force Photometry with ATLAS</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="STDWeb_Handbook.html">STDWeb Simple Transient Detection for the Web HANDBOOK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11_Shift_Team_Documents.html">11. Shift Team Logs: Importance and Best Practices</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="11_Shift_Team_Documents.html#why-are-shift-logs-essential">Why Are Shift Logs Essential?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="11_Shift_Team_Documents.html#structure-of-a-shift-log-document">11.1 Structure of a Shift Log Document</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="11_Shift_Team_Documents.html#template-for-shift-entry">Template for Shift Entry</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="11_Shift_Team_Documents.html#keeping-track-of-observation-campaigns-images-gcn-circulars">11.2 Keeping Track of Observation Campaigns, Images, &amp; GCN Circulars</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="11_Shift_Team_Documents.html#subtab-images-table">11.2.1 Subtab: Images Table</a></li>
+<li class="toctree-l3"><a class="reference internal" href="11_Shift_Team_Documents.html#subtab-gcn-table">11.2.2 Subtab: GCN Table</a></li>
+<li class="toctree-l3"><a class="reference internal" href="11_Shift_Team_Documents.html#subtab-gcn-drafts">Subtab: GCN Drafts</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="12_Writing_GCN.html">12. GCN Release Protocol</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="12_Writing_GCN.html#who-writes-the-gcn">12.1 Who Writes the GCN?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="12_Writing_GCN.html#purpose-of-a-gcn">12.2 Purpose of a GCN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="12_Writing_GCN.html#when-to-release">12.3 When to Release</a></li>
+<li class="toctree-l2"><a class="reference internal" href="12_Writing_GCN.html#how-to-prepare-a-gcn">12.4 How to Prepare a GCN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="12_Writing_GCN.html#science-publication-protocols">12.5 Science &amp; Publication Protocols</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="12_Writing_GCN.html#in-case-of-detection">12.5.1 In Case of Detection:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="12_Writing_GCN.html#in-case-of-non-detection">12.5.2 In Case of Non-Detection:</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="12_Writing_GCN.html#example-gcn-text">12.6 Example GCN Text</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="12_Writing_GCN.html#id1">12.6.1 In Case of Detection:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="12_Writing_GCN.html#id2">12.6.2 In Case of Non-Detection:</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="12_Writing_GCN.html#additional-resources">12.7 Additional Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="13_Assessment.html">13. Follow-Up Advocate (FA) Manual: Exercise Sheet</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="13_Assessment.html#section-13-1-multiple-choice-questions">Section 13.1: Multiple-Choice Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13_Assessment.html#section-13-2-short-answer-questions">Section 13.2: Short Answer Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13_Assessment.html#section-13-3-scenario-based-questions">Section 13.3: Scenario-Based Questions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="13_Assessment.html#scenario-1">Scenario 1:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="13_Assessment.html#scenario-2">Scenario 2:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="13_Assessment.html#scenario-3">Scenario 3:</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="13_Assessment.html#section-13-4-scenarios-part-ii">Section 13.4: Scenarios Part II</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="13_Assessment.html#scenario-1-gw-candidate-s230621ab">Scenario 1: GW Candidate S230621ab</a></li>
+<li class="toctree-l3"><a class="reference internal" href="13_Assessment.html#scenario-2-gw-candidate-s230708kl">Scenario 2: GW Candidate S230708kl</a></li>
+<li class="toctree-l3"><a class="reference internal" href="13_Assessment.html#scenario-3-gw-candidate-s230816yz">Scenario 3: GW Candidate S230816yz</a></li>
+<li class="toctree-l3"><a class="reference internal" href="13_Assessment.html#scenario-4-gw-candidate-s231003xy">Scenario 4: GW Candidate S231003xy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="13_Assessment.html#scenario-5-gw-candidate-s231020gh-false-alarm">Scenario 5: GW Candidate S231020gh (False Alarm)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="14_Transcripts.html">14. Raw Transcripts of Videos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="14_Transcripts.html#what-is-the-role-of-a-follow-up-advocate-shifter-in-grandma-during-the-next-gw-observing-run-o4">14.1 What is the role of a follow-up advocate (shifter) in GRANDMA during the next GW observing run (O4)?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="14_Transcripts.html#how-to-register-as-a-grandma-followup-advocate-shifter">14.2 How to register as a GRANDMA followup-advocate (shifter) ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="14_Transcripts.html#preliminary-alert-slack-message">14.3 Preliminary alert slack message</a></li>
+<li class="toctree-l2"><a class="reference internal" href="14_Transcripts.html#notify-telescope-teams-and-observation-plan">14.4 Notify telescope teams and Observation plan</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="14_Transcripts.html#gw-alert-and-what-to-observe-telescope-teams">14.5 GW alert and what to observe (telescope teams)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="14_Transcripts.html#plans-images-photometry-telescope-teams">14.6 Plans, Images, Photometry (telescope teams)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="14_Transcripts.html#gw-source-candidates-transients-follow-up-advocate">14.7 GW source candidates - Transients (follow-up advocate)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="14_Transcripts.html#gw-alert-different-types">14.8 GW alert: different types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="14_Transcripts.html#non-european-weekly-coordinators-how-to-create-a-shift-in-skyportal">14.9 Non-European weekly coordinators : How to create a shift in Skyportal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="14_Transcripts.html#european-weekly-coordinator-how-to-create-a-shift-in-skyportal">14.10 European weekly coordinator How to create a shift in Skyportal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="14_Transcripts.html#managing-the-ztf-candidates-follow-up-advocate-training">14.11 Managing the ZTF candidates (follow-up advocate training)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="14_Transcripts.html#managing-the-annotation-and-adding-sources-follow-up-advocate-training">14.12 Managing the Annotation and Adding Sources (Follow-up Advocate Training)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="14_Transcripts.html#sources-candidates-of-gw-advices">14.13 Sources candidates of GW - advices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="14_Transcripts.html#responding-to-gravitational-wave-alerts-follow-up-advocate">14.14 Responding to Gravitational Wave Alerts: Follow-Up Advocate</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="addendum.html">15. Addendums to Shift Protocol</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="addendum.html#id1">06/25/2025</a></li>
+<li class="toctree-l2"><a class="reference internal" href="addendum.html#id2">07/02/2025</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Acknowledgments.html">Acknowledgments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Acknowledgments.html#grandma-observations-of-sn-2023wrk-a-luminous-type-ia-supernova-with-significant-unburned-carbon-in-the-outer-ejecta">GRANDMA Observations of SN,2023wrk, a Luminous Type Ia Supernova with Significant Unburned Carbon in the Outer Ejecta</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="right-next"
+       href="1_Utilities.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">1. Signing Up for GRANDMA’s Utilities</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#user-guide">User Guide</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The GRANDMA Team
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023, The GRANDMA Team.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
