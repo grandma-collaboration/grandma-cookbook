@@ -10,3 +10,7 @@ Here is a list BY DATE of the addnedums and specifications to protocol. Please c
 - The link for these automatically generated sources may not work. Check the SkyPortal homepage with associated event name.
 - Make sure when updating coordinates on a source page that you include where you got those updated coordinates, include the source of the previous coordinates (or the coordinates themselves if you can't find it) and source of the new coordinates in the comment.
 -We are now doing single thread event conversations in #observations. This means that all conversation about one particular event occurs in one thread!
+
+### 07/02/2025
+- Make sure to resume responding to all GW alerts from either GCN or the #gwalerts channel with its information in the #observations channel.
+- When a skyportal event is generated for the GW, even if we don't follow up, place the same information in the comments on the event page (under interactions) with the GCN number (if one corresponds). 
